@@ -1,12 +1,6 @@
 from googleapiclient.discovery import build
 import pandas as pd
 
-channel_ids = ['UCnz-ZXXER4jOvuED5trXfEA', # techTFQ
-              ]       
-
-api_key = "AIzaSyAzbbtcETUl-ThjS3QN2wwBTBujvz3YXxY"
-youtube = build('youtube', 'v3', developerKey=api_key)
-
 def get_channel_stats(youtube, channel_ids):
     all_data = []
 
@@ -27,14 +21,10 @@ def get_channel_stats(youtube, channel_ids):
     return all_data
 
 
-channel_statistics = get_channel_stats(youtube, channel_ids)
-channel_data = pd.DataFrame(channel_statistics)
-print(channel_data)
-
-playlist_id = channel_data.loc[channel_data['Channel_name']=='techTFQ', 'playlist_id'].iloc[0]
+# channel_statistics = get_channel_stats(youtube, channel_ids)
 
 def get_video_ids(youtube, playlist_id):
-    
+    playlist_id = channel_data.loc[channel_data['Channel_name']=='techTFQ', 'playlist_id'].iloc[0]
     request = youtube.playlistItems().list(
                 part='contentDetails',
                 playlistId = playlist_id,
@@ -67,17 +57,17 @@ def get_video_ids(youtube, playlist_id):
         
     return video_ids
 
+# video_ids = get_video_ids(youtube, playlist_id)
 
-video_ids = get_video_ids(youtube, playlist_id)
+# print(video_ids)
 
-print(video_ids)
-
-box = [['Name', 'Comment', 'Time', 'Likes', 'Reply Count']]
+# box = [['Name', 'Comment', 'Time', 'Likes', 'Reply Count']]
 
 
 def scrape_comments_with_replies(video_ids):
+    box = [['Name', 'Comment', 'Time', 'Likes', 'Reply Count']]
     for i in range(0, len(video_ids), 50):
-        data = youtube.commentThreads().list(part='snippet', videoId='eVuYCuKKRQg', maxResults='100', textFormat="plainText").execute()
+        data = youtube.commentThreads().list(part='snippet', videoId=video_ids[i], maxResults='100', textFormat="plainText").execute()
     for i in data["items"]:
         name = i["snippet"]['topLevelComment']["snippet"]["authorDisplayName"]
         comment = i["snippet"]['topLevelComment']["snippet"]["textDisplay"]
@@ -98,7 +88,8 @@ def scrape_comments_with_replies(video_ids):
                 replies = ""
                 box.append([name, comment, published_at, likes, replies])
     while ("nextPageToken" in data):
-        data = youtube.commentThreads().list(part='snippet', videoId=ID, pageToken=data["nextPageToken"],
+        for i in range(0, len(video_ids), 50):
+            data = youtube.commentThreads().list(part='snippet', videoId=video_ids[i], pageToken=data["nextPageToken"],
                                              maxResults='100', textFormat="plainText").execute()
         for i in data["items"]:
             name = i["snippet"]['topLevelComment']["snippet"]["authorDisplayName"]
@@ -125,6 +116,14 @@ def scrape_comments_with_replies(video_ids):
     return "Successful! Check the CSV file that you have just created."
 
 if __name__ == "__main__":
-    ids = get_video_ids(youtube, playlist_id)
-    comments = scrape_comments_with_replies(ids)
+    channel_ids = ['UCnz-ZXXER4jOvuED5trXfEA', # techTFQ
+                  ]   
+    api_key = "AIzaSyAzbbtcETUl-ThjS3QN2wwBTBujvz3YXxY"
+    youtube = build('youtube', 'v3', developerKey=api_key)
+    channel_content = get_channel_stats(youtube, channel_ids)
+    channel_data = pd.DataFrame(channel_content)
+    print(channel_data)
+    ids_of_videos = get_video_ids(youtube, channel_data)
+    print(type(ids_of_videos[0]))
+    #comments = scrape_comments_with_replies(ids_of_videos)
 
