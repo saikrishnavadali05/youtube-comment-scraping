@@ -1,0 +1,362 @@
+cid,text,time,author,channel,votes,photo,heart
+UgyV5rrcrxOPfx48poh4AaABAg,Mashallah! You are really an SQL genius... 👍,2 weeks ago,Ashab Humza,UC3kPtknAX06goCUf5gpIcog,2,https://yt3.ggpht.com/ytc/AKedOLTW4RHkY-sG4yVu3SW21YfUwiYaigiq6ClUng=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwdK9FTrRe6dL5MUgF4AaABAg,You are one of the best SQL instructor on YouTube. I have been using SQL for more than 2 years but still I have learnt so much from you. Please keep uploading the videos. Thank you!,3 weeks ago,Manan Shah,UCoexv09qoC0BW2lLQl9Gc8g,3,https://yt3.ggpht.com/ytc/AKedOLQTu2j2pzsxesfjsMWD4jJv7Qaijs8d9prOEbkJ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwuV84c2YHXXdzDtup4AaABAg,"Great way of explaining complex concepts so that everyone can understand it clearly, you are a life saver.",3 weeks ago,Abhilash S,UCVWIkKl6AvclWXb4Q3r4Qhg,2,https://yt3.ggpht.com/ytc/AKedOLR1Z9bXgUzfx0-uLGnCnkG_aRwzN7mMvpKINfvVUw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzmZ-eRajtTtY9z92V4AaABAg,Good explanation,3 weeks ago,juhair ahamed,UCzNxEr0GhmSbdPq_YQebihg,1,https://yt3.ggpht.com/ytc/AKedOLTy3OL1IE7Kbn5B_C7P2xTbeLs8g6jWAyMoJ7SmyRA2H5uzjgmF8FFb1xiPIVpP=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzKDvEVkRcSLYVCueF4AaABAg,Thanks for the tutorial ..in the last solution ..I think it's the order_date column that establishes the fact that two rows are consecutive because order_id is varchar and comparing one order_id with another order_id doesn't make a lot of sense..so row_number() should be over order_date and not over order_id.because our final ouput should say which orders(order_id) are consecutive..we shouldn't make that assumption.,3 weeks ago,Sudhir Kumar,UC8IncJQXkWG03NwdUC3gGnA,0,https://yt3.ggpht.com/ytc/AKedOLT0rkOMZDx2Dckvb7dRVZECRhOmyotOnKFeHt68=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx8ZComEJqTVj2AYJV4AaABAg,Such a nice concept.,1 month ago,Bibek Rawat,UCXAO6luWXTz4FDalK5D4_8Q,1,https://yt3.ggpht.com/ytc/AKedOLTGqvwxF-M7JnTUhs5LCFnTbQ_qt-Hum0rfdw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzKAkiqj2GIxN_MSTN4AaABAg,"company,fiscal_year
+-------------------------------
+ABCD,20702071
+ABCD,20712072
+ABCD,20732074
+ABCD,20762077
+XYZ,20692070
+XYZ,20702071
+XYZ,20712072
+XYZ,20732074
+i have this dataset how can i create a logic if ABCD have 3 consecutive year like 
+20702071 
+20712072 
+20732074 
+then  ABCD is labeled as a stock
+how can I build a query for this ?
+
+select *,row_number() over() as rn, 
+fiscal_year-row_number() over() as difference
+from dividend;
+but i got difference 
+20702070
+20712070
+20732071
+20762073
+20692065
+20702065
+20712065
+20732066
+20692061
+20702061
+ like this",1 month ago,Ijan Shrestha,UC3Pu66-_YsXbTHsERlAQsow,0,https://yt3.ggpht.com/ytc/AKedOLRDdpLtFdJFoi_Tcl88jpK5qjgi3sFsds0mHg=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyT_Gka9WRl_A4wVNF4AaABAg,Complex query explained in the best way,1 month ago,Reign Gamer,UCpcVNzfMqF8x_kmurFSPkRA,1,https://yt3.ggpht.com/ytc/AKedOLSIWjpz1sD4T7Ol61GLdRzYH2syuP-6-rqQF0JS=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugw-bL_A2slvzKBM-ip4AaABAg,why u dont provide dataset,2 months ago,Kumar sahil,UCg6Q0p76Lcmfug0mTxGO3Sw,0,https://yt3.ggpht.com/ytc/AKedOLSJCL3jn7DRmy42Z6J18CTeTmwjrQFsDX1JIbkmbw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxiwlXQI26wDovKbWd4AaABAg,All of your SQL videos are really helpful to understand the advanced concepts. Thanks for making them.,2 months ago,Vikrant Tyagi,UCO9fZkj-YLU6LboK5xee0-w,1,https://yt3.ggpht.com/ytc/AKedOLTTMaOeFQpBP9AKxME07sICOh4Y_czOs6Q50bYt2g=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxVmKN9Nn4cIoScC2p4AaABAg,"Yes, indeed your tutorials are really helpful man !!",2 months ago,Sajid S Shaikh,UCj7gB6sm6drZKUXaDqzd_5g,2,https://yt3.ggpht.com/ytc/AKedOLR0VY4-wdjjeR2P71bjO3sXx5s-zjRfhn6OLGdDqQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugyicb0PK7esGgd2kzt4AaABAg,"Hello, I am working in mysql work bench. I cam up with an issue that when I use cast function to convert the rownumber to int i.e (date - cast(row_number() over()) as int ) as diff. Could you please help me solve with this issue.",2 months ago,g parvez,UCgogrhoBt6jjNVk2cyyu7VQ,0,https://yt3.ggpht.com/ytc/AKedOLQAAbKjb9DypSUpddpS4TjBmveJG75DsoBQjA=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugxm1wjFpVDkYXfpo314AaABAg,Loved the approach.Thanks for sharing :),2 months ago,Zara Ahmed,UCbvKIgFbDxMDVaSPUXpwbCA,1,https://yt3.ggpht.com/ytc/AKedOLT87PDBy1RcPcqAl3GKscpwStTW4Zn55qx8HFTdsQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugw1DkKwPf6hLj76Pkp4AaABAg,"Amazing explanation, by the way you’re using a tool or any online editor to run queries .",2 months ago,sandeep kumar,UCFBEfN37tj15DisTJLLzf-w,1,https://yt3.ggpht.com/ytc/AKedOLT976OQ2CgCH8_ll381YPlpYq21hBrvaGWpupnI=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugw_55uv12udHIsEe9l4AaABAg,Thanks mate! Very useful indeed,2 months ago,hadi,UC1U4CS88J0wFuQzL7clYwIw,1,https://yt3.ggpht.com/ytc/AKedOLRKr7UPloJK761dl7goZPBlrGvDcclG1jiQwZPS=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwU2TqXDCvmsW5jpBB4AaABAg,@techTFQ  Is there a way to get dump of data or database which you walkthrough in your videos ?,2 months ago,Amith Optimist,UCgXXFfrU0qiK_SkHz7XEQKA,1,https://yt3.ggpht.com/ytc/AKedOLTtNuv5j0k19g1Whl_1XTC_JytNLj9R-6yKoeLxZA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxHziBLgIQdU_peW4F4AaABAg,Very well explained about problem statement. Watched many videos regarding SQL on your channel and it's easy to understand. 👏👌,3 months ago,Nilesh Kadivar,UCPeeGiRqyV5znVrWI98BfRA,1,https://yt3.ggpht.com/ytc/AKedOLQsLB899qSOwtYhrhtSxAX8PgNa3sfNH7IFrXxPNYg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzJGIU-_wfXAjOZOet4AaABAg,"For Second Part,
+
+In MSSQL, this can be used:
+
+WITH T1 AS (
+    select *,
+    ROW_NUMBER() OVER (ORDER BY order_id) AS RowNumber,
+    DATEADD(day,-ROW_NUMBER() OVER (ORDER BY order_id),order_date) AS DIFF
+    FROM orders    
+),
+T2 AS (
+    SELECT *,count(*) over(partition by DIFF) as no_of_records
+    FROM T1
+)
+SELECT *
+FROM T2
+WHERE no_of_records=3;
+
+
+Thank you :)",3 months ago,Priyanshu Tiwari,UCGwv0EATMpaQvWHI6KOzqMQ,0,https://yt3.ggpht.com/ytc/AKedOLRl0Ve2fI1FRvHfoKGTLvuWZHtKIRzllhrRrS-36s4=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw7YBtlsLCpGbLzoit4AaABAg,I have its photo graphs do u have mail id sobthat i can send it,3 months ago,Priyanka Kulkarni,UCCQeS58oYD6eWQqQY_HYxKQ,1,https://yt3.ggpht.com/ytc/AKedOLQekggVfxRM9F3fGfIXO6KKt9j49kgaJT3nJ_AnxB1ZxPHQaHZm_vb9L3BOILcE=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzw8oKHRCMYfxKKoTN4AaABAg,I have a query can u explain this please,3 months ago,Priyanka Kulkarni,UCCQeS58oYD6eWQqQY_HYxKQ,1,https://yt3.ggpht.com/ytc/AKedOLQekggVfxRM9F3fGfIXO6KKt9j49kgaJT3nJ_AnxB1ZxPHQaHZm_vb9L3BOILcE=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyV5rrcrxOPfx48poh4AaABAg.9_CgBxXfymD9_DpgQGOhFG,Thank you Ashab ☺️,2 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwdK9FTrRe6dL5MUgF4AaABAg.9Zxm8cJLYP79ZzJeIWjJnd,Glad to hear that Manah :),3 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwuV84c2YHXXdzDtup4AaABAg.9ZwjTikLW0B9ZwjzddjNyw,Thank you Abhilash .. glad you liked it,3 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzmZ-eRajtTtY9z92V4AaABAg.9ZsE7Yo7vHJ9_B8AKPKiPD,Thank you :),2 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzKDvEVkRcSLYVCueF4AaABAg.9ZmzQNFehuT9Zn-rs6N0jA,Here Order_date should substitute ID(primary key) from first problem/solution,3 weeks ago,Sudhir Kumar,UC8IncJQXkWG03NwdUC3gGnA,0,https://yt3.ggpht.com/ytc/AKedOLT0rkOMZDx2Dckvb7dRVZECRhOmyotOnKFeHt68=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx8ZComEJqTVj2AYJV4AaABAg.9Z9oznfVSa89ZAXSTnIbvv,Thank you 🙏🏼,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyT_Gka9WRl_A4wVNF4AaABAg.9YeJUvv0kSS9YebRaVMapB,Thank you :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw-bL_A2slvzKBM-ip4AaABAg.9YISBYdNYTt9YWIi5zqajs,I have provided. you can find it in my blog. link to blog in video description,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxiwlXQI26wDovKbWd4AaABAg.9YFt6idxyJx9YWJJwFmcs8,Thank you Vikrant :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxVmKN9Nn4cIoScC2p4AaABAg.9YByreOr-1w9YCYh2xs_3u,Glad to hear that sajid!,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugxm1wjFpVDkYXfpo314AaABAg.9Xyd6cY3NZP9Xye8wvfsPM,"Your welcome 🙏🏼 
+Glad this helped",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw1DkKwPf6hLj76Pkp4AaABAg.9XpX-Qhnz5e9Xs4DpNF_x0,"Thank you :)
+I use PostgreSQL database and PgAdmin tool to write queries",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw_55uv12udHIsEe9l4AaABAg.9XXQ-6xFxBk9XXQybWnnqU,Your welcome buddy,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwU2TqXDCvmsW5jpBB4AaABAg.9XI2l4bKkxN9XINFNPMMQd,Yes you can find it in my blog and I have provided the link to my blog in the video description,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxHziBLgIQdU_peW4F4AaABAg.9XDz6vjK8Yw9XGFwZGpAf4,Thank you Nilesh,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw7YBtlsLCpGbLzoit4AaABAg.9XB-DX4eVwt9XBFS4tb4pg,I got your msg on IG and I see there are too many queries.. very busy no so I can look at it when free .. sorry for that,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzw8oKHRCMYfxKKoTN4AaABAg.9XB-9E64Hzg9XBF4dOvRn0,Sorry but I cannot assist anyone personally due to my time constraints,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugww80YCfEExth_tEh54AaABAg,"I think you have a logic error in first example, because your solution depends on fact that ID numbers are consecutive which might not be a case. For instance, you can have someone deleted one of records ((lets say I deleted row where ID = 3 ) and then your ID sequence will not be consecutive, but it will be 1,2,4,5 .... So the code will not work for this situation and those are still consecutive records.
+Here is an example in which will it happen:
+
+with temperatures as (
+	select * from (values
+	(1,'London',-1,'2021-01-01'),
+	(2,'London',-3,'2021-01-02'),
+	(4,'London',-1,'2021-01-03'),
+	(5,'London',1,'2021-01-04'),
+	(6,'London',-3,'2021-01-05'),
+	(7,'London',-2,'2021-01-06')
+	) as i (id,city,temperature,day)
+)
+select 
+	*,
+	row_number() over (order by id) rn,
+	id - row_number() over (order by id) as difference
+from temperatures where temperature < 0
+
+and result:
+
+""id""	""city""	""temperature""	""day""               	""rn""	""difference""
+1	""London""	-1	                ""2021-01-01""	          1	0
+2	""London""	-3	                ""2021-01-02""        	  2	0
+4	""London""	-1	                ""2021-01-03""	          3	1
+6	""London""	-3	                ""2021-01-05""	          4	2
+7	""London""	-2	                ""2021-01-06""	          5	2
+
+Row with ID =4 shoukd have difference 0 so your solution will work, but this is not the case as you can see it in example above.",3 months ago,Domagoj Tonzetic,UCyy9cRIPuE-A4FzG22eoRHw,0,https://yt3.ggpht.com/ytc/AKedOLSGexsVFeXsGohI6NFttKuQCKWga_77AFa3XA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxiQvWmvIodwTTswXh4AaABAg,"Super helpful tutorial,  brilliantly explained. waiting for more of these kinds..",3 months ago,siri bn,UCDYVgEdrwxtfDB8xq81B3Lw,1,https://yt3.ggpht.com/ytc/AKedOLRAi6oAnOuhO04oUTKBKMWBh741ikiunc6vLYUOcLc=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwlCoimZyPOr6jkgtt4AaABAg,"Awesome explanation! Just one query- instead of partition we can use group by - having clause also, right? Any particular reason to use partitioning? 
+Thanks again for all of your wonderful videos!",3 months ago,Shahinur Rahman,UC5ub2kA0DIma-zITveByTjg,2,https://yt3.ggpht.com/ytc/AKedOLQzWuywTAkLrkuS3y9mdqHaWVICWHjEugbymnIi=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugw1wXWRiCYO3lcX-1Z4AaABAg,"Just out of curiosity
+What if the difference of 1 consecutive set  and 1 individual date difference will be same
+In that case it will be partition by the same difference where this individual date difference may get ignored
+Please correct me if am not able to ask this properly
+Thanks for your valuable time",3 months ago,Shubham Pandhare,UCqHFwLLpvx6V8wHdxcVCRNQ,1,https://yt3.ggpht.com/ytc/AKedOLQ32z226TRMLABO96ziGomzGTp0a8Og3wooGQQaBpo=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyWp85---PsFdNkEg94AaABAg,"Need Help -
+Scenario - I have a table testdata with columns
+memberid (varchar) ,codetype(varchar),effectivedate(datetime)
+this table having 20k records - from year 2015 to 2021
+I need to find out the records - first two date records of each member of every year [ only memberid is unique)
+eg.
+member id     codetype  effectivedate
+123 ABC 1/2/2015
+123 ABC 1/2/2015
+123 ABC 8/15/2015
+123 EFG 9/15/2015
+123 EFG 2/15/2018
+345 EFG 3/14/2018
+345 EFG 3/17/2018
+345 ABC 9/19/2020
+456 EFG 12/20/2021
+result should be like below 
+member id     codetype  effectivedate
+123 ABC 1/2/2015
+123 ABC 1/2/2015
+123 ABC 2/15/2018
+345 EFG 3/14/2018
+345 EFG 3/17/2018
+345 ABC 9/19/2020
+456 EFG 12/20/2021
+tried lot of ways but no luck so far",3 months ago,amol ingle,UCm7BRWYA7hwhnyN7k4pH6hQ,0,https://yt3.ggpht.com/ytc/AKedOLQ4j-WbTKF-p9XZ2vQ58c870BWIl6EdiGuIUycGXQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyvKw_kbxwYPQRIRLp4AaABAg,How to find the difference in MySQL for last problem? Not able to do it using Cast,4 months ago,Jasdeep Singh Monga,UCyTSjLF-Tade0h9JLnUg2hw,0,https://yt3.ggpht.com/ytc/AKedOLTru-Udfu3cn6_vPZhJtujUNGSAJtIJdlZSYzbX0g=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyg8vsFHZgWCgUrrMl4AaABAg,Really good and nicely explained,4 months ago,Anek Singh,UCs2ClOeaq3SoA4D3o2nTmtQ,1,https://yt3.ggpht.com/ytc/AKedOLTHnq5Jv_0c7lF_byPNNWN211aH045JtuM9IKf8Gg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzVCBXYJLF1boV8uF94AaABAg,Beautiful explanation just crystal clear.....,4 months ago,vikas kumar,UCvv33tx7B9B6pUsDo1SgqsQ,2,https://yt3.ggpht.com/ytc/AKedOLTy1EeT3wBSOjtkD_PL4lym0v6LrxzD7yVY5g=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwrfQ8u2eJ5VT5ApI94AaABAg,"Nice explanation….why don’t we use Lead or lag here ….here we are using difference….in the other video you used lead and lag…rt? But not diff. 
+Is this the difference is because of ‘N ‘ records rt//",4 months ago,naghsri immiddisetti,UCiT8GsEAU_S4hEOK9mkneXQ,1,https://yt3.ggpht.com/ytc/AKedOLSHmiBnUCHWL6O_hO6TcI5zQcklHCdWSHsi6_XiqA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzzvQSQcNEjvKpWXWZ4AaABAg,"I am geting error as - Operand type clash: date is incompatible with int while subtracting with order_date--
+My query in MS SQL SERVER--
+SELECT *,
+ order_date- CAST(ROW_NUMBER() OVER(ORDER BY order_id) as int) AS diff
+ FROM orders
+
+Can anyone help me to understand what approach i need to follow in this case.",4 months ago,Prashant.PKG,UCN9gb3iMemZn2zsef9siOnQ,1,https://yt3.ggpht.com/ytc/AKedOLTQz1hpKciJQ-YMRBcEfj7zRFxwigxOvrd8Ug=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwQrAkfsyY2r2mb23l4AaABAg,"Hi.. first of all your way of explanation is awesome and easy understanding thanku for that.. one thing only couldn't understand like in ur example for pk ID u have given values as 1,2,3....n and row number will be 1,2,3....n so u can filter temperature less than zero n did subtraction between pk id and row number but what if pk id values will be starting like 2456,2457 n so on? How can we group this kinda values",4 months ago (edited),Bhavani ethirajan,UC4Swl7KuWQ9HPt36J-1Onmw,2,https://yt3.ggpht.com/ytc/AKedOLQaWv4ZCCv4DrS5-4gNz4ieKHj7I-3RgP1MJU296w=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy58HXBmUT86eDXoM14AaABAg,Very well helped at very critical situation... 🤗🥳🎊,4 months ago,Karthikeyan Thangavel,UCSAToQvYFNGJCwL14z3bN9A,1,https://yt3.ggpht.com/ytc/AKedOLQphk2v6A_efkPd_yVrFJsZj6zB2POoWOKOy1BKHw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugxeyf-qLK9W0YA0M0V4AaABAg,I cleared one assessment with this code. thanks,4 months ago,Askar Hameed K A,UCzihjryEOoe8V_LYJ5qY3JA,1,https://yt3.ggpht.com/ytc/AKedOLSqHYID9_NriFUUt1bJxaBjuPBaQta-EhQD7g0WXw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxMHyEJZn38ZqyBUql4AaABAg,"thank you for the tutorial, super helpful!. for the last problem, I think we can increase the complexity by having multiple order records within a day. by that way, each orderID is no longer a unique indicator of a day for us to calculate the difference. I think there will be just one extra step that is to get to the current table structure like we have in this video by creating a new table grouped by order_date and generating a new id column using row_number.",5 months ago,Phu Tran,UCpNuIx2vRf2v7l9CzP5GFUg,4,https://yt3.ggpht.com/ytc/AKedOLTZYCtrOGuEv7r55Muh0lmd1aYq9uUmvloEVPLF_g=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxyZ8DjG8ggmwsjvtB4AaABAg,Great tutorial ... Thnx,5 months ago,Ioan Flaviu Frisan,UCh7hA-Znu6VT32tGYB7sVRg,1,https://yt3.ggpht.com/ytc/AKedOLTvdeqJjdT7R-IjryHSIrgixVcMoANcUCLS5YJc9A=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwlUE19mDCMRDMYC_l4AaABAg,"That was nice bro, helped a lot, please keep going. Btw, could you post a video about how to calculate l, for example, growth rate in one specific column through time? In general, how to perform mathematical operations on grouped columns",5 months ago,Ara Sh,UC49wRze5T6rc8VV7FfPyXJg,2,https://yt3.ggpht.com/ytc/AKedOLSefPB0Xee8-VK8p2wYDdxhoHeZgIzYmZcdyw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyncM_1qGsYrtCfH2t4AaABAg,"What if after 6th primary key number, again there is another 3 consecutive records?",5 months ago,Asif Rehman,UCR4rgV7nFsuCfR2deeDrLCg,1,https://yt3.ggpht.com/ytc/AKedOLTToO_nEBkNSsvTdipiCds7PzimAO3jaGNJRA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzHFZHqpG-_KOeP9uN4AaABAg,Genius 🔥🔥 pls post more videos,5 months ago,Santhosh Kumar J,UCVnO1oWN-23pQj12kbhKV1Q,1,https://yt3.ggpht.com/ytc/AKedOLTO5lKu1O3C5XEWNIQHOJjiX27cpeosO3KL9TeoKAA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxTGLH-eQFDX13ntuR4AaABAg,Crisply explained!,5 months ago,SR T,UCC2NllpuJbLM99E2eLfjxAQ,1,https://yt3.ggpht.com/ytc/AKedOLRWrAOdLKmSitvH_NBxK7qk3C6jeJFica59D4I=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyxIYsAJYMS2UU4tu54AaABAg,"For the solutions where you are relying on PK (ID/OrderId) to be in asc order to do the maths. Let's say PK (ID /Order ID) is not already sorted?
+(Except VW ,  where date is not given)",5 months ago (edited),Akhil Gupta,UC9a4jVLq0sOPtfy6I0P4--w,0,https://yt3.ggpht.com/ytc/AKedOLSdqXWAIYYufqqGtGr14T0aUaHhDrYmcmPg5GCn6Q=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugww80YCfEExth_tEh54AaABAg.9WyoCuq4kgS9WyopdDruhZ,"I think you missed the point ..
+
+I gave 3 different scenarios in this video..
+
+1) when we have an id column (meaning consecutive id numbers)
+2) in the second scenario I mentioned if you did not have consecutive id number then we create an id column ourself using the row number function..
+3) with date column..
+
+So as per ur example, I would just follow the scenario 2 to handle it.
+
+Of course there can be 100 different solutions to this same problem and your solution can be one of them..
+
+Just that I cannot make a video covering all possible solutions..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugww80YCfEExth_tEh54AaABAg.9WyoCuq4kgS9WzCtom_0RB," @techTFQ  I do not want to start a flame, just that some rookie will take this as granted, and I wanted to actually help them. I know that there was 3 scenarios, but than you should mention that this works only in situation when there are no gaps in ID sequence. And as a someone who is trying to learn, I will presume that all three scenarios are OK. Furthermore it is the most common scenario as tables usually have an ID column as PK and then a rookie will use the first scenario offered. 
+I know that there is no way to write all possible scenarios, but you should mention that there is a requirement that is needed for this solution to work.  
+I appreciate your work, and with all of my experience I learn every day, I still can find things that I don't know or can be done better, so keep the good work.",3 months ago,Domagoj Tonzetic,UCyy9cRIPuE-A4FzG22eoRHw,0,https://yt3.ggpht.com/ytc/AKedOLSGexsVFeXsGohI6NFttKuQCKWga_77AFa3XA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugww80YCfEExth_tEh54AaABAg.9WyoCuq4kgS9WzDF_ftSXg,"No flame bro ..
+Just do not want someone to misunderstand the video content and the purpose..
+Noted on your points.
+Have a good day 👍",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxiQvWmvIodwTTswXh4AaABAg.9WTPDR1BrqC9WTrnkWOuH8,Thank you Siri 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwlCoimZyPOr6jkgtt4AaABAg.9WQmR3jZXhq9WRyPsVaPYR,"Thank you 🙏🏼 
+
+Group by and partition by in window function are 2 completely different concepts.. this query is best solved using partition by ..
+
+Explaining the difference between these 2, cannot be done in comment but may need a separate video for it ..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw1wXWRiCYO3lcX-1Z4AaABAg.9W0acJB8asm9W0j9S7SmdQ,"Sorry bro.. I am not clear on what you asked..
+Can you please elaborate?",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyg8vsFHZgWCgUrrMl4AaABAg.9VY7_XjPJeZ9VYZDrZkF99,Thank you Anek 🙏🏼,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzVCBXYJLF1boV8uF94AaABAg.9VXzKo0izuF9VYYx3TKXL-,Thank you vikas,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwrfQ8u2eJ5VT5ApI94AaABAg.9VQi3vfq8_k9VQzJd1a68W,"Yes you are right..
+In the previous video we wanted to find only 3 consecutive records whereas this query can be used to fetch any no of consecutive records",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwrfQ8u2eJ5VT5ApI94AaABAg.9VQi3vfq8_k9VSX-YVTyyp, @techTFQ  ok thank you 🙏,4 months ago,naghsri immiddisetti,UCiT8GsEAU_S4hEOK9mkneXQ,1,https://yt3.ggpht.com/ytc/AKedOLSHmiBnUCHWL6O_hO6TcI5zQcklHCdWSHsi6_XiqA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzzvQSQcNEjvKpWXWZ4AaABAg.9VEn4SUr7qY9VGutJZ0TL8,"in MSSQL, you can use the dateadd function to do this. Try the below query:
+
+SELECT *,
+DATEADD(DAY , -1 * (ROW_NUMBER() OVER(ORDER BY order_id) ) , order_date)  AS diff
+ FROM orders;",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwQrAkfsyY2r2mb23l4AaABAg.9V0eTLvo0vT9V1lD3TIgqs,"Thank you for the kind feedback Bhavani 🙏🏼
+
+Even if ID is any other numeric value (as long as it is unique) , the logic would work fine..
+In case the ID is non numeric then you can explicitly create an ID column (using row number) as I mentioned in one of the examples..",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy58HXBmUT86eDXoM14AaABAg.9UvxFcA33nt9UvyCwUOPnP,Nice to know that .. glad this helped 😃,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugxeyf-qLK9W0YA0M0V4AaABAg.9UvtKNS7-_O9UvvOgsyJ4o,"That’s great to hear 😃
+Congratulations 👏",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxyZ8DjG8ggmwsjvtB4AaABAg.9UgjUl8DfxX9UiFg_PDqpL,Thank you Frisan 🙏,5 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwlUE19mDCMRDMYC_l4AaABAg.9U_MXYHv49e9UiKRUkAk48,Thank you for the suggestion Ara.. Ill consider this for a future video..,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyncM_1qGsYrtCfH2t4AaABAg.9UV2quNCE1f9UiKmYQcC2T,"this query would capture any no of consecutive records..
+Let me know if you have a example where this would not work..",5 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzHFZHqpG-_KOeP9uN4AaABAg.9UTlnGycuIH9UTn-3xZ-Ap,Thank you Santhosh and will do 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxTGLH-eQFDX13ntuR4AaABAg.9USPxMIDN1j9UTSfw3Qw8z,Thank you 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyxIYsAJYMS2UU4tu54AaABAg.9UC7RztjNLF9UYS--2-DRG,you can create another row_number in asc number as temp column and use it to do the remaining maths.,5 months ago,阿哲玩家,UCqdj3yvBu3l8edgSGPaaQWA,0,https://yt3.ggpht.com/ytc/AKedOLQ-Lwpuld6uaKnAy5t7GATpnKb-kNYOjc1tAR73=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz_tUu4FmadFA0JSKV4AaABAg,18:47,5 months ago,Arun Garg,UCQUyUBHrs9SwJLYVSWLoKWA,0,https://yt3.ggpht.com/ytc/AKedOLTf_utxX_PFGGpJfg1eMi7RceVrnQP-fMJLBUFO=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxNUeExd9Qh8Wq9lnt4AaABAg,Tabibitosan method. Great stuff !,5 months ago,HanWei Thoo,UCWZSaAGhBIraux1wEO55r8A,1,https://yt3.ggpht.com/ytc/AKedOLSxTL0__zjTk6wXAY4vqkxPca6ORZ7aW4KeHA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyaZN8z8EkX1qQfuWl4AaABAg,Well explained.,5 months ago,Shafique K,UCmrwR47V-B1gVl37qTk3MBw,1,https://yt3.ggpht.com/ytc/AKedOLTj-caq-_0EMtED3AfXEW-hwn4fHbITJ3M3iQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxatyVHTxmjqHrMaPt4AaABAg,"Great job. Pls we need to tackle more sql queries. If you can handle 10 questions per video, will be awesome. thanks.",5 months ago,Sudor Kaegon,UC9woP61-19_rQ_6dt6LsDRA,2,https://yt3.ggpht.com/ytc/AKedOLTeahRyld0cnLCmglufEZ9oquF2aZLteK0HvQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzS392JP0Rda4NAwmR4AaABAg,"SQL query to turn the table1 into result as table 2
+Table: table1
++------+-------+--------+
+| Year | month | amount |
++------+-------+--------+
+| 1991 | 1     | 1.1    |
++------+-------+--------+
+| 1991 | 2     | 1.2    |
++------+-------+--------+
+| 1991 | 3     | 1.3    |
++------+-------+--------+
+| 1991 | 4     | 1.4    |
++------+-------+--------+
+| 1992 | 1     | 2.1    |
++------+-------+--------+
+| 1992 | 2     | 2.2    |
++------+-------+--------+
+| 1992 | 3     | 2.3    |
++------+-------+--------+
+| 1992 | 4     | 2.4    |
++------+-------+--------+
+
+Should output:
+Table: table2
++------+-----+-----+-----+-----+
+| Year | m1  | m2  | m3  | m4  |
++------+-----+-----+-----+-----+
+| 1991 | 1.1 | 1.2 | 1.3 | 1.4 |
++------+-----+-----+-----+-----+
+| 1992 | 2.1 | 2.2 | 2.3 | 2.4 |
++------+-----+-----+-----+-----+",5 months ago,Orenda Orenda,UCYKAsaUEt_hAx2_x_EbqMJg,0,https://yt3.ggpht.com/ytc/AKedOLQUNGg8toW7hgD8QOfytu4LIcqMCjUDhIbHMpvE=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzYd6akOQ5g6lXT6JJ4AaABAg,"Very helpful. I used to struggle with this, but this explanation is worth watching :)",5 months ago,swati sinha,UCkHuEWXRghjLkrF27hvGCcg,2,https://yt3.ggpht.com/ytc/AKedOLRobTgbHoHrr76Mn7YauIP_IfCPQqrLXjCpGH8HIA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgywBlgW3ugwYcx8sl94AaABAg,"No doubt your videos are more elaborate and better than institutes charging so much. One request, please create a series for  SQL to cover end to end course",6 months ago,Bhuwan Thapliyal,UCNWXynhA1veRIZmTRWNw80w,4,https://yt3.ggpht.com/ytc/AKedOLTRIbCUFQdkbtuZ_WTp7c9Q4Fv8Fn-LIf1U2tfvqdFoU7A_uPcT1IDc8Cq9jOuy=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzgoQQn992IHAjh1m54AaABAg,Why is it necessary to speak like your racing down a track. Rather than take you time and speak clearly.,6 months ago,Ora Cam,UC8kRjWBS4MYSerHfDYPEZ5g,1,https://yt3.ggpht.com/ytc/AKedOLRsO3Bnf3ed6B3JOPsh0-1t-bMfUHpDwKqNt0f5=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugyt1syfENMpRR2rQjR4AaABAg,Nice video. I wish you post a continuation of this video by using “Preceding 1 and following 1” window clause and solving these questions.,6 months ago,GreatNishan,UC815yjIaEtDoYkIkrJnBLvQ,2,https://yt3.ggpht.com/ytc/AKedOLQk0yo9zZLOUzJheasLIk2T-JisiAYUDc-ZyQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzjVel_cGV82V17FsV4AaABAg,"Thanks for solving this.... I was searching for the solution since so many days 
+great effort... cheers",6 months ago,Hitesh Arora,UCg0kD8uigTFfmTPjlSmC6gQ,2,https://yt3.ggpht.com/ytc/AKedOLSv_6WztPLRUL65ZginHAflm017qHto5BwZICLj=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxYxY8zYLDKrOf6ZP94AaABAg,One more gem of a content,6 months ago,Girija Shamak,UCxRmk_sKwpy59CUg-5XhYNg,2,https://yt3.ggpht.com/ytc/AKedOLSu5QbvbmrP81a6b0H3nSiWVAYz4VYj5uA6mg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzucgocywXK0OtogOZ4AaABAg,Informative video. Please share some videos on outliers,6 months ago,prachi jain,UCUnHJPV7MRGOH00ncxN7M2A,1,https://yt3.ggpht.com/ytc/AKedOLSJ5BlxWICTNcNy5FHJqwXoI5QL9HpbpW_TybSeI8c=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzluTegIS2WWuLeS3d4AaABAg,This was brilliant! A perfect blend of math and SQL. Keep these videos coming!,6 months ago,SVV,UC5MQSDjTIsPqQv08iv3a-iw,3,https://yt3.ggpht.com/ytc/AKedOLRgbYfeFPnxSZQ-UoL0zJZ0gN0eQ3TaAhl68Q=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx6_4G7FiWR34ie0uR4AaABAg,"Wat to go... Such a crisp n clear explanation even for experience guy like me, got to see your channel and recommend to my group.",6 months ago,Siva G,UCHlmdOf9A2nFmihIrEpGBvQ,2,https://yt3.ggpht.com/ytc/AKedOLQTZkln1A_ubTAXJIKH8bvUk91e6AxrocTH7g=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz_4vXwPIVB1_-200l4AaABAg,"Could you, please explain how can we group such consecutive record in such a way, that there will be shown only first and last day, where temperature was below zero but for all the records with the minimum available value for this period?
+
+For example: in your dataset you have a Block from 18th to 21st.
+
+The result for this period has to be:
+
+2021-01-18, 2021-01-21, -12
+
+Thanks!",6 months ago,BabaykaMoscow,UCdTZTEcoXFoMLnoWke0rpag,0,https://yt3.ggpht.com/ytc/AKedOLSnatnQP5nFyTiVOiLvPhI02mgI-Z-neEwlZw=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxYXeFPWL9ax3bt6ux4AaABAg,"Trust me, you are the best. Please post more videos on interview questions for beginners.",6 months ago,Sagar Kumar,UC_f4XKKkRue2PX7C8Ox5SOQ,2,https://yt3.ggpht.com/ytc/AKedOLSHj18bOmNu6TKBsDVLFk6xpyY1RbyNBgS2hw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwdVeRDsk-UN9qIWCB4AaABAg,Great . Such good videos 🔥🔥💯💯💯,6 months ago,Sheeba Parveen,UCLG0THTDn61-uOe8uz3luCg,1,https://yt3.ggpht.com/ytc/AKedOLS_bbDwk2UdEkLpnVA8niKltV1MsVbZ24fICYS3bA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxfnscbzFaF5IubgeJ4AaABAg,learned something new 👍,6 months ago,sachin patel,UCIzkk2GTGQVGLtyyMW1RQPg,1,https://yt3.ggpht.com/ytc/AKedOLSAWpw9nFmN17YuyFcMOxf5GG_WfDlaLStd1w=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz492H5tWt6zEgisYF4AaABAg,REALLY ENJOYING CHANNEL!!,6 months ago,Shiv Sharma,UCCz0z8IiU_rjbjBt-4Cbwig,1,https://yt3.ggpht.com/ytc/AKedOLQfRQo_uA1vSYqlSk6zFGJ68elSlUXsaJhrLDhLPg=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugw0vjDcAkMiJuBgmHx4AaABAg,"Hi Thank you amazing videos
+Learnt a lot from you 
+Can you please suggest some websites for practising SQL queries for data science",6 months ago,Nawal Ambavkar,UCsF4ONDLdc1Ywh_FBp4bckQ,2,https://yt3.ggpht.com/ytc/AKedOLTQQ5vImDHXvbuGDjZt20a_e6W4lBk71OhindHZtQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxNUeExd9Qh8Wq9lnt4AaABAg.9Tvo5iQCu0m9TwiNAP_Unl,"Thank you HanWei 🙏🏼
+Glad you liked it ..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyaZN8z8EkX1qQfuWl4AaABAg.9TujPugMoVf9Tv325HfUBL,"Thank you Shafique 🙏🏼
+So glad you are liking my video 🙂",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxatyVHTxmjqHrMaPt4AaABAg.9TkJTxNC2-w9TkMdTLm7uU,"Thank you 🙏🏼 
+
+Sure will plan it out..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzYd6akOQ5g6lXT6JJ4AaABAg.9TXZmmVKFpb9TYmZssHLyU,"Thank you Swati 🙏🏼
+Glad this helped ..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgywBlgW3ugwYcx8sl94AaABAg.9TT7fiXyyiD9TTQS-YSaRK,"Thank you Bhuwan.. glad you like it 🙏🏼
+Yes I will make detailed SQL tutorial videos in the near future..",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzgoQQn992IHAjh1m54AaABAg.9TKGMt1_Nog9TL1eFsUvBx,"Noted on the feedback.. intention is to not stretch the video too long..
+Will try to slow down a little next time..",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyt1syfENMpRR2rQjR4AaABAg.9TE9SIUwPRt9TEK8IdKlwW,"Thank you Nishan 🙏🏼
+Glad you liked this video..
+As for your suggestion, let me consider this and may be plan for a future video..",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzjVel_cGV82V17FsV4AaABAg.9T9MNPzWa0_9T9Pp6PQXiH,"Your welcome Hitesh 🙏🏼
+Glad this helped you..",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxYxY8zYLDKrOf6ZP94AaABAg.9T69bP4BGMP9T6DUVhD2GB,Thank you Girija for such kind words 🙏🏼🙏🏼,6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzucgocywXK0OtogOZ4AaABAg.9SzVB5oVIuF9SzWdxtTXPx,"Thanks Prachi 🙏🏼
+Let me consider your suggestion for a future video ..",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzluTegIS2WWuLeS3d4AaABAg.9Sw22m3YGNy9SxnG2KHW9O,"Thank you so much 🙏🏼
+So glad you find this useful 🙂",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx6_4G7FiWR34ie0uR4AaABAg.9SvrXMi7bJa9SxnLGXe1nr,"Thank you Siva 🙏🏼
+Happy to know you found some value from this video 🙂",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz_4vXwPIVB1_-200l4AaABAg.9Svd9mg7gTu9T3jP5G2efS,"Min and max will work the same way as count for the partition.  You can get the start_date, end_date, and low_temp in the second cte (t2), then select them in main query.",6 months ago,jeff,UCRvoS9PfO467aSX-NqrPJdg,0,https://yt3.ggpht.com/ytc/AKedOLQdWGW5mggp_9Mo_FnTPUP7BtxunzsMtdcK1g=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxYXeFPWL9ax3bt6ux4AaABAg.9Su0IoV7w9K9Su1KBqHNDa,"Thank you Sagar 🙏🏼
+Very happy to know you like my content 🙂",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwdVeRDsk-UN9qIWCB4AaABAg.9SsyWR9zlba9StqZUEuzUY,Thank you cheeb ❤️,6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxfnscbzFaF5IubgeJ4AaABAg.9SssRvp1pXX9StqXWzdhUD,"Thank you Sachin 🙏🏼
+So glad I was able to teach you something new 🙂",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz492H5tWt6zEgisYF4AaABAg.9SsmTrN63Gl9StqLf8x10H,"Thank you Shiv 🙏🏼
+Glad you like the channel 🙂",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw0vjDcAkMiJuBgmHx4AaABAg.9SsYwR9Uk639Stq1EEw9BZ,"Thank you 🙏🏼 
+Not really sure if there is any website for SQL practice focused on data science but I would recommend using leetcode to practice SQL queries..
+
+I’ve made a separate video about leetcode and how to find SQL questions on it. You can check that out on my channel",6 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgygIXueomm271UZl7N4AaABAg,"Thank you for your awesome explanation, it's very useful, have a consecutive nice day",6 months ago,Benoit Patigny,UCKQR0T7hTE5jiZB8LNYaB3w,2,https://yt3.ggpht.com/ytc/AKedOLSj-EavOAR-PROTR6WLvY-K6Gr1WcuP8eVW7Zns=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzPzw8PRMVUj45pjJx4AaABAg,"Amongst  so many tutorials out there on youtube , hands down your's are the best.   Will eagerly wait for your upcoming uploads . thanks",6 months ago,Arihant Dhadiwal,UCOLsEh8mDWV0wAfqESKTifg,20,https://yt3.ggpht.com/ytc/AKedOLSfJu8Ty-UyznAtqnD_hntsT_Antek2lYdzhQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwoJ-DscNk_bnIlO3x4AaABAg,Clear explanation ! Easy way to understand!,6 months ago,Karthik D,UCPG1CK5CTkMdHzgN6DX3Eyw,2,https://yt3.ggpht.com/ytc/AKedOLTzuuy5LagICp_yuiJZBX-d5hxYpyvgWxMIBvFAbg=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwnv_gebkhqPrAm7-J4AaABAg,Amazing clarity and explanation👌 Keep up spreading knowledge. God bless 🙏,6 months ago,Fathima Farahna,UCmMR20vhhydELL3JFxZ6MoQ,2,https://yt3.ggpht.com/ytc/AKedOLTsP0crbsq7j0CfAPty-RPMZVW7t34FCVgcSt6RIw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwAWSNVcP1j7pVnPYZ4AaABAg,"Great videos bro ...
+I subscribed channel...",6 months ago,pveeranji reddy,UCAiIOYz6VliLYugMJLuh8rA,1,https://yt3.ggpht.com/ytc/AKedOLRZCB88SrBtCNY3aMU2DuR2KsTxOI7UkYT2OQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxyQEk97ImennP69CJ4AaABAg,Sir we want more videos like this.. PLZZ upload..,6 months ago,Piyush Pathak,UCQzbw424ZqvTfMZcaTdeJ7g,3,https://yt3.ggpht.com/ytc/AKedOLSqRtpsUzUBbI8uqDN23TbjFHRiAOilf4TEob1A=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzJYn-t0wnHqWyi4p54AaABAg,Awesome,6 months ago,nandhini sekar,UCx1s9WzST6E5EzBL63xPKzw,0,https://yt3.ggpht.com/ytc/AKedOLQXca_YucCunvOH6sZj7yFjUazKv5CamBXInECqiQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugxv2bVKG1siGjNGZ-x4AaABAg,Really very helpful🙌🏻👌🏻 Thank you for this yet another amazing video✌️,6 months ago,Mohammed Shahil,UCWu0-yMNxR1UyjHDKkXcgMA,1,https://yt3.ggpht.com/ytc/AKedOLTj9o1Oeo0yG7m4Txg3aoh7qvUmtfyXcHIHKl4giA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy2HtisFsEyfZXBG454AaABAg,"Hei it's me once again, just saw you answer to my comment in your previous Video and I was hei that's so cool from him..1 second later I see, you already uploaded the video haha :)
+
+Thank you for making an extra tutorial explaing this ! Very well done !
+My question is answered completely. 
+
+Keep up the good work. :)",6 months ago,quantum,UCpfYiyWPx6G0Zl0oACd9K7g,1,https://yt3.ggpht.com/ytc/AKedOLRsAGWs8l2yKV4x47xoOMpjse5QhgXVVU4hBSrYAg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgygIXueomm271UZl7N4AaABAg.9Ss4H-jgFH59Ss5jKScjeR,"😃
+Thank you Benoit 🙏🏼
+Glad this helped ..",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzPzw8PRMVUj45pjJx4AaABAg.9Srj3M9lHXS9Srjk0iSPpm,"Thank you Arihant 🙏🏼
+Am so glad to hear you liked my contents 🙂",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzPzw8PRMVUj45pjJx4AaABAg.9Srj3M9lHXS9XaXrm2gA8e,Seriously. You are awesome and explain it so well,2 months ago,joe2271,UC1CBPnzqOzSVYx-EPLwk2jw,1,https://yt3.ggpht.com/ytc/AKedOLS3fvQX_gRf0vi4f69cvHjafqE_8-RdJT3syg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzPzw8PRMVUj45pjJx4AaABAg.9Srj3M9lHXS9Xaxq4ttiEF,Thank you 🙏🏼,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwoJ-DscNk_bnIlO3x4AaABAg.9SrS1lC79TL9SrTeZeONIR,"Thank you Karthik 🙏🏼
+Glad you liked it ..",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwnv_gebkhqPrAm7-J4AaABAg.9SrKZzUjMMu9SrMlcqDekb,Thank you ❤️,6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwAWSNVcP1j7pVnPYZ4AaABAg.9Sr-WIlBHJT9Sr4TDR85jH,"Thank you 🙏🏼 
+So glad you liked the content 🙂",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxyQEk97ImennP69CJ4AaABAg.9Sqh4u-yIYA9Sr4KNFxiLa,"Thank you for liking my content Piyush 🙏🏼
+Will try my best to upload more such contents 🙏🏼☺️",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzJYn-t0wnHqWyi4p54AaABAg.9SqP5anfNSc9SqWIx5nS1d,"Thank you 🙏🏼 
+Glad you liked it 🙂",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugxv2bVKG1siGjNGZ-x4AaABAg.9SqJtRI_pPW9SqWGqSpBoY,"Thank you hero 🙏🏼
+I am glad to know you benefit from these videos 🙂😍",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy2HtisFsEyfZXBG454AaABAg.9SqIBxX1Uqu9SqWB6bRk47,"Hey … thank you so much 🙏🏼
+I am so glad this video was able to answer your previous question 🙂
+And thank you again for the feedback and for the appreciation 🙏🏼☺️",6 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0

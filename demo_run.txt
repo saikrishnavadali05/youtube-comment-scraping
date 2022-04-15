@@ -1,0 +1,414 @@
+ravi@RAVI:~/Desktop/SWAMIwork/youtube-comment-scraping$ python3 ./code_files/final_YT_comment_scrape.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+---------------------
+channel_content : [{'Channel_name': 'techTFQ', 'Subscribers': '67300', 'Views': '2922822', 'Total_videos': '56', 'playlist_id': 'UUnz-ZXXER4jOvuED5trXfEA'}]
+---------------------
+---------------------
+  Channel_name Subscribers    Views Total_videos               playlist_id
+0      techTFQ       67300  2922822           56  UUnz-ZXXER4jOvuED5trXfEA
+---------------------
+---------------------
+['-DiOp9vAEuM', 'O1o9m9T1c3k', '7hZYh9qXxe4', 'aE623ff7zkM', 'eXJGjbDo5KY', 'O52sweYbCyI', 'cLSxasHg9WY', 'l6XhSFAyvO0', 'nJIEIzF7tDw', 'RehbnzKHS28', '0OQJDd3QqQM', 'V6KPbGLYL4A', 'OIqm909GYYo', 'xN2PRAd8IZQ', 'AK7_m-aThfw', 'CYszyA2Xzdg', 'wT9ICgxRPYY', 'XruOBp7yPXU', 'SwSbnmqk3zY', '8p_OzqIJ_p4', '0Hhqf8L-b_0', 'M2NzvnfS-hI', 'QNfnuK-1YYY', 'PuBadaR8qC4', 'FNYdBLwZ6cE', 'zAmJPdZu8Rg', 'HJAwAKwFX-A', 'kY5HtrkjSj0', 'LCVSmkyB4v8', '6x7vHXfRAP0', '-DrSbc8B0WI', 'gsa1oFn9n0M', 'Ww71knvhQ-s', 'Jsnw6HLASZA', 'V_BozMwoYe4', '0wjPsKDrYt8', '1-z9ptlBar4', '35dXEQJkFE8', 'jgNB4GN1UaQ', 'fhxByMe0mq8', '5bwpXLHzZRo', 'UzOnFDmoJ9w', 'HNChkuE6HyA', '2gFqUWO-AWM', 'NvdSKgQcyuc', 'BBb_duZIusU', 'PRGkYivK2xI', 'M323OL6K5vs', 'i7BjHjRafU8', 'r2asdRpr3uw', 'Hl4NZB1XR9c', '1aybOgni7lI', 'j09EQ-xlh88', '7nzTDrio7vY', 'J-uCLHTIWZ4', '_BMPh5M4BIY']
+---------------------
+https://www.youtube.com/watch?v=-DiOp9vAEuM
+https://www.youtube.com/watch?v=O1o9m9T1c3k
+https://www.youtube.com/watch?v=7hZYh9qXxe4
+https://www.youtube.com/watch?v=aE623ff7zkM
+https://www.youtube.com/watch?v=eXJGjbDo5KY
+https://www.youtube.com/watch?v=O52sweYbCyI
+https://www.youtube.com/watch?v=cLSxasHg9WY
+https://www.youtube.com/watch?v=l6XhSFAyvO0
+https://www.youtube.com/watch?v=nJIEIzF7tDw
+https://www.youtube.com/watch?v=RehbnzKHS28
+https://www.youtube.com/watch?v=0OQJDd3QqQM
+https://www.youtube.com/watch?v=V6KPbGLYL4A
+https://www.youtube.com/watch?v=OIqm909GYYo
+https://www.youtube.com/watch?v=xN2PRAd8IZQ
+https://www.youtube.com/watch?v=AK7_m-aThfw
+https://www.youtube.com/watch?v=CYszyA2Xzdg
+https://www.youtube.com/watch?v=wT9ICgxRPYY
+https://www.youtube.com/watch?v=XruOBp7yPXU
+https://www.youtube.com/watch?v=SwSbnmqk3zY
+https://www.youtube.com/watch?v=8p_OzqIJ_p4
+https://www.youtube.com/watch?v=0Hhqf8L-b_0
+https://www.youtube.com/watch?v=M2NzvnfS-hI
+https://www.youtube.com/watch?v=QNfnuK-1YYY
+https://www.youtube.com/watch?v=PuBadaR8qC4
+https://www.youtube.com/watch?v=FNYdBLwZ6cE
+https://www.youtube.com/watch?v=zAmJPdZu8Rg
+https://www.youtube.com/watch?v=HJAwAKwFX-A
+https://www.youtube.com/watch?v=kY5HtrkjSj0
+https://www.youtube.com/watch?v=LCVSmkyB4v8
+https://www.youtube.com/watch?v=6x7vHXfRAP0
+https://www.youtube.com/watch?v=-DrSbc8B0WI
+https://www.youtube.com/watch?v=gsa1oFn9n0M
+https://www.youtube.com/watch?v=Ww71knvhQ-s
+https://www.youtube.com/watch?v=Jsnw6HLASZA
+https://www.youtube.com/watch?v=V_BozMwoYe4
+https://www.youtube.com/watch?v=0wjPsKDrYt8
+https://www.youtube.com/watch?v=1-z9ptlBar4
+https://www.youtube.com/watch?v=35dXEQJkFE8
+https://www.youtube.com/watch?v=jgNB4GN1UaQ
+https://www.youtube.com/watch?v=fhxByMe0mq8
+https://www.youtube.com/watch?v=5bwpXLHzZRo
+https://www.youtube.com/watch?v=UzOnFDmoJ9w
+https://www.youtube.com/watch?v=HNChkuE6HyA
+https://www.youtube.com/watch?v=2gFqUWO-AWM
+https://www.youtube.com/watch?v=NvdSKgQcyuc
+https://www.youtube.com/watch?v=BBb_duZIusU
+https://www.youtube.com/watch?v=PRGkYivK2xI
+https://www.youtube.com/watch?v=M323OL6K5vs
+https://www.youtube.com/watch?v=i7BjHjRafU8
+https://www.youtube.com/watch?v=r2asdRpr3uw
+https://www.youtube.com/watch?v=Hl4NZB1XR9c
+https://www.youtube.com/watch?v=1aybOgni7lI
+https://www.youtube.com/watch?v=j09EQ-xlh88
+https://www.youtube.com/watch?v=7nzTDrio7vY
+https://www.youtube.com/watch?v=J-uCLHTIWZ4
+https://www.youtube.com/watch?v=_BMPh5M4BIY
+temporary_code_files folder doesnot exist. Creating now
+Video couldnot be accessed.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+only_titles :  ['myLiveSQLCourse', 'BestOnlineSQLCourse', 'RecursiveSQLQueriesTutorial', 'SolvingSQLInterviewQueries', 'HowtolearnSQL', 'ANSIvsNonANSI', 'SQLViewsTutorial', 'PracticeWritingSQLQueries', 'SubqueryinSQL', 'SQLJOINSTutorialfor', 'SQLJOINSTutorialfor', 'Howtogetyour', 'BESTOnlineCoursesto', 'REALSQLInterviewQuestion', 'Top25SQLInterview', 'PracticeSQLInterviewQuestions', 'Thankyoufor10,000', 'PracticeWritingSQLQueries', 'PythonProjecttoScrape', 'PracticeComplexSQLQueries', 'ANACONDATutorialforPython', 'ConnecttoPostgreSQLfrom', 'SQLWITHClause', 'STEPbySTEPguide', 'Learnhowtowrite', 'SQLWindowFunction', 'Learnhowtouse', 'GitTutorialforComplete', 'unaccessiblevideo.Thecreator', 'Thankyoufor1000', 'PracticeSQLandPython', 'LoggingTutorialinPython', 'SQLWindowFunction', 'HowtoReadand', 'RegularExpressionsinPython', 'WhatisDataScience', 'BestResumeFormat', 'DictionaryinPython(for', 'ListsinPythonEXPLAINED', 'ExceptionHandlinginPython', 'LocalandGlobalScope', 'WhatisaFUNCTION', 'ImportmodulesinPython', 'WHILEloopandFOR', 'IFELSEELIFstatement', 'WhatisaVARIABLE', 'WhatisDATATYPE,', 'HowtoInstallPython', 'ExcelAlternative:Howto', 'iPhone12ProUnboxing', 'SQLBasicsTutorialfor', 'HowtoinstallPostgreSQL', 'LearnWhatisDatabase', 'Doyouneeda', 'MacBookPro132020', 'MacBookPro132020']
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+['myLiveSQLCourse', 'BestOnlineSQLCourse', 'RecursiveSQLQueriesTutorial', 'SolvingSQLInterviewQueries', 'HowtolearnSQL', 'ANSIvsNonANSI', 'SQLViewsTutorial', 'PracticeWritingSQLQueries', 'SubqueryinSQL', 'SQLJOINSTutorialfor', 'SQLJOINSTutorialfor', 'Howtogetyour', 'BESTOnlineCoursesto', 'REALSQLInterviewQuestion', 'Top25SQLInterview', 'PracticeSQLInterviewQuestions', 'Thankyoufor10,000', 'PracticeWritingSQLQueries', 'PythonProjecttoScrape', 'PracticeComplexSQLQueries', 'ANACONDATutorialforPython', 'ConnecttoPostgreSQLfrom', 'SQLWITHClause', 'STEPbySTEPguide', 'Learnhowtowrite', 'SQLWindowFunction', 'Learnhowtouse', 'GitTutorialforComplete', 'unaccessiblevideo.Thecreator', 'Thankyoufor1000', 'PracticeSQLandPython', 'LoggingTutorialinPython', 'SQLWindowFunction', 'HowtoReadand', 'RegularExpressionsinPython', 'WhatisDataScience', 'BestResumeFormat', 'DictionaryinPython(for', 'ListsinPythonEXPLAINED', 'ExceptionHandlinginPython', 'LocalandGlobalScope', 'WhatisaFUNCTION', 'ImportmodulesinPython', 'WHILEloopandFOR', 'IFELSEELIFstatement', 'WhatisaVARIABLE', 'WhatisDATATYPE,', 'HowtoInstallPython', 'ExcelAlternative:Howto', 'iPhone12ProUnboxing', 'SQLBasicsTutorialfor', 'HowtoinstallPostgreSQL', 'LearnWhatisDatabase', 'Doyouneeda', 'MacBookPro132020', 'MacBookPro132020']
+Outputs folder doesnot exist. Creating now
+#############################################################
+video_count : 0
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=-DiOp9vAEuM
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsmyLiveSQLCourse.csv file
+#############################################################
+#############################################################
+video_count : 1
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=O1o9m9T1c3k
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBestOnlineSQLCourse.csv file
+#############################################################
+#############################################################
+video_count : 2
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=7hZYh9qXxe4
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsRecursiveSQLQueriesTutorial.csv file
+#############################################################
+#############################################################
+video_count : 3
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=aE623ff7zkM
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSolvingSQLInterviewQueries.csv file
+#############################################################
+#############################################################
+video_count : 4
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=eXJGjbDo5KY
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHowtolearnSQL.csv file
+#############################################################
+#############################################################
+video_count : 5
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=O52sweYbCyI
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsANSIvsNonANSI.csv file
+#############################################################
+#############################################################
+video_count : 6
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=cLSxasHg9WY
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSQLViewsTutorial.csv file
+#############################################################
+#############################################################
+video_count : 7
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=l6XhSFAyvO0
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsPracticeWritingSQLQueries.csv file
+#############################################################
+#############################################################
+video_count : 8
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=nJIEIzF7tDw
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSubqueryinSQL.csv file
+#############################################################
+#############################################################
+video_count : 9
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=RehbnzKHS28
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSQLJOINSTutorialfor.csv file
+#############################################################
+#############################################################
+video_count : 10
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=0OQJDd3QqQM
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSQLJOINSTutorialfor.csv file
+#############################################################
+#############################################################
+video_count : 11
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=V6KPbGLYL4A
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHowtogetyour.csv file
+#############################################################
+#############################################################
+video_count : 12
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=OIqm909GYYo
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBESTOnlineCoursesto.csv file
+#############################################################
+#############################################################
+video_count : 13
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=xN2PRAd8IZQ
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsREALSQLInterviewQuestion.csv file
+#############################################################
+#############################################################
+video_count : 14
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=AK7_m-aThfw
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsTop25SQLInterview.csv file
+#############################################################
+#############################################################
+video_count : 15
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=CYszyA2Xzdg
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsPracticeSQLInterviewQuestions.csv file
+#############################################################
+#############################################################
+video_count : 16
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=wT9ICgxRPYY
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsThankyoufor10,000.csv file
+#############################################################
+#############################################################
+video_count : 17
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=XruOBp7yPXU
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsPracticeWritingSQLQueries.csv file
+#############################################################
+#############################################################
+video_count : 18
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=SwSbnmqk3zY
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsPythonProjecttoScrape.csv file
+#############################################################
+#############################################################
+video_count : 19
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=8p_OzqIJ_p4
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsPracticeComplexSQLQueries.csv file
+#############################################################
+#############################################################
+video_count : 20
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=0Hhqf8L-b_0
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsANACONDATutorialforPython.csv file
+#############################################################
+#############################################################
+video_count : 21
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=M2NzvnfS-hI
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsConnecttoPostgreSQLfrom.csv file
+#############################################################
+#############################################################
+video_count : 22
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=QNfnuK-1YYY
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSQLWITHClause.csv file
+#############################################################
+#############################################################
+video_count : 23
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=PuBadaR8qC4
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSTEPbySTEPguide.csv file
+#############################################################
+#############################################################
+video_count : 24
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=FNYdBLwZ6cE
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsLearnhowtowrite.csv file
+#############################################################
+#############################################################
+video_count : 25
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=zAmJPdZu8Rg
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSQLWindowFunction.csv file
+#############################################################
+#############################################################
+video_count : 26
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=HJAwAKwFX-A
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsLearnhowtouse.csv file
+#############################################################
+#############################################################
+video_count : 27
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=kY5HtrkjSj0
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsGitTutorialforComplete.csv file
+#############################################################
+#############################################################
+video_count : 28
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=LCVSmkyB4v8
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsunaccessiblevideo.Thecreator.csv file
+#############################################################
+#############################################################
+video_count : 29
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=6x7vHXfRAP0
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsThankyoufor1000.csv file
+#############################################################
+#############################################################
+video_count : 30
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=-DrSbc8B0WI
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsPracticeSQLandPython.csv file
+#############################################################
+#############################################################
+video_count : 31
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=gsa1oFn9n0M
+CNN networkFinished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsLoggingTutorialinPython.csv file
+#############################################################
+#############################################################
+video_count : 32
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Ww71knvhQ-s
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSQLWindowFunction.csv file
+#############################################################
+#############################################################
+video_count : 33
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Jsnw6HLASZA
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHowtoReadand.csv file
+#############################################################
+#############################################################
+video_count : 34
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=V_BozMwoYe4
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsRegularExpressionsinPython.csv file
+#############################################################
+#############################################################
+video_count : 35
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=0wjPsKDrYt8
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsWhatisDataScience.csv file
+#############################################################
+#############################################################
+video_count : 36
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=1-z9ptlBar4
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBestResumeFormat.csv file
+#############################################################
+#############################################################
+video_count : 37
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=35dXEQJkFE8
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsDictionaryinPython(for.csv file
+#############################################################
+#############################################################
+video_count : 38
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=jgNB4GN1UaQ
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsListsinPythonEXPLAINED.csv file
+#############################################################
+#############################################################
+video_count : 39
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=fhxByMe0mq8
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsExceptionHandlinginPython.csv file
+#############################################################
+#############################################################
+video_count : 40
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=5bwpXLHzZRo
+Error: Failed to set sorting
+Failed at this video : LocalandGlobalScope
+continuing with the next video from the same channel
+#############################################################
+video_count : 41
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=UzOnFDmoJ9w
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsWhatisaFUNCTION.csv file
+#############################################################
+#############################################################
+video_count : 42
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=HNChkuE6HyA
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsImportmodulesinPython.csv file
+#############################################################
+#############################################################
+video_count : 43
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=2gFqUWO-AWM
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsWHILEloopandFOR.csv file
+#############################################################
+#############################################################
+video_count : 44
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=NvdSKgQcyuc
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsIFELSEELIFstatement.csv file
+#############################################################
+#############################################################
+video_count : 45
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=BBb_duZIusU
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsWhatisaVARIABLE.csv file
+#############################################################
+#############################################################
+video_count : 46
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=PRGkYivK2xI
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsWhatisDATATYPE,.csv file
+#############################################################
+#############################################################
+video_count : 47
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=M323OL6K5vs
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHowtoInstallPython.csv file
+#############################################################
+#############################################################
+video_count : 48
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=i7BjHjRafU8
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsExcelAlternative:Howto.csv file
+#############################################################
+#############################################################
+video_count : 49
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=r2asdRpr3uw
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsiPhone12ProUnboxing.csv file
+#############################################################
+#############################################################
+video_count : 50
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Hl4NZB1XR9c
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSQLBasicsTutorialfor.csv file
+#############################################################
+#############################################################
+video_count : 51
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=1aybOgni7lI
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHowtoinstallPostgreSQL.csv file
+#############################################################
+#############################################################
+video_count : 52
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=j09EQ-xlh88
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsLearnWhatisDatabase.csv file
+#############################################################
+#############################################################
+video_count : 53
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=7nzTDrio7vY
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsDoyouneeda.csv file
+#############################################################
+#############################################################
+video_count : 54
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=J-uCLHTIWZ4
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsMacBookPro132020.csv file
+#############################################################
+#############################################################
+video_count : 55
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=_BMPh5M4BIY
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsMacBookPro132020.csv file
+#############################################################
+
+ Time taken to execute : 788.32 seconds

@@ -1,0 +1,628 @@
+cid,text,time,author,channel,votes,photo,heart
+Ugz4XfzLom79EoQVonN4AaABAg,Real amazing content to learn SQL quires for an interview can you please solve more problems on Stratascratch for SQL and Python.,2 days ago,Sirvach Jumani,UCBDgPcU2NXQ6Fl-Yv3-7uLQ,0,https://yt3.ggpht.com/ytc/AKedOLQ5zptGixGW5dkFy7zTUaeMuYxru1okcP3TOylZUA=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx5YadgO5O6I_DkN_54AaABAg,Thanks for educating us...Great way of explanation...,6 days ago,A K,UCwrQhvT_KXvWb5LAoEdAeeQ,1,https://yt3.ggpht.com/ytc/AKedOLTE6dO3RG5r4oBM4luQiGXr7S8MC6EBgYuKdgctTw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxlKSYDBSNrEGRHFgx4AaABAg,sir how you shift  the written sub-query to right to make it look clean. what is the shortcut key?,11 days ago,shubhang shukla,UCtQ1gSrkvmEkBP_azKDn2UA,1,https://yt3.ggpht.com/ytc/AKedOLSbXC28daCN59y7mFDnTZ7-uUfYFy1N_y5yQATDQg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzlyrIlxo899zlvtyJ4AaABAg,"Hi,
+Did any one tried using MYSQL?
+as I used the correct query but getting wrong result for user ID = 0
+
+With Data As (
+            Select PL.user_id, 
+            Date(PL.timestamp) as ""Date"", 
+            max(Date_Format(PL.timestamp, ""%T"")) as 'Load_Time',
+            min(Date_Format(PE.timestamp, ""%T"")) as 'Exit_Time'
+            from facebook_web_log PL
+            Join facebook_web_log PE
+                on PL.user_id = PE.User_id
+                and Date(PL.timestamp) = Date(PE.timestamp)
+                and Date_Format(PE.timestamp, ""%T"") > Date_Format(PL.timestamp, ""%T"")
+            where PL.action = 'page_load'
+                and PE.action = 'page_exit'
+            Group by PL.user_id, 
+            Date(PL.timestamp)
+            )
+            Select user_id, 
+           Avg(TIMEDIFF(Exit_Time, Load_Time)) as Session 
+            from Data
+            Group by user_id;",2 weeks ago,prashant verma,UCI_fwuRO4dJ0mfBIM879dxg,0,https://yt3.ggpht.com/ytc/AKedOLQ3giRQ1uLZbU5vqmTS8Qg3ZG25pyJls66BEQOa_S0=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy7y1rDmrNsjjkvlyx4AaABAg,"Thank you for this techTFQ as I really needed to practice and bounce back as I just failed the interview, even when I was good in SQL sometime back.",2 weeks ago,prashant verma,UCI_fwuRO4dJ0mfBIM879dxg,1,https://yt3.ggpht.com/ytc/AKedOLQ3giRQ1uLZbU5vqmTS8Qg3ZG25pyJls66BEQOa_S0=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugw8GdsjE1jkk5o1Aqt4AaABAg,Good explanation .,3 weeks ago,juhair ahamed,UCzNxEr0GhmSbdPq_YQebihg,1,https://yt3.ggpht.com/ytc/AKedOLTy3OL1IE7Kbn5B_C7P2xTbeLs8g6jWAyMoJ7SmyRA2H5uzjgmF8FFb1xiPIVpP=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwY-dYLvLXFxStL5Vh4AaABAg,Great Content as always 🎉 ! Would love to see more from stratascratch,3 weeks ago,Prajwal Likhithapudi,UCijXwsm23CbB6JR2B6aFHtw,1,https://yt3.ggpht.com/ytc/AKedOLTzz1y82R336BduUpo7_2uJ7fSYpOWieBvMk2hQ7g=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwlkyV-zl7AjmiQ4gZ4AaABAg,"Hi Can you please provide the solution for Gender With Generous Reviews, I think I am stuck somewhere and not able to find out,  thanks for your videos they always help me a lot, keep up the good work",3 weeks ago,Tiwari Mrityunjai,UCLNr75EiI9MvetJzErO4D3w,0,https://yt3.ggpht.com/ytc/AKedOLRYrFMckWJtIHNQSOmV-Go1ccpOZp3q5XeKNAGEysk=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwK_kTIAlBA53Jl3sZ4AaABAg,Thanks for the tutorial,3 weeks ago,Sudhir Kumar,UC8IncJQXkWG03NwdUC3gGnA,1,https://yt3.ggpht.com/ytc/AKedOLT0rkOMZDx2Dckvb7dRVZECRhOmyotOnKFeHt68=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzn2KbNRDa0VLgIy614AaABAg,Thank you for the useful videos. Could you please do a video with the new inbuild functions in the SQL server newer versions? It will be really helpful,4 weeks ago,priya dharshini,UC4CWyxupK3z5XFS94DUa6Ww,1,https://yt3.ggpht.com/ytc/AKedOLRQnFGs3CPW26GEmqaRSq54bf2NlP_3NYsC1OZoK2U=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxcvPzpbxzGygynk-F4AaABAg,"There are 8 IPL team. write a sql query that no team plays with other team more than once......
+How to write this query ?",1 month ago,PRATYAKSHA PARASHAR,UCqHnZ3wYVh7ID4IDgqRQ0cw,1,https://yt3.ggpht.com/ytc/AKedOLTSlBHo2EzM5uQhRDkWxA0fq8-bajKW3wroOnZ3Dw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzQDq2tArep1cMxKXZ4AaABAg,"Hi Bro... I have a doubt please clarify it , you have wrote the */ at the beginning and ending of the query to not to excute first query, what symbols are used in MS SQL to hide the one query where we have multiple queries as you done in the video.
+Thank you",1 month ago,Hemanth Naidu,UCwXBUD29N8vorwjctWircxg,1,https://yt3.ggpht.com/ytc/AKedOLSFed-vRVC0cxB0eK2LDZg7Lg_vUEyzznoYO7Z2tA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzBRbNhcr2krdqip2R4AaABAg,Loved the content ..thank you thoufiq bro..keep doing awesome videos..we always support you..😊👍,1 month ago,Bhanu Kiran,UC7DrLxmNkkZVeouaWoIpRKg,1,https://yt3.ggpht.com/ytc/AKedOLTnZpjMKu_Y60GcUkDRcfs0YcuVo1OffJ_BZ6yCAA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyNGJ2RP6I_by91YZp4AaABAg,Are there any classes,1 month ago,moving cloud,UCK3AyvDezSGAnOPGL4tzrHg,1,https://yt3.ggpht.com/ytc/AKedOLS61cHACQxc_tJmBQtyRVEu7qdQv7s6VDI6zjDWlrYHkYrfEA12J_rARKXFOM6j=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwVj9IMGsDoWHbAo1N4AaABAg,superb!,1 month ago,shashank emani,UCX2Qc2I6kPkyH2iyK5Ta7Iw,1,https://yt3.ggpht.com/ytc/AKedOLQepJaTBbD52v2bbt7W31eATbaWKy7xIcpU7yzq374=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyP57ueOAteTj_nfhl4AaABAg,"I am learning SQL,you are the best.",1 month ago,wasdan wasdan,UCHYo4Nqhftg6ssvs8IJ3M0w,1,https://yt3.ggpht.com/ytc/AKedOLRQCo6Ummzt1AFdwF9MjoJlCq05f-apiJOSK_LRyQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzESe1xoU6MOe-JjyR4AaABAg,Great content and thank you so much. I learned a lot. Hopefully you will continue uploading and sharing more complex queries. More power!,1 month ago,Pau B,UCu1Edp9cGkDX9zXXTT5qsfw,1,https://yt3.ggpht.com/ytc/AKedOLTLPs1G0LpNKrJbsJeOezlI3L_kCvNfKFEm0F97NQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxTr3xujC0-e7qaH1F4AaABAg,You are awesome,1 month ago,Arun kumar,UCGzdHsSfBUo1sFry91FeBFw,1,https://yt3.ggpht.com/ytc/AKedOLS32t_SY3UOY8qbzD5cpCseak3y3tI0chxgXA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwl0wgSGgHhqTCnY-14AaABAg,I sir tq for your explanation it's great feeling,1 month ago,s s,UCVAPQDbuJG-Bn4RgMPAz_Nw,1,https://yt3.ggpht.com/ytc/AKedOLSudcXLdJPfihYxN-Stzl9fXTiwZKyhdOQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwWbW7JOo9eXkxvXNx4AaABAg,Highly appreciating one ...please keep posting such content,1 month ago,abinash das,UCBKYcdcoCZUFFokxSzGbH0A,1,https://yt3.ggpht.com/ytc/AKedOLR3SG6-XQ0iGzzfM8-lV7uKX4p4EwOz140BSJtrzA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx5YadgO5O6I_DkN_54AaABAg.9_bV_PanVJv9_cY-Od6uEH,Glad you liked it,5 days ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxlKSYDBSNrEGRHFgx4AaABAg.9_P6gPAtrGa9_PIriOiBz6,using TAB key bro,11 days ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxlKSYDBSNrEGRHFgx4AaABAg.9_P6gPAtrGa9_PLaZzHrMN, @techTFQ  thankyou sir 🙏,11 days ago,shubhang shukla,UCtQ1gSrkvmEkBP_azKDn2UA,1,https://yt3.ggpht.com/ytc/AKedOLSbXC28daCN59y7mFDnTZ7-uUfYFy1N_y5yQATDQg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzlyrIlxo899zlvtyJ4AaABAg.9_7bEcx9J749_7cEcFpZOS,"just correct the query using :             SEC_TO_TIME(AVG(TIME_TO_SEC(TIMEDIFF(Exit_Time, Load_Time)))) as Avg_Session",2 weeks ago,prashant verma,UCI_fwuRO4dJ0mfBIM879dxg,0,https://yt3.ggpht.com/ytc/AKedOLQ3giRQ1uLZbU5vqmTS8Qg3ZG25pyJls66BEQOa_S0=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy7y1rDmrNsjjkvlyx4AaABAg.9_7A60McKCY9_B6Q2fgB-z,Glad it helped and good luck Prashant for the future interviews!,2 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw8GdsjE1jkk5o1Aqt4AaABAg.9Zs6CZkkWJH9_B8CakSlkf,Thank you :),2 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwY-dYLvLXFxStL5Vh4AaABAg.9ZpaxPSDJO29_B959vZ-at,Thank you and will do :),2 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwK_kTIAlBA53Jl3sZ4AaABAg.9Zn6Ic3Yx8j9_B9jCEpLVZ,You are welcome :),2 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzn2KbNRDa0VLgIy614AaABAg.9ZbhG9qOiE59ZcIbm1_UV7,"Glad you liked it and noted on the request, will consider doing it",4 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxcvPzpbxzGygynk-F4AaABAg.9YzoxJ8crQO9Z1erSgQjHT,ill try to include this query as part of my sql query training class starting next week.,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxcvPzpbxzGygynk-F4AaABAg.9YzoxJ8crQO9Zg77sH7U_L,"I just posted a video yesterday where I have solved this query. perhaps you can check it.
+link below:
+https://www.youtube.com/watch?v=aE623ff7zkM",4 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxcvPzpbxzGygynk-F4AaABAg.9YzoxJ8crQO9ZgH400iBUz, @techTFQ  Thanks a lot.,4 weeks ago,PRATYAKSHA PARASHAR,UCqHnZ3wYVh7ID4IDgqRQ0cw,0,https://yt3.ggpht.com/ytc/AKedOLTSlBHo2EzM5uQhRDkWxA0fq8-bajKW3wroOnZ3Dw=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzQDq2tArep1cMxKXZ4AaABAg.9YyYi_gispo9YykmqZ9Y1T,"/* this is comment */ 
+the above is the way to comment a piece of query or code. And this will work is MSSQL, Oracle, PostgreSQL, MySQL etc.",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzQDq2tArep1cMxKXZ4AaABAg.9YyYi_gispo9YztOJMYGih, @techTFQ  thank you bro,1 month ago,Hemanth Naidu,UCwXBUD29N8vorwjctWircxg,1,https://yt3.ggpht.com/ytc/AKedOLSFed-vRVC0cxB0eK2LDZg7Lg_vUEyzznoYO7Z2tA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzBRbNhcr2krdqip2R4AaABAg.9YwNtUBTeZW9YwWrryWJ-2,Thank you so much buddy 🙏🏼,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyNGJ2RP6I_by91YZp4AaABAg.9YsJG0KlTpu9Yt_fR1JPJ7,will come up soon. ill announce coming week,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwVj9IMGsDoWHbAo1N4AaABAg.9Yrb4Mtnckt9YrfEv8CqQa,Thank you 🙏🏼,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyP57ueOAteTj_nfhl4AaABAg.9Ye6nX2kMVe9YebUSvEBmW,Glad to hear that!,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzESe1xoU6MOe-JjyR4AaABAg.9YcXKbvWkiZ9Yec2UyIw_H,"Thank you Pau :)
+Glad you liked it",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxTr3xujC0-e7qaH1F4AaABAg.9Yam75oJZfn9YecfB14Mf4,Thank you Arun :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwl0wgSGgHhqTCnY-14AaABAg.9Y_hoIA4yCq9Ya-jTZ143o,Thank you 🙏🏼,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwWbW7JOo9eXkxvXNx4AaABAg.9Y_DTgcUTbd9Y_G_nCrFk_,Thank you Das and will do,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgykxMJ4eEc-vHdtdGV4AaABAg,"Awesome work, it's worth sparing some time in learning. Keep up the great work.",1 month ago,Roy Saradhy,UCS9t1y_N5EvTLFgnRIX4_8w,2,https://yt3.ggpht.com/ytc/AKedOLTCu9DIbHvSy5bDcnfM73nXhM-Nj6dU0fQ91XoANQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzxNwfFutHuBdKICLt4AaABAg,Great work. 👏👏 Please continue the SQL series,1 month ago,FREEMAN GAMING,UCz5tfvXawLP7-mZ9N75xf6A,1,https://yt3.ggpht.com/qVWe9pScThf8rRXuHAvA7swesLyBvaCQeWJdOaM_75Q6JgtncYc8DIp7S3VsE7cFN0G8hzzvdg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzlGpcTdLOcXgEaoZN4AaABAg,"Hey Thoufiq, How can i connect with you ?",2 months ago,Sandeep Kumar Singh,UCri54LgbeSxxPqySVhUYa5A,1,https://yt3.ggpht.com/ytc/AKedOLTpazFs7_9v7SyXedBkbdwFwnZz30qCvp_hogJmCYS6O1q5Wc05tpFZF4igJW8C=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwT3rvqrcV19Lz7qQV4AaABAg,"Your tutorials helping a lot, please explain pivot in mysql",2 months ago,ahmed baag,UCFhSWufpdIKlXN4-_b4RB2w,1,https://yt3.ggpht.com/ytc/AKedOLTzDePn4J3jzXIzYH7fxao6e2JLnfs5pvLQ9l82=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxgBLWe7wDjbC0PdB14AaABAg,More more more more more more more videos pls,2 months ago,monish babu,UCuG-s5OLaOq-XS6nwSgpmew,1,https://yt3.ggpht.com/ytc/AKedOLTxkbWXX4gJjPodMDG_UMp4lqGzCtrrtSO9hw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzmc01Jei7Be-6_jKF4AaABAg,Hey  @techTFQ  Thoufiq  can you pelase create a video on case statements in sql and their advanced cases as well? thanks,2 months ago,Ajith Shenoy,UC3JZH9BbW61TYrgEoOfBbug,1,https://yt3.ggpht.com/ytc/AKedOLRiQfTIufu3mYYs-bCfGG3PaaYSrINV8Y5PFQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzZ_Mnz0Skr7yUKq354AaABAg,"Thanks TFQ, please upload next part also, thanks again.",2 months ago,Vishal Nasre,UC6qcg9zUKnYr7xxAqGWVK0Q,1,https://yt3.ggpht.com/ytc/AKedOLTFaT0Db9LEp6EoHDGVpyPHR725Sv-64bbb0_MB5g=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzhQpUCqK9OmGgfKNh4AaABAg,Hi Thoufiq. The way you explain these queries can make even a child understand these complex codes better. You are doing amazing work. Please continue to solve more complex problems on Stratascratch,2 months ago,Gautham A,UCwhLvzEww-in_cHRSO0npHQ,4,https://yt3.ggpht.com/ytc/AKedOLTbh5xbNTxhz9WhkTb6VnCfMy24I5mI07NP_9Qr=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxEJ_Tbn7xI9zUHTFR4AaABAg,Fantastic..can you please work on one session for only on  date functions.,2 months ago,Ramesh Babu,UCLhF6MtfQwZuy0l0zydjOGg,1,https://yt3.ggpht.com/ytc/AKedOLSjYyHlDfliZuMxgTu6bYrZnTd8AYXPf6x72A=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzCOaPKVXB6DR5UvG94AaABAg,could u share similar site for oracle,2 months ago,Anshu Thagggede le,UCnH3W77TxcYhr9i-21ObLeA,1,https://yt3.ggpht.com/d5yq7Hnvdrr08jrkz3a9AatxtwIwTx3MSyod5BIqURU5xqr4RHtAgfEcu_ap9PVoSsDtBS7A1w=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwNndN6JyEu69B9Anx4AaABAg,just awesome,2 months ago,Palash Mohajan,UCzo_EX4XkDXyGUcosV09ZIw,1,https://yt3.ggpht.com/ytc/AKedOLTYrK6SldvlydUz1-mvUbc0M8p2evPzcnAZiZQw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzp-t2QYjR25J0X5954AaABAg,Your videos are informational … do you take online teaching sessions … ?,2 months ago,sudhanshu gupta,UCizgXtmhzFTpE1QtzdimmSg,1,https://yt3.ggpht.com/obK8dGHQlXXkatDi6ss1xDWPEuenzXqNuFdUnzJU7q7JwJ44nX_Mi16slYQRhH-N_mVWBVMs=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxOoAAImC-I8Gs51Hl4AaABAg,Your video always worth watch sir.....👍,2 months ago,shivam mishra,UCXqIKkgTXblUArP8WlPsjfg,1,https://yt3.ggpht.com/ytc/AKedOLT-F1-JOqW2spfBPEHXwi-nGwIYFh2WhZLctk4XTYwK8miteWy5ZNFTMz-xro3G=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyteM1GDtpesuQDt2x4AaABAg,"Amazing as all your videos.
+Thank you thank you thank you.
+I learn a lot from you.",2 months ago,Abdelkader KAOUANE,UCM8OyM0L2fAxZppegsrUblQ,1,https://yt3.ggpht.com/ytc/AKedOLT9wxzYg8TFK3ju8uhkCa4ciNtlTbWE5djDjA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwuYZcrxDn9FDXQMdx4AaABAg,Love the content Thoufiq. Could you add practice problems in Python/R and BI tools as well? Would help loads!,2 months ago,Arundhati Sarkar,UCBp6pHTUjToPUWz1LfyzbDQ,3,https://yt3.ggpht.com/ytc/AKedOLQteAezUyfjLkEix-ji_yBKIy6pg_svOmlQX6_4Nw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz_AXvupnTE5Q_Lx8B4AaABAg,Hi techTFQ could you please do a video on TRIGGERS....?  Great and clear tutorials,2 months ago,Langton Kadzere,UC1cjd4LH2gQXVuWy7xi8s3A,0,https://yt3.ggpht.com/ytc/AKedOLTJnG6T4V7EhDPKOjL7fxsiZJqEcbZo5vclKw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz0OPSd3pGM-NIYk8N4AaABAg,How to insert the column from one table1 to another table2 but in table 2 we have many columns and in table 1we have one column.,2 months ago,Abhilash Patil,UCxXaYLbDCfNlqqpOT4E2Uhw,0,https://yt3.ggpht.com/ytc/AKedOLT27HBZfAywf-OU2KipQXc4WY-RZrmOZ1l43km_PylHga6HW3Txfugs79EFEUKs=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzE9jzFrmwZ5sbgajx4AaABAg,"Thanks Taufiq, I was looking for good resource to practice. Could you please make a video on COALESCE function too?",2 months ago,Chaitanya Gupta,UCDAo8OEJ_6xlCsXXca98FCg,1,https://yt3.ggpht.com/ytc/AKedOLQptfidp8jJrHEGJQBGhg9hEEYnxUAVeYzyVsbQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzEeV-Vou1IORY018t4AaABAg,Great Content,2 months ago,Nitin Verma,UCRUM10q5oaCB-xCh1FWU1pQ,1,https://yt3.ggpht.com/ytc/AKedOLQZmQo4vxwBhwOPSXwOpM5qrVGV0mRTx8i7k4Y_1Q=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy8RRN4PFkO60hxUT54AaABAg,It's is very useful video for me. Please make more videos on stratascratch. You are explanations are perfect,2 months ago,rümeysa eren,UCPT1l78fGXpQI9xTQKXxUVw,1,https://yt3.ggpht.com/ytc/AKedOLRxbA3abOwO0vetTMscwODjFvRixW4UPyhQn_Rw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgykxMJ4eEc-vHdtdGV4AaABAg.9YXfnhND7Ok9YXs_jlTVYl,Thank you Roy,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzxNwfFutHuBdKICLt4AaABAg.9YVX06_vsQ89YWE4XT0gyY,Thank you :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzlGpcTdLOcXgEaoZN4AaABAg.9YT3TXGzkZm9YWGRAlt2XP,You can email me at techtfq@gmail.com,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwT3rvqrcV19Lz7qQV4AaABAg.9YRY9DTvuBJ9YWGpZ7snlA,"MySQL does not have PIVOT but we can do same thing in mysql using CASE statement.
+ I have explained it in my leetcode video
+
+haha same question multiple times so same reply Ahmed :)",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwT3rvqrcV19Lz7qQV4AaABAg.9YRY9DTvuBJ9YWHYNor5IG,"Mashallah, thanks for the reply sir",1 month ago,ahmed baag,UCFhSWufpdIKlXN4-_b4RB2w,1,https://yt3.ggpht.com/ytc/AKedOLTzDePn4J3jzXIzYH7fxao6e2JLnfs5pvLQ9l82=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxgBLWe7wDjbC0PdB14AaABAg.9YPGI5oALFi9YWHIZzsthK,Noted Monish :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzmc01Jei7Be-6_jKF4AaABAg.9YO3Ku1OrZx9YWHSAA3ZfD,"Noted Ajith, will do",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzZ_Mnz0Skr7yUKq354AaABAg.9YNmxUMpsJP9YWHh-TmB87,Glad you liked it and will do,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzhQpUCqK9OmGgfKNh4AaABAg.9YNNv0Wb2d09YWHjkXXCyC,"Thank you Gautham :)
+Glad you liked it",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxEJ_Tbn7xI9zUHTFR4AaABAg.9YNEftfMdJW9YWHp68DADb,"Noted Ramesh , will do it",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzCOaPKVXB6DR5UvG94AaABAg.9YMOKTZcoAB9YWHxtQH1C1,Ill need to find it bro,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwNndN6JyEu69B9Anx4AaABAg.9YLslgUUb2z9YWI66yLEQO,Thank you :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzp-t2QYjR25J0X5954AaABAg.9YKwrVsa_UF9YWIO-RlisV,"Thank you :)
+and yes i do on lighthall.co",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxOoAAImC-I8Gs51Hl4AaABAg.9YKrjo592ik9YWIPVC44Sj,Thanks a ton Shivam,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyteM1GDtpesuQDt2x4AaABAg.9YImnA-WiYp9YJAXavFZfB,Really glad to hear that ☺️☺️,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwuYZcrxDn9FDXQMdx4AaABAg.9YGkx0TQ5S49YWJ4623BLK,Thank you Arundhati :) and sure will consider the request,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz_AXvupnTE5Q_Lx8B4AaABAg.9YGhfxIQX_29YWJ6nBJbG1,"Thank you :)
+and sure will do",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzE9jzFrmwZ5sbgajx4AaABAg.9YFqPa-xGHh9YShkFxir5_,It returns only non null values,2 months ago,Ritika Jaiswal,UCWyiXlSc-GIWucRd8gbOMcQ,2,https://yt3.ggpht.com/ytc/AKedOLQvBxGBYm3pWXKLQla3wzNkUMtdH0R9er16rw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzE9jzFrmwZ5sbgajx4AaABAg.9YFqPa-xGHh9YWJTyxZlWm,ill explain Coalesce in a future video,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzEeV-Vou1IORY018t4AaABAg.9YFJSf7_j4i9YWJVjtBu54,Thank you :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy8RRN4PFkO60hxUT54AaABAg.9YEhG-mTBNb9YWJar8VrpG,Thank you :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzHtmnDmKEen1WyudV4AaABAg,Please make more videos,2 months ago,HAMZA,UCW-oHoulreyA9GXfbxP_z7w,1,https://yt3.ggpht.com/ytc/AKedOLS3omge-f9hpGGzTRpOnNAlo2THdwBSAwhlzw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy39bhx0EiRf08W9kV4AaABAg,Can we check answers without taking a subscription?,2 months ago,Bhaba Bajracharya,UCbqvEE_7IVcVfqtgXvlFWfg,1,https://yt3.ggpht.com/ytc/AKedOLQVQlGELf86xupdXD4kj7KRkunwSL5txxO2WG0Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxU9zZ1yvT6uI9ezbN4AaABAg,"Hii, thoufiq thank for awesome video great content. I would request you to please take some advance classes on sql like one you took last month (sql for beginners).",2 months ago,Agrim,UCPXwV0x9J1k9zrlJnVGuvAw,1,https://yt3.ggpht.com/ytc/AKedOLSf1SaChmKd0twC7AuRD0k1MzRkJVAv_KwzfQO2EEjHMCQXknLPhYCTQcfTaVOx=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyXBcah8veD-9imjRF4AaABAg,"What would happen if you did something like : SELECT use_id,max(timestamp) - min(timestamp group by us_id?",2 months ago,Caribou Data Science,UCEYlsdkxG4hY6c5-5d3gxCw,0,https://yt3.ggpht.com/zIoFq1B-sI7jBAHxz6ge0LpxLo-u4Brkfn9zTmGff_JasF_XHHG7YU90u-8pUSxk7a6VaLdyT3E=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw9DbmkxGdpzj1ekvV4AaABAg,Wow I was just about to make a LinkedIn post asking if any one could suggest  resource to revise and practice SQL. ❤️❤️,2 months ago,Vishal Karur,UCeT1nRThJYKceFfIwhFoXbg,2,https://yt3.ggpht.com/ytc/AKedOLS6PvJNdgih62QVbDDNywuwMLck47jYHYUR=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzHDFlkSpY6T4Viigl4AaABAg,This was really very helpful Toufiq,2 months ago,Pranav Kumar Mishra,UCCZAn8xRst3DKSUsHF0mXvg,2,https://yt3.ggpht.com/ytc/AKedOLQjV4ElWByxAYvrZNuH_sq4reBX_H5il445gDiVSA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyZwY3G4HVV20vSOHx4AaABAg,"Excellent content, Vai. Keep posting such great videos.",2 months ago,Hadi uz Zaman,UCCTn9fY0ebticVj4EqYLoRA,2,https://yt3.ggpht.com/ytc/AKedOLRwkT4H_cAS4vPm9YoTP2hCr-a2zgxKp7j21P7thg=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwfjs0CIMokr0o_K9N4AaABAg,"you are my sql guru, learning a lot from you thanks for your lessions.",2 months ago,My Angle,UCrc4xcwW2E3Yu3_HT1GBA-g,2,https://yt3.ggpht.com/ytc/AKedOLTQXwlXACNh2ou58-NRedusBdZET6Pmrx4W3apX=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxwsR98hhtHZcf8T5p4AaABAg,Very useful video Thoufiq.. keep posting more,2 months ago,Anju Achuthan,UCOoM6BKBZI4NFsAc5a_O34Q,2,https://yt3.ggpht.com/ytc/AKedOLTc2RvaGIu6o8a0P79dBx1RbnZxn9akPYCr-J5QZg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyLxRh4a5GThIT9b2h4AaABAg,"Thank you so much for your effort Tfq, please do continue doing more SQL videos.",2 months ago,Srinivas,UCO6bMKZKKoCH3fT1um03Bmw,1,https://yt3.ggpht.com/ytc/AKedOLTgFkfDV1oYgdtrrMY7rpCYJqQPAclb2i7O1sGMqw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxuSUwi5Wjckfm9Bjl4AaABAg,Top content as always 👌,2 months ago,Sanjeet Lal,UCzAss41Ng7p4QRFHbpQtBFw,2,https://yt3.ggpht.com/ytc/AKedOLQP9TPaVFReOo8CrjG1LTSx8_UDbzkWGPcgUy1c=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugxc1q57VnjWrWS2rKJ4AaABAg,"Superb . Please solve more queries , difficult queries like 2 seats in last part . I will definitely explore platform you have recommended . 
+
+Thank you very much , it's really helpful .",2 months ago,ashutosh bafna,UCeqUEl13VfDJKYi6tnokkrQ,6,https://yt3.ggpht.com/ytc/AKedOLSdIAIsAx1GR46wMC2RYYr6A58qVy9U2R6KisNWfQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugxvl6MlF0kS3PIhdpd4AaABAg,hey @tfq does these type of complex queries will be asked in fresher data analyst interviews??,2 months ago,Mohith Kethireddi,UC29Mk6LjwZBqpsIpExp4mKg,1,https://yt3.ggpht.com/ytc/AKedOLQzgj3oSViVk77BZkgrNv_s4hoo2j81Ifn0CsHUUu0=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx4HWlQnT816T3fX_B4AaABAg,How much the subscription costs,2 months ago,Shweta Patil,UCwJhTdFiLgxQ-D83puDoAMA,2,https://yt3.ggpht.com/ytc/AKedOLTXEkDnE8nw9ju_YVBYWxMGi_2Y3-gZnxuGc3ZD=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwJn-uBPkKq7-cIVaV4AaABAg,Great work! Appreciated your efforts.,2 months ago,Maruthi Singer,UCgRkV2CvG73El-k5wY6KpFg,2,https://yt3.ggpht.com/ytc/AKedOLSmvtvq-riz73ttX4UMdiA_Qb_yeS-9XFMj=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzzP0LaTQZrPAasQf94AaABAg,Tfq sir all the sql related topics available on ir channel? If some looking to start from scratch?,2 months ago,iamibraheempatel,UCBAlt9aYpiJOhkpYTfs-FBQ,2,https://yt3.ggpht.com/ytc/AKedOLQ3_S_2bAZcxaFMR6x_kKCFzxJ_OMbyJBaCJqlIhzlR1iScwTRiLn-sM3aJDUqm=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwIRx1_MvJ00hYfSA94AaABAg,"Tawfiq , thanks a lot for this useful video, a lot of this content, please",2 months ago,Asmaa Abdulhamid,UChznKhr7kJUpNQagtDZnkOA,2,https://yt3.ggpht.com/ytc/AKedOLRRUIhCqY7s7xsFKkUKRqtIW20Ps5EDsvob8fyr-Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgymKjaJ8OI7aSlTEzZ4AaABAg,I wish if you could be my mentor. All of your videos are great and simple to grasp the concept. Thank you!,2 months ago,Sudha Shahi,UCK6k2HqHWGg4MYEMVsV4wlw,3,https://yt3.ggpht.com/ytc/AKedOLSubBeWkhk_fGCnAttr-HeurKZTjRF5xq_6WA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugyhkz94_VnFEKwnrrt4AaABAg,Thank youuuu soooooooooo much for these videos..sooooooooo helpful,2 months ago (edited),Shiv Sharma,UCCz0z8IiU_rjbjBt-4Cbwig,2,https://yt3.ggpht.com/ytc/AKedOLQfRQo_uA1vSYqlSk6zFGJ68elSlUXsaJhrLDhLPg=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzi2VKpurcohNEg3S54AaABAg,"Hi Tfq great content, 
+how are you able to solve complex queries with such ease ? any tips or suggestions?",2 months ago,navpost malone,UCRgt0ThZtNp9-kFFk8CmUpQ,6,https://yt3.ggpht.com/ytc/AKedOLQ_QMcaeT4rh5xcaQ1vCyMR7kWXh8UQgLZzh5bG=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzHtmnDmKEen1WyudV4AaABAg.9YEafe9bSd79YWJe4L9Q-v,Noted Hamza,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy39bhx0EiRf08W9kV4AaABAg.9YDnjrD7zS39YWKFrs7Imm,yes you can,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy39bhx0EiRf08W9kV4AaABAg.9YDnjrD7zS39YWL1hIUFNN, @techTFQ  How to?,1 month ago,Bhaba Bajracharya,UCbqvEE_7IVcVfqtgXvlFWfg,1,https://yt3.ggpht.com/ytc/AKedOLQVQlGELf86xupdXD4kj7KRkunwSL5txxO2WG0Q=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy39bhx0EiRf08W9kV4AaABAg.9YDnjrD7zS39YWLoiSRVeM,"There are some free questions which you can solve and see answers
+I’ve shown the answers section in video",1 month ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxU9zZ1yvT6uI9ezbN4AaABAg.9YDJUv8-jWI9YDTdutB9Fn,"Hi Agrim,
+I am planning to start an SQL query writing session end of this month.
+Plan to solve some basic, intermediate and complex queries live ..
+I’ll be announcing it in few days",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyXBcah8veD-9imjRF4AaABAg.9YCYiSw6qRP9YD89U3-f8c,"I believe that would give you the length of time between the first record and the last record, grouped by user_id.",2 months ago,JMCodd1,UCzb-sO1pach5fcQl_0Avgsg,0,https://yt3.ggpht.com/ytc/AKedOLQ4rFsQJk3XKB_x2cKpUPgE5vqgAnEX7Pktjw=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw9DbmkxGdpzj1ekvV4AaABAg.9YC3M6wOXO59YCZ6tDMl8H,Glad this helped you Vishal :),2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzHDFlkSpY6T4Viigl4AaABAg.9YBwA2wRVQf9YCY_B-usr_,I am glad to hear that pranav,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyZwY3G4HVV20vSOHx4AaABAg.9YBuFBew2bs9YCYXrGg4bA,Many many thanks Hadi,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwfjs0CIMokr0o_K9N4AaABAg.9YBtEJ-SytE9YCYWBtz0ig,Glad to hear that :),2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxwsR98hhtHZcf8T5p4AaABAg.9YBrE_98wTR9YCYUFty29R,"Thank you Shriya, I will",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyLxRh4a5GThIT9b2h4AaABAg.9YBmLl8tN2P9YCYRYk-xhy,Glad you liked it and sure will do,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxuSUwi5Wjckfm9Bjl4AaABAg.9YBl2RI_Qg_9YCYP4JAKoA,Glad you liked it Sanjeet!,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugxc1q57VnjWrWS2rKJ4AaABAg.9YBjVRLfalX9YBk_g7Jg5x,"Your welcome Ashutosh 🙏🏼
+Glad you liked it",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugxvl6MlF0kS3PIhdpd4AaABAg.9YBigOktIvf9YBk7HbJZ9E,Not really.. the questions I solved in these videos should not be asked for freshers ..,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx4HWlQnT816T3fX_B4AaABAg.9YBhD0z0sqX9YBkHt4gi-4,"You can check it in their website..
+But you can also use it for free .. with free account I just get access to few questions I believe",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwJn-uBPkKq7-cIVaV4AaABAg.9YBgzlcgrmr9YBkJt3Lcs3,Thank you 🙏🏼,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzzP0LaTQZrPAasQf94AaABAg.9YBfl1jvhEi9YBkSD41n-R,"I plan to make a complete tutorial series for beginners in my channel soon.. 
+where I will cover all topics from scratch",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwIRx1_MvJ00hYfSA94AaABAg.9YBdaiz4qKu9YBkWCVOqrm,Thank you Asmaa and noted,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgymKjaJ8OI7aSlTEzZ4AaABAg.9YBcUS-Vj0H9YBdEGLlUEX,Thank you for your kind words Sudha :),2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgymKjaJ8OI7aSlTEzZ4AaABAg.9YBcUS-Vj0H9YBicFCq4LG, @techTFQ  sir do you have any course for SQL or data analytics or any website to like connect with you,2 months ago,suvch 584,UC5ojys8ilzJZ8HAvvEBqfGw,1,https://yt3.ggpht.com/ytc/AKedOLTP_LM9zu5Ut1PwqxiGRyC8B43SqyGee653NQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgymKjaJ8OI7aSlTEzZ4AaABAg.9YBcUS-Vj0H9YBkCXkpNmc,"Have not made any course yet ..
+You can reach me on LinkedIn .
+You can find the link in my channel",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgymKjaJ8OI7aSlTEzZ4AaABAg.9YBcUS-Vj0H9YBkDetu9Xb, @techTFQ  if possible please let me know sir,2 months ago,suvch 584,UC5ojys8ilzJZ8HAvvEBqfGw,0,https://yt3.ggpht.com/ytc/AKedOLTP_LM9zu5Ut1PwqxiGRyC8B43SqyGee653NQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgymKjaJ8OI7aSlTEzZ4AaABAg.9YBcUS-Vj0H9YBkW2du1Wq, @techTFQ  sure sir thanks for letting me know,2 months ago,suvch 584,UC5ojys8ilzJZ8HAvvEBqfGw,1,https://yt3.ggpht.com/ytc/AKedOLTP_LM9zu5Ut1PwqxiGRyC8B43SqyGee653NQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugyhkz94_VnFEKwnrrt4AaABAg.9YBbI6AokAG9YBbiR5jaxP,You are so welcome Shiv!,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzi2VKpurcohNEg3S54AaABAg.9YB_V6v3qV89YBbrHfkZmD,"It's not always so easy.
+But the only way to get better is solving more queries. 
+More experience you gain, better you get",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,10,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwi8ynUSc3KbeD3yaJ4AaABAg,The love & appreciation you get from subs and ppl is an indication you are doing something right.. Keep it up🤗 God bless you. Masha Allaah,2 months ago,Fathima Farahna,UCmMR20vhhydELL3JFxZ6MoQ,6,https://yt3.ggpht.com/ytc/AKedOLTsP0crbsq7j0CfAPty-RPMZVW7t34FCVgcSt6RIw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyZP6MmSuZtuVFLOBh4AaABAg,Thank you Thoufiq ..,2 months ago,pveeranji reddy,UCAiIOYz6VliLYugMJLuh8rA,1,https://yt3.ggpht.com/ytc/AKedOLRZCB88SrBtCNY3aMU2DuR2KsTxOI7UkYT2OQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyAmV8cOy6H5i1A_gJ4AaABAg,"You are doing videos fast,but for us taking time keep those concepts into brain...you are lessons great and so logical. 👍😀😀",2 months ago,pveeranji reddy,UCAiIOYz6VliLYugMJLuh8rA,5,https://yt3.ggpht.com/ytc/AKedOLRZCB88SrBtCNY3aMU2DuR2KsTxOI7UkYT2OQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgznNeNz7NC8PJRw-lV4AaABAg,Waoooo 🔥❤️,2 months ago,Sahil Singh,UCSdD9F--GPf6_oo6DOHIPQQ,2,https://yt3.ggpht.com/ytc/AKedOLTQG1TG7W9wGmPo_n6mC2ZYIZsCwQcrFqrzQEA-=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwi8ynUSc3KbeD3yaJ4AaABAg.9YBXa91Ef7S9YBbuoMZsuH,Thank you so much 😀,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyZP6MmSuZtuVFLOBh4AaABAg.9YBXITMOgJK9YBbx55ih9N,Your welcome buddy,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyAmV8cOy6H5i1A_gJ4AaABAg.9YBX6Lax3XF9YBXqeHqcIM,"I want to make it slow buddy but the videos are already so long , I wish to make it a little short by talking a little fast 😁😊
+But thank you so much for still watching and your continuous feedback 🙏🏼",2 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgznNeNz7NC8PJRw-lV4AaABAg.9YBWPvBrmKb9YBbymHKVen,Thank you Sahil :),2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyh_vF-nvNc2vl4Iqx4AaABAg,Great and Thanks!!! Make more video like this for sql practice.,1 day ago,amol berad,UCBn2P6a0sA52kvlOAkeNMJg,0,https://yt3.ggpht.com/ytc/AKedOLSIOC6S0dTFpxecSujW0g66gS7lgd6DpCLfKLCsOw=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzPZYnOeEkL0smUDBF4AaABAg,THANK,11 days ago,Lokesh Verma,UCzQNY4oqy5k2ms1VDa8oSVA,1,https://yt3.ggpht.com/ytc/AKedOLTbHPUBGsRUYQ0c2nJilq2XYJFEzXL0LuR_o6OqWw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzwPs-aHKWmge2zAE14AaABAg,Hi Sir any sql dataset where we have around 5-6 tables to join? Just wanted to practise join with multiple tables.,13 days ago (edited),Techno Spark,UCxjiLcL8Kv5j0vWUdpVWXAg,1,https://yt3.ggpht.com/AYsNcaF7ub7aKDwErLm6H2efj_xy2wdBz2_ZC9DbxisDT2EOVZeWVq0SaVX_n16zlXJ7lJgh=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyYDT8J-WGZZC9avqV4AaABAg,Very nice practicing videos,2 weeks ago,test 2518,UCsNmJHir1QsdzHS0FKz--Tw,1,https://yt3.ggpht.com/ytc/AKedOLQ5k1qJxVxVyRCpBvXiTN_1w7pxVQuPJmSqiIlql90tWCbwt5pmQR0q2Ecw29pC=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzbLgAzc-q5iORgmAV4AaABAg,"Thank you sir.
+How do I load this same datasets on mysql?
+Could you help ?",2 weeks ago,Jonathan Buenyen,UCwYku9h_u3aRUvOXe2wAhkA,0,https://yt3.ggpht.com/ytc/AKedOLTxLpu5vOuekSSG3er1WzDLHOFtc8M-0qisXQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyVHEewjjNCA3AwMT14AaABAg,"Query for Q14:
+with cte as (select noc, case when medal='Gold' then 1 else 0 end as gold,
+			 case when medal='Silver' then 1 else 0 end as silver,
+			 case when medal='Bronze' then 1 else 0 end as bronze
+ from olympics_history where medal!='NA')
+ select noc, sum(gold) as gold,sum(silver) as silver,sum(bronze) as bronze from cte group by noc order by gold desc",3 weeks ago,Ramandeep Virk,UCnS8jBB7ggDlLLNo3sWDHAA,0,https://yt3.ggpht.com/ytc/AKedOLR3KgRHeWq4DXPOF0jCRekyHYYCynobyFpqFrBmyQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwrDgwosk3XMXGYpKx4AaABAg,Great content !!!!,3 weeks ago,amit mishra,UCOKPPJQUjxhoMPUvD2FofOQ,1,https://yt3.ggpht.com/ytc/AKedOLTpacbdyHYEljvK_sKLkTSnePUwE-gcHG9j_v50vQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyW9sAyxBYvcgKmTnx4AaABAg,"hi sir ,we can use mysql ?",1 month ago,Pravin Gupta,UCwejHw6AwjRg9RyFuN7h1eQ,1,https://yt3.ggpht.com/ytc/AKedOLSDMbBHnoytIBw7sGAUGWBL7WEKTkyF-wxzaq0o0g=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxdnPepIBFJv3p7jLp4AaABAg,"For SQL #1,  can it not be done like below?
+Select sport, Count(case when season like 'Summer' then games end) as Games_count
+From OLYMPICS_HISTORY
+
+what I don't understand from the output is both col 2nd and 3rd have the same data.",1 month ago (edited),Kanchi Doshi,UCggaNBHwpneCGPt8UAQgPKA,0,https://yt3.ggpht.com/6SNBaOoQPW4ELnT68DNbteP4IfX-3EB2gLKocdSFj5bWGs6V8qc-kh4MiQDOXsPQS0hncd3_GCM=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy40qApAwNARVEuwgt4AaABAg,"Brother, I did Q10 as:
+
+with t1 as (select distinct name, sex from olympics_history),
+t2 as (select sex,count(sex) as cnt from t1 group by sex),
+male as (select cnt as males from t2 where sex='M' ),
+female as (select cnt as females from t2 where sex='F')
+select concat('1',':',round(male.males::decimal/female.females,2)) as ratio from male,female
+
+
+Is it ok?",1 month ago,Ramandeep Virk,UCnS8jBB7ggDlLLNo3sWDHAA,0,https://yt3.ggpht.com/ytc/AKedOLR3KgRHeWq4DXPOF0jCRekyHYYCynobyFpqFrBmyQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwD9Im-UpUmbL1NO754AaABAg,Thank you brother.,1 month ago,Ramandeep Virk,UCnS8jBB7ggDlLLNo3sWDHAA,1,https://yt3.ggpht.com/ytc/AKedOLR3KgRHeWq4DXPOF0jCRekyHYYCynobyFpqFrBmyQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugxu2wFAhbx0IgG8w7B4AaABAg,Yours are the best videos that I have ever found on you tube …. Keep going Toufiq,1 month ago,Shobha Reddy,UC7A3LXJDScMvRo6CALz_ZgQ,1,https://yt3.ggpht.com/ytc/AKedOLR6qVY18lJZMTu5SuqtmSxJniV-wEE3MA2n9w=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzrXd1HXCNc0Ct9dPB4AaABAg,"Hey Taufeeq, problem number 14 can be solve by case statement??",1 month ago,Nehal Ahmad,UCwKI24fddIT-fVfg-UHqR5g,1,https://yt3.ggpht.com/ytc/AKedOLQ-IrFX4kSqGip65l8lg-KzzelreTcmUdM6JA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwkTSnntR7vjftAS2t4AaABAg,"hi, I wanted to ask how to perform these queries in ms server or mysql as I have only used them until now.",1 month ago,Muskan Gupta,UC21d84h7JZ7b6UwxI79Oa6A,1,https://yt3.ggpht.com/ytc/AKedOLTGxTeXt2Et3vkvLGOgvCvwoNxzJELeNq9PvPMgajnRW12kq_snjqV7PqUxZE7p=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwwNa4qk4y09ETJWuN4AaABAg,Thanks. Hope you can release more videos like this in the future ^^,1 month ago,Nguyen Truc Giang Pham,UCFkrnYtshMymHW8_SLq8cGQ,1,https://yt3.ggpht.com/ytc/AKedOLQ9vHVxp2FdVXGyGtYNjv5xrSPlQZ6VEwGAJA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx-el7PmOeWT_DnuLl4AaABAg,The quality that you delivered is really awesome:),1 month ago,Tricks vicks,UCTXdLjsHkvKw4WjunV2jb0g,1,https://yt3.ggpht.com/EQkMth-di6v85X_LHRgyl7j9GykNKPyDgBkyIOW9OUs-3Edb8qKcu8MLt-7ek8DpK6GjC76zgQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx2lYXygibietXmj5h4AaABAg,Good,1 month ago,apple guru,UC14ajPvUwEuaVnpTSEKleBQ,1,https://yt3.ggpht.com/ytc/AKedOLS2dWiQo7sK7qEajUnCYAOVnIVOmmA5eAvnwQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy3em0STMTpnZgS9uh4AaABAg,Am unable to load the CSV data into SSMS table.Please help me,2 months ago,srikanth R,UCg7GNRsA00laN8YCvGFk-jg,0,https://yt3.ggpht.com/LHweN9pFCkiQeXPwYU8zgCb5ydkESLEWLvIg7XBKNoKthAmDko31_fbGOs2-QamWUAKzOTca=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyexWd6IajwTdmEWOR4AaABAg,hi @taufeeq need a little help in loading the data to mysql workbench.,2 months ago,The Azeezy Family,UCiu3uc-mhTJBCwJEWXRbQ3A,0,https://yt3.ggpht.com/ytc/AKedOLQGpYaqwrWu7KAk-LJDxJQRjXOYhDo02VY7pQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgydOWFkvPD7cZz4V2h4AaABAg,"The answer to Query #4 on your blog should be12 and 207, not 12 and 204...",2 months ago,Caribou Data Science,UCEYlsdkxG4hY6c5-5d3gxCw,0,https://yt3.ggpht.com/zIoFq1B-sI7jBAHxz6ge0LpxLo-u4Brkfn9zTmGff_JasF_XHHG7YU90u-8pUSxk7a6VaLdyT3E=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzPZYnOeEkL0smUDBF4AaABAg.9_OSFbk3tEr9_ObA_5ORFY,Your welcome 🙏🏼,11 days ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzwPs-aHKWmge2zAE14AaABAg.9_I97sC7qja9_IgLSdVwjw,I’ll need to come up with this in a future video,13 days ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyYDT8J-WGZZC9avqV4AaABAg.9_GejT5yays9_GrVwJk77o,Thank you 🙏🏼,2 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwrDgwosk3XMXGYpKx4AaABAg.9ZsxHBVW4-v9_0kWCIjFih,Thank you Amit,2 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyW9sAyxBYvcgKmTnx4AaABAg.9ZTOGU83H309ZVrHtduJhI,"Yes, you can",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwD9Im-UpUmbL1NO754AaABAg.9Ytvca3ig-C9Yw-43sUJOG,Your welcome buddy,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugxu2wFAhbx0IgG8w7B4AaABAg.9Yf1eSiqog39YfAeCtyuC-,Glad you like them Shobha!,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzrXd1HXCNc0Ct9dPB4AaABAg.9Ydb3uUX41m9YebcE18ZsH,yes can Nehal,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwkTSnntR7vjftAS2t4AaABAg.9YcAAcSWMC19YecFbgocS6,Most of the queries will work in any RDBMS. only for some queries some functions may not work so in that case just replace the function with alternate MSSQL or MySQL supported functions,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwwNa4qk4y09ETJWuN4AaABAg.9Ybfzq66NOP9YecNBmwsOJ,I plan to Giang,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx-el7PmOeWT_DnuLl4AaABAg.9YbcJpWyUEL9YecONtrhYN,Thank you :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx2lYXygibietXmj5h4AaABAg.9YXrZ8uNo929YXsVwUdCdH,Thank you 🙏🏼,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwnx28xuQxIm9w5H6V4AaABAg,Thanks bhai..,2 months ago,India first,UCu17jJmo3a4xZmj9YR8FNyQ,1,https://yt3.ggpht.com/QYrJKlxFaCd1hCkH-fesijxlaJ9qGIGekw0wjeEW20-LK16SC4ZY4D14aRCE2XjHeUACNwG9=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzMfxxTxAFJbkzlmBx4AaABAg,Hi tofiq can you help me to write some quires,2 months ago,Fayyaz Azam,UCfx05-QtK2jfshx34V7ZLxw,1,https://yt3.ggpht.com/ytc/AKedOLQQ35rTZ0uVihFdgbmbS7of3G3q12Wg5qGkLhJWMQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxdyeKLdYTPUBBxMgB4AaABAg,great work .It is really very much helpful for beginners. Please do more videos for us.,2 months ago,Pragyan Beuria,UC0KQEwIGNLTsvby_Rx08JLQ,1,https://yt3.ggpht.com/ytc/AKedOLQZLf7YblEgYmmDj_hwwUvmSyNOc1BYz1Bm8PJK-Q=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy_HpnxNZ4jmomeKxR4AaABAg,"Similarly for Query 4, at 40:17,
+
+with medals as 
+	(select oh.games as games, nr.region as country,
+		(case when medal = 'Gold' then 1 else 0 end) as Gold,
+		(case when medal = 'Silver' then 1 else 0 end) as Silver,
+		(case when medal = 'Bronze' then 1 else 0 end) as Bronze
+		from olympics_history oh
+	 	join olympics_history_noc_regions nr on nr.noc = oh.noc
+	 	where medal <> 'NA'),
+county_wise as
+	(select games, country, sum(medals.Gold) as gold, sum(medals.Silver) as silver, sum(medals.Bronze) as bronze
+		from medals
+		group by games, country
+		order by games, gold desc, silver desc, bronze desc)
+select distinct(games),
+		 concat(first_value(country) over(partition by games order by gold desc),
+					 ' - ', first_value(gold) over(partition by games order by gold desc)) as Max_gold,
+		 concat(first_value(country) over(partition by games order by silver desc),
+					 ' - ', first_value(silver) over(partition by games order by silver desc)) as Max_silver,
+		 concat(first_value(country) over(partition by games order by bronze desc),
+					 ' - ', first_value(bronze) over(partition by games order by bronze desc)) as Max_bronze
+from county_wise
+order by games;",3 months ago (edited),Manish Gaurav,UCRkhC30q-YoxczO6TQqqaOg,1,https://yt3.ggpht.com/ytc/AKedOLQDQwdJkMNWZFA1aWA6HYljxY9pIUq7nAQFPly4Tw=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzIid52ukHrb8Tibsd4AaABAg,"Very nice set of questions. 
+Query 3, at 26:12,  If in interviews it is not allowed to use pivot functions then we can do it using CASE WHEN
+
+
+with medals as 
+	(select nr.region as country,
+		(case when medal = 'Gold' then 1 else 0 end) as Gold,
+		(case when medal = 'Silver' then 1 else 0 end) as Silver,
+		(case when medal = 'Bronze' then 1 else 0 end) as Bronze
+		from olympics_history oh
+	 	join olympics_history_noc_regions nr on nr.noc = oh.noc
+	 	where medal <> 'NA')
+select  country, sum(medals.Gold) as gold, sum(medals.Silver) as silver, sum(medals.Bronze) as bronze
+from medals
+group by country
+order by gold desc, silver desc, bronze desc;",3 months ago (edited),Manish Gaurav,UCRkhC30q-YoxczO6TQqqaOg,0,https://yt3.ggpht.com/ytc/AKedOLQDQwdJkMNWZFA1aWA6HYljxY9pIUq7nAQFPly4Tw=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxAj1rBkZoFSjbMAJR4AaABAg,"Today subscribed your channel and really amazing explanation , I would recommend this video to my friends , thanks toufiq",3 months ago,Tamilan Veeran,UCHoUIT4VtwqFsqcqu2LPbnA,1,https://yt3.ggpht.com/ytc/AKedOLQgZzgmILG2ydjtThsvBVf2ZMD9jDiDA_0gAg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzQtD5NVboK8oyHTT14AaABAg,"Hi sir 
+Tq",3 months ago,Srikanth R H,UCrTGQJdb8F3CHJJcMAAeIIw,1,https://yt3.ggpht.com/ytc/AKedOLT_YjqntasR6ApSroXWDcm9Sz5xSjOAfCoH3c1k7w=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz_GIoNO-XOJZe4Iph4AaABAg,"Sir plz make a full-fledge course of 5-6 hours just like freecodecamp videos on SQL queries 
+which covers 
+from basic beginners to Advance 
+
+:elbowcough::elbowcough::elbowcough::goodvibes:Love from 21 yrs old boy
+congrats in Advance for 100k subs:yougotthis:",3 months ago,Aman Ahmed,UC7YBPvtwAYi8dpLbwZN9FuQ,1,https://yt3.ggpht.com/ytc/AKedOLT_B3EbmzNKD2CS8M_7lWkrq2Yk3v0S05w-ndfJwA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy2m2gHgqWFKyx9oYZ4AaABAg,Great video,3 months ago,Gabriel Abiodun,UCUGLllREO3gczN7j0xfYDtQ,1,https://yt3.ggpht.com/dGZlTbYKbIS2XUI0po2dYk_qQX5zIELK-Y-LtpnOYQqff9UDOgJgp_5rIo_BcJg8pfSl4Y5QfQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyTjHs2rJ8tZE0N5JF4AaABAg,"Hello
+Can you please post similar video and blog for some other data set to practice writing real time SQL queries . I am able to find different data sets ok kaggle but no questions as you posted. Kindly help",3 months ago,RATNESH RAJ,UC5n_XimzSAUBZF66dgtRLow,1,https://yt3.ggpht.com/ytc/AKedOLQB3VEET3rgPeluYTVbgWZRH6ySNwc7LBg5ruC38Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyUT5qcVuno7zttyKB4AaABAg,"im not getting export/import option by right clicking on the table..I'm using SSMS ,please help me with this..I'm having my interview..",3 months ago,pooja mahesh,UCN_Eq5VLwHE6qGB6Top8VtA,1,https://yt3.ggpht.com/ytc/AKedOLR5OqFHXpPniE4NxiTI-mnRoKo0eOJfvRXR_Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyNZy56xOIcbkeckw94AaABAg,"really sir, u are doing a great job..please keep helping us!!!!
+really very very usefull",3 months ago,pooja mahesh,UCN_Eq5VLwHE6qGB6Top8VtA,1,https://yt3.ggpht.com/ytc/AKedOLR5OqFHXpPniE4NxiTI-mnRoKo0eOJfvRXR_Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyXBFqrO7_2sl8pvn14AaABAg,"Thoufiq first of all the video is very insightful, and meticulous I reallly learnt a lot of new concepts hands down your tutorials on SQL are one of the I have ever come across. Please upload more such videos in future as well.",3 months ago,Agrim,UCPXwV0x9J1k9zrlJnVGuvAw,2,https://yt3.ggpht.com/ytc/AKedOLSf1SaChmKd0twC7AuRD0k1MzRkJVAv_KwzfQO2EEjHMCQXknLPhYCTQcfTaVOx=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzU302MbO_qCJ7xIjN4AaABAg,"If you can help, when I'm quering it's showing successful ran but the output is not at all visible in data output",3 months ago,Purushotham Reddy.j,UCSBd6t4Fp7FUvDsZG7uQewg,0,https://yt3.ggpht.com/ytc/AKedOLRkeFJFwMcVGeQlzxr5OtKKBitPwDi2JUVHsE396w=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxFoWqg9ldby-VGCYF4AaABAg,can you share web link mentioned in this video?,3 months ago,Kumar Abhishek,UCWQS2_o3GVDP6VPh2znUeXw,1,https://yt3.ggpht.com/WV8Qq1k4ZGXla98YPQyFIBR_pdT7PuNOsfd7E0SsbH_pcXNul6L0842brX7ZdOLrR2L2BbD3=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy1O4Qgz0k2Uz66dFF4AaABAg,"thanks alot, very well explained",3 months ago,Nirdesh Mohan,UCe7dyakl7eI_842Igh59jAA,1,https://yt3.ggpht.com/ytc/AKedOLSwgKzJ0qwUVscptppqOBXl78wNt9glTipcWYSvJA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxQ1X2Oij60A_lY3Wp4AaABAg,"hi,
+
+for the 3rd Question, why this cant be the solution
+
+select games,count(distinct(noc))  from OLYMPICS_HISTORY oh group by games order by games;",3 months ago,Smeet,UCtiC6Z0Eha9SP3YU8oiX_kQ,0,https://yt3.ggpht.com/ytc/AKedOLTXD6I8PI49UHfGI1rgDGxr0eZ51XnTkfAfefg8kQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyTuax8t5L3aAbnSxp4AaABAg,"when i am using crosstab its showing me error
+: ERROR:  column ""Bronze"" does not exist
+LINE 1: values (""Bronze""),(""Gold""),(""Silver"")
+                ^
+QUERY:  values (""Bronze""),(""Gold""),(""Silver"")
+SQL state: 42703",3 months ago,Vikram Aditya,UCRpUicF6IJHYCC0tAHCXLMg,0,https://yt3.ggpht.com/ytc/AKedOLTlym7c9_jxR1LWQiq7tm6oyVaqUL9b7YBfMg=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwntgUfTJwXNvNag6R4AaABAg,"Thank you so much. It's entertaining to watch and learn. This is the training video I've been looking for.
+I'm currently working with Oracle SQL Developer and can only insert partial data. It would be more fun if I could insert the entire data set.",3 months ago,Amit Shrestha,UC2s-l8nvOqjKqhDlb_IF66Q,1,https://yt3.ggpht.com/ytc/AKedOLR1nDberaUEy5sSsmTgyVn7VHKg7Et4Fqf1IQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugxh-iyjKFeH9zKdL8N4AaABAg,how to download postgreSQL?,3 months ago,Jaseela J,UCxAbtdoTZvsCln9VQRXyoHQ,1,https://yt3.ggpht.com/ytc/AKedOLTJK40wZWK8w8YU6JAgjjsHZbAONvdbyyZw2LsL8-FVkkql6Vv4WxZd9SwgalbT=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwnx28xuQxIm9w5H6V4AaABAg.9XjjGt4juoO9XkKK8UjirP,Your welcome bro,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzMfxxTxAFJbkzlmBx4AaABAg.9Xjino96wAc9XkKOBlxs88,"Sorry Azam , I’ve stopped provided personal support",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxdyeKLdYTPUBBxMgB4AaABAg.9XG21Au7kam9XGEE9i3SWQ,Thank you and will do,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxAj1rBkZoFSjbMAJR4AaABAg.9XBZ7vOmlp_9XCH3eaWd_3,"Awesome buddy, glad you liked it",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzQtD5NVboK8oyHTT14AaABAg.9XB23YoNGg69XBEyqZ9pPn,Your welcome Srikanth,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz_GIoNO-XOJZe4Iph4AaABAg.9X7eq7-6Kvd9X7yqZTaMb4,"Haha thanks Aman ☺️☺️
+100k is far away but thanks for the wishes 🤩
+
+As for one long video, never thought about it but I’ll start considering it now",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy2m2gHgqWFKyx9oYZ4AaABAg.9X78TJ5CpMq9X79rgJ-XM_,thank you Gabriel :),3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyTjHs2rJ8tZE0N5JF4AaABAg.9X5P9I8DEAF9X5TejWzRVm,"I prepared the questions myself after analyzing the data.
+But i will try making more such videos in the future",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyTjHs2rJ8tZE0N5JF4AaABAg.9X5P9I8DEAF9X5UEm1aAQn,Please make similar videos again.They are really very helpful. Thanks in advance 🙏🙏,3 months ago,RATNESH RAJ,UC5n_XimzSAUBZF66dgtRLow,1,https://yt3.ggpht.com/ytc/AKedOLQB3VEET3rgPeluYTVbgWZRH6ySNwc7LBg5ruC38Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyTjHs2rJ8tZE0N5JF4AaABAg.9X5P9I8DEAF9X5ZaakCEkz,Your welcome bro and will do,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyUT5qcVuno7zttyKB4AaABAg.9X55XTI5xfR9X5LHzMHwEL,"since I do not have SSMS in my system , i cannot try it but i am sure this is available.
+
+So i found the below article on the net which explains the steps to do import table. please check it:
+
+https://solutioncenter.apexsql.com/how-to-import-data-in-sql-database-from-excel/",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyUT5qcVuno7zttyKB4AaABAg.9X55XTI5xfR9X5LW3skH1F,or please tell which sql varient u are using this video..please,3 months ago,pooja mahesh,UCN_Eq5VLwHE6qGB6Top8VtA,1,https://yt3.ggpht.com/ytc/AKedOLR5OqFHXpPniE4NxiTI-mnRoKo0eOJfvRXR_Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyUT5qcVuno7zttyKB4AaABAg.9X55XTI5xfR9X5QZImFNwI,I am using PostgreSQL database and the tool is PgAdmin,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyUT5qcVuno7zttyKB4AaABAg.9X55XTI5xfR9X5XZPUVwoB, @techTFQ  OK thank you very much sir,3 months ago,pooja mahesh,UCN_Eq5VLwHE6qGB6Top8VtA,0,https://yt3.ggpht.com/ytc/AKedOLR5OqFHXpPniE4NxiTI-mnRoKo0eOJfvRXR_Q=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyUT5qcVuno7zttyKB4AaABAg.9X55XTI5xfR9X5Xd4cKfeR, @techTFQ  thank you soo soo much..sir,3 months ago (edited),pooja mahesh,UCN_Eq5VLwHE6qGB6Top8VtA,1,https://yt3.ggpht.com/ytc/AKedOLR5OqFHXpPniE4NxiTI-mnRoKo0eOJfvRXR_Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyUT5qcVuno7zttyKB4AaABAg.9X55XTI5xfR9X5ZZS_2kAD,Your welcome Pooja 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyNZy56xOIcbkeckw94AaABAg.9X4qpccjO6N9X5ThlKXB1Z,Thank you :) Glad you liked it Pooja,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyXBFqrO7_2sl8pvn14AaABAg.9X4UE57Vl1K9X5ZUXVFfj7,"Thank you Agrim :)
+I am glad to know you have benefited from these videos :)",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxFoWqg9ldby-VGCYF4AaABAg.9WjibQwaUQi9Wjn-7OQ3I9,You can find it in the video description,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy1O4Qgz0k2Uz66dFF4AaABAg.9WcjQ3U83ak9WdG9UPnSjE,Glad it was helpful!,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwntgUfTJwXNvNag6R4AaABAg.9WKFBdjWmUy9WKIZFDzN8L,"Your welcome Amit 🙏🏼
+I am glad you liked it..
+Do you get any error when importing all the data ?",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwntgUfTJwXNvNag6R4AaABAg.9WKFBdjWmUy9WOXXYp2lhc,"​ @techTFQ   Thank you for responding. I fixed it. I accidentally checked the limit box, which is why only partial data were inserted. Importing a dataset was a lot easier than I expected on SQL developers. There's no need to write the entire Create statement. Thank you for the video once more. Continue making videos and motivating us. Happy New Year!",3 months ago,Amit Shrestha,UC2s-l8nvOqjKqhDlb_IF66Q,1,https://yt3.ggpht.com/ytc/AKedOLR1nDberaUEy5sSsmTgyVn7VHKg7Et4Fqf1IQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwntgUfTJwXNvNag6R4AaABAg.9WKFBdjWmUy9WOpO2H-JMJ,"Great to hear Amit 👌
+Thank you and happy new year to you too 🎊🎉",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugxh-iyjKFeH9zKdL8N4AaABAg.9WCh-Wkg2yP9WChOzhym6Q,"I have posted a video explaining in detail how to download and install PostgreSQL and also PgAdmin.. link below:
+https://youtu.be/1aybOgni7lI
+
+Now this video shows for Mac OS but the steps are same for windows too",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwP4AGZOWrq98dDkBR4AaABAg,wouldnt it be better just to concatinate three tables having gold broze silver info ?,3 months ago,Tanmay Singhi,UC0YXpFjBbZj_K9oW-43EgVA,0,https://yt3.ggpht.com/ytc/AKedOLSjm9NxflBm29hg38yrLS6YsXE1uisd1fuTsz5-ZQM=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxABMTVz_-XXzigsHh4AaABAg,hi I am unable to create Kaggle account is there any alternative to daownload data??,3 months ago,AfaQuE ahmed,UCKnyRad19cy-M3yVwAviMWA,1,https://yt3.ggpht.com/ytc/AKedOLTa5070HBLONWpP8TK3XW4G-I561-CwfsE6US382A=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx4pXMcpB69Q-MjfTB4AaABAg,"Hi Very good tutorial abd very helpfull,i got a question, in a team sport like football how can we count the correct way since it counts by athlete, i mean 2016 Brasil won 1 Gold medal instead of 22 for football",3 months ago,Gabriel Finco,UC50AsAiJonV_5EFgkN9j_tA,1,https://yt3.ggpht.com/ytc/AKedOLQo4imNJt0EXxQ74OYU6GsEeTDFFa680o6auehauBE=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyecDdOqWpQLdgdjud4AaABAg,"Hi TFQ, please, how can one import .csv file to PostgreSQL automatically, most especially when one has a large dataset to work with. It's been giving me problem lately. Thanks a lot.",4 months ago,Abdulsamad Ibrahim,UCQlkjJLghZN64nzxNoR6MHw,0,https://yt3.ggpht.com/ytc/AKedOLRP0TmJakemSRd2xx69z8qt4IpFY8OHimlfCA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwtLxYm0vMhj2eHWCh4AaABAg,this athletic event dataset possible to  restore in SQL server.?,4 months ago,asholk kumar,UC_sEir3lw7csESIfjgKU85A,1,https://yt3.ggpht.com/ytc/AKedOLQpCV64GDep9oOQiPUsxCR29uIct2yPMuG6_VCprl0=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzc_u8bhXMLheQUQTZ4AaABAg,Hi Tofiq i am trying to import the data into mysql workbench through the import option available but it will take huge amount of time as it is very very slow so it is almost impossible so any other suggestions to populate the data as i need to practice thanks in advance??,4 months ago,vikas kumar,UCvv33tx7B9B6pUsDo1SgqsQ,0,https://yt3.ggpht.com/ytc/AKedOLTy1EeT3wBSOjtkD_PL4lym0v6LrxzD7yVY5g=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw6xwtE8jIZb4KD0GB4AaABAg,"Hi TFQ, please what's the function and when to use ""nulls last"" that is sometimes used with order by? Thanks.",4 months ago,Abdulsamad Ibrahim,UCQlkjJLghZN64nzxNoR6MHw,1,https://yt3.ggpht.com/ytc/AKedOLRP0TmJakemSRd2xx69z8qt4IpFY8OHimlfCA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz2XP2ErvPd4-d2lE94AaABAg,Hi brother your tutorials are the best.. can you please make a course alongwith problems so we can learn in-depth?,4 months ago,Subhabrata Nath,UC1FpB4B_pGIy7wmKIu8KV4A,1,https://yt3.ggpht.com/ytc/AKedOLSAjQCpcAD250nK3p0ETlpeUbkgBF_9qYAPRg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgymfOGHJmyJwtoU5gp4AaABAg,It's beautiful but I'm not getting the experienced output I'm using ms SQL there is so many syntax problems can you show me these queries using ms SQL,4 months ago,Sudarshan Reddy pole,UCjGsvfREpPr5OC2wkNf7L4A,0,https://yt3.ggpht.com/ytc/AKedOLQ20V_fck11WNS5ZyJo4DX9Ug0aXgSQG3zIeQm12kg=s176-c-k-c0x00ffffff-no-rj,0.0
+UgysZHTCZ84vV59s6x54AaABAg,"Hello, I'm a newly subscriber and I have been looking for channel like this for quite sometime. Thank you.
+
+For Query 2, I can just use limit 5 if ranking is not needed? 
+
+select name, team, count(medal) as total_medals
+from olympics_history
+where medal = 'Gold'
+group by 1, 2
+order by 3 desc
+limit 5",4 months ago (edited),Sam Oh,UCNeJUodxvC-Eer1cXjj0tgg,1,https://yt3.ggpht.com/ytc/AKedOLTEA2_PL3ksmbcte1KjSMNYQCrHBvZlV9As6VHvUQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzYTv658F7BS-ti5O94AaABAg,"WOW...(7,611) views, (402) likes 0 (Dislike) achived in 16 days (28-10-21 to 13-11-21);  thats Awsome appreciation for your knowledge and skills brother.....Thanks a ton....",5 months ago (edited),shaik usman,UCNFciUah7K0gf_QObCzDXtg,1,https://yt3.ggpht.com/ytc/AKedOLQiVVvdStU7p2OuE__6HHIi_pKXcCEA4PYqhw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzSpzivfVMqnTzIdet4AaABAg,Thank you so much TFQ! This goes a long way for me! Always learning new strategies to tackle SQL queries.👍🏻,5 months ago,Abdulsamad Ibrahim,UCQlkjJLghZN64nzxNoR6MHw,4,https://yt3.ggpht.com/ytc/AKedOLRP0TmJakemSRd2xx69z8qt4IpFY8OHimlfCA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy_sfOam1Ivudiu_sF4AaABAg,Sir how to solve error code 1136 column count does not match,5 months ago (edited),sid-harth sid-harth,UCmIa5AfxFru1LUJK-tJl_ig,1,https://yt3.ggpht.com/ytc/AKedOLSiFSOn2Ooj1WOiekJa7BBu7dfluucM_2K2mwVuVA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugw9IJpTgHyUfRBi8rV4AaABAg,Thanks for such a great videos....,5 months ago,Dhananjai class,UCMFKGrpSvT6iHRe4ekJqjzQ,1,https://yt3.ggpht.com/Oj4dhhBM9pYJV1UH4r2qnJNBodC2hNvG0o17DjpusPao-idP4e9QP-e0-fZORoFHyw8dOB11=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxjNCwYxjfM9MDGQup4AaABAg,Simply awesome!,5 months ago,S A,UC9xVx8rBzU5qIb33MD9QXaw,1,https://yt3.ggpht.com/ytc/AKedOLTqm0CM47nGEXn36mG2HuoY8HSsXVX6hSI1Cw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxzVayI4QuyelUMuNt4AaABAg,It feels like whatever I am looking for now a days I can find it here. Thankyou so much for this video 🙏🏻,5 months ago,swati sinha,UCkHuEWXRghjLkrF27hvGCcg,1,https://yt3.ggpht.com/ytc/AKedOLRobTgbHoHrr76Mn7YauIP_IfCPQqrLXjCpGH8HIA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwIagKnJSfIsf3agPh4AaABAg,Amazing...thanks a lot for sharing knowledge.. It means so much for learners lik me... Pls continue and post more content about sql for data analyst,5 months ago,Jayanth N,UC0-sZ4Oeif5hGziEPjt-80A,1,https://yt3.ggpht.com/ytc/AKedOLS6QTZGHoVq9ayV7ziKI3f9bON3qPSEFxXSxA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz3Jcu6nCuHU6FoOGl4AaABAg,Query 3: instead of using crosstab what we can use in mysql server ?,5 months ago,hari prasath,UCnMOiq0m7mxKNYGaUbxgPGg,1,https://yt3.ggpht.com/ytc/AKedOLTYy-AILwyUIJlDoLYSUcDLFIPVlAsad6kJpbQfaw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy0YGH-TtaT8firnHx4AaABAg,extension tablefunc is coming error in my sqlserver bro. what should i do now,5 months ago,murali krishna,UCWC4KHLj9hAfOiBSmOHkBhg,1,https://yt3.ggpht.com/ytc/AKedOLR6BZ7yWH3VGberf3TS0GUNot-nR8G7dkae2DkKTBT5S2KxiQYGndKmxbuUBeLV=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxKnBW7sDQzd8VsJtt4AaABAg,Thank you so much Thoufiq. I learnt a lot from your channel,5 months ago,Shafi,UC_Gzj-OUBZBxI8snaj2dSmg,1,https://yt3.ggpht.com/ytc/AKedOLTJJItl1jagfmfXz79E1ML1AKOtEEf4p0BG1z8tjDg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxABMTVz_-XXzigsHh4AaABAg.9W7f-oCEb3R9W7fHOHW7cf,"You can download the data from my blog also..
+Link in the description of the video",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxABMTVz_-XXzigsHh4AaABAg.9W7f-oCEb3R9W7ft1UNXNT," @techTFQ  thanks for your quick reply & assistance. Allah aapko is sawabay jakariya ka ajar de Aameen
+Keep up the good work plz",3 months ago,AfaQuE ahmed,UCKnyRad19cy-M3yVwAviMWA,1,https://yt3.ggpht.com/ytc/AKedOLTa5070HBLONWpP8TK3XW4G-I561-CwfsE6US382A=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxABMTVz_-XXzigsHh4AaABAg.9W7f-oCEb3R9W7fx9ZqtLZ," @techTFQ 
+Will check it & let u' know",3 months ago,AfaQuE ahmed,UCKnyRad19cy-M3yVwAviMWA,1,https://yt3.ggpht.com/ytc/AKedOLTa5070HBLONWpP8TK3XW4G-I561-CwfsE6US382A=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxABMTVz_-XXzigsHh4AaABAg.9W7f-oCEb3R9W7h9Dzk6RM,Your welcome Ahmed.. and thank you 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx4pXMcpB69Q-MjfTB4AaABAg.9W1qmybB_lj9W5n4AZR8Qt,"Hi Gabriel,
+Thanks for liking the video 🙏🏼
+
+I think, I already had a query for this exact question and the solution was to do the count by taking the DISTINCT Team value..
+
+22 players but the team is just 1 so when I do a distinct I get just 1 and not 22",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwtLxYm0vMhj2eHWCh4AaABAg.9VqiLHnBFGt9VqmkJhra_N,Yes you can .. just import the csv file,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwtLxYm0vMhj2eHWCh4AaABAg.9VqiLHnBFGt9VqqXi9b8YM, @techTFQ  thank u..keep upload real time queries.,4 months ago,asholk kumar,UC_sEir3lw7csESIfjgKU85A,1,https://yt3.ggpht.com/ytc/AKedOLQpCV64GDep9oOQiPUsxCR29uIct2yPMuG6_VCprl0=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwtLxYm0vMhj2eHWCh4AaABAg.9VqiLHnBFGt9VrFmVFBNK-,Your welcome and will do,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw6xwtE8jIZb4KD0GB4AaABAg.9VQ51_iwH809VR-Xr8lVQv,"Nulls last means:
+If you are sorting a column using order by and if this column has null values (blank values) then those records will always be at the end after sorting..
+
+Regarding function and procedure , I’ll make separate videos soon",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw6xwtE8jIZb4KD0GB4AaABAg.9VQ51_iwH809VRdBjRCCbZ, @techTFQ  Thanks a lot.👍🏻,4 months ago,Abdulsamad Ibrahim,UCQlkjJLghZN64nzxNoR6MHw,1,https://yt3.ggpht.com/ytc/AKedOLRP0TmJakemSRd2xx69z8qt4IpFY8OHimlfCA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz2XP2ErvPd4-d2lE94AaABAg.9VEXFI5ocbG9VGv3Cemd2R,Thank you Subhabrata 🙏 and I will make a complete SQL tutorial in a couple of months time.,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgysZHTCZ84vV59s6x54AaABAg.9Up1qBQLkSQ9Updevi20El,"Thank you for liking my contents 🙏🏼
+
+Limit 5 will just fetch the first 5 records but if you look at the data there can be multiple athletes who won 9 gold medals or 8 gold medals so you need to fetch all of them..
+
+That is why ranking is required",4 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgysZHTCZ84vV59s6x54AaABAg.9Up1qBQLkSQ9Upf0zZtoTF, @techTFQ  looking forward to seeing your solution to other queries,4 months ago,Sam Oh,UCNeJUodxvC-Eer1cXjj0tgg,1,https://yt3.ggpht.com/ytc/AKedOLTEA2_PL3ksmbcte1KjSMNYQCrHBvZlV9As6VHvUQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzYTv658F7BS-ti5O94AaABAg.9UgihCG748I9UiFpVNhtfq,"Thank you Shaik :)
+I dint realize this like and dislike count until i saw this comment :)
+Glad this video is liked by so many.",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzSpzivfVMqnTzIdet4AaABAg.9UgWP_Xrarv9UiFuzs90VW,Thank you Ibrahim 🙏,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy_sfOam1Ivudiu_sF4AaABAg.9Udxaw8eXr79UiGjud_uWQ,which query you talking about Sid?,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy_sfOam1Ivudiu_sF4AaABAg.9Udxaw8eXr79UiK8IZTBgq," @techTFQ  in mySQL sir, insertingvalues into table",5 months ago (edited),sid-harth sid-harth,UCmIa5AfxFru1LUJK-tJl_ig,0,https://yt3.ggpht.com/ytc/AKedOLSiFSOn2Ooj1WOiekJa7BBu7dfluucM_2K2mwVuVA=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugw9IJpTgHyUfRBi8rV4AaABAg.9U_MgB6a1F19UiKBf97315,"Your welcome Dhananjai :)
+glad this helped..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxjNCwYxjfM9MDGQup4AaABAg.9U_HURoxt3t9UiKWZfD2df,Thank you so much :),5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxzVayI4QuyelUMuNt4AaABAg.9UXpFWb9e0C9UZtZhEMaDB,Your welcome Swati 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwIagKnJSfIsf3agPh4AaABAg.9UW2EK3DJJ19UWmzqMSvb6,"Thank you Jayanth 🙏🏼
+Glad to see your comment ☺️",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz3Jcu6nCuHU6FoOGl4AaABAg.9UUBcV-5iCo9UUDKxgRj-H,"You will need to use pivot function but the syntax may be different..
+
+I’ll try to add the queries for mssql in a few days time",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz3Jcu6nCuHU6FoOGl4AaABAg.9UUBcV-5iCo9UsVuaKHnfX, @techTFQ  will u plz send me the query  using pivot ....? Plz,4 months ago,hari prasath,UCnMOiq0m7mxKNYGaUbxgPGg,1,https://yt3.ggpht.com/ytc/AKedOLTYy-AILwyUIJlDoLYSUcDLFIPVlAsad6kJpbQfaw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz3Jcu6nCuHU6FoOGl4AaABAg.9UUBcV-5iCo9UsaRI7zbX0,"Hi Hari,
+
+Today I am releasing a video where one of the query I’ll be solving will be using pivot table..in MySQL instead of pivot we will need to use case statement..
+
+Perhaps you can watch my new video tonight and then get idea of how to use pivot",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy0YGH-TtaT8firnHx4AaABAg.9US0aH24AJS9US1cci7B0Z,plz reply bro,5 months ago,murali krishna,UCWC4KHLj9hAfOiBSmOHkBhg,0,https://yt3.ggpht.com/ytc/AKedOLR6BZ7yWH3VGberf3TS0GUNot-nR8G7dkae2DkKTBT5S2KxiQYGndKmxbuUBeLV=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy0YGH-TtaT8firnHx4AaABAg.9US0aH24AJS9US1uKxsFPX,"This will only work in PostgreSQL database..
+
+In Microsoft sql server I think u have pivot table which does similar thing but the syntax may be different..
+I will try converting this query using pivot table in a few days time and then upload those scripts to the blog",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxKnBW7sDQzd8VsJtt4AaABAg.9UPGrpi0yDJ9UPIfBufM4p,"Your welcome Shaik 🙏🏼
+Glad you liked it..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwLcS9JXzc1F0LRRXR4AaABAg,I have learned so much from your series. Thank you so much sir !!,5 months ago,Hiếu Trương,UCLa0AbDQpp3XqSrqLbu9iHQ,2,https://yt3.ggpht.com/l-v6rvcNXb_Wnkw6anH65zqwHmio1Ju75WSaQO_OdgceXTESlvXtbaskL6-KptixSwMw3v5O=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxfNDijo57ahdfDR_R4AaABAg,"Hi bro, I need presto quary to retriew yesterday date, e.q select * from table name where date_name = yestersday, Please help",5 months ago,venkatesan venki,UCR0EEUw2Vy_aiwtEfyk9xIQ,0,https://yt3.ggpht.com/ytc/AKedOLTXg30XHGMkuvMZ3JPD7LpNlluH9B3__pprwb38_Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwvSP3aXZ2yqIQgiN14AaABAg,Your sql query brings lots of clarification to the approach of solving. It would e of great help if you could take a step more further considering the real time scenarios where we have large number of tables inter related and we have to write queries out of those table. The main issue we face in such cases is the approach to join the certain set of tables and in using the window functions as well.If you can guide for such cases.,5 months ago,ADITYA ANAND,UCgHFjnSAj-6u7cM7l2fWncw,3,https://yt3.ggpht.com/ytc/AKedOLRZzftWXZ_58EXu1zhYmGDgpXH5vKwUC5U0rEVT0g=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyuvaMvK4xTvZyThTV4AaABAg,"Hi Taufiq...first of all, gratitude for the things I am learning with your great videos.
+Reg this activity, can you please help on what to do with the ""Table_Structures.ddl"" file? can we create a table directly with it rather than writing the ""create table"" query?
+Also could not find the query file for creating the table on your blog.",5 months ago,prashant pathade,UC7PyFNZjc4pywUpSOWPekQQ,2,https://yt3.ggpht.com/ytc/AKedOLST9xchl0NrSwhz95SbIaxNoZuFG4urUDK2k_RJ1g=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzTcNqUFMqZczUyZpN4AaABAg,"Thank you so much for this. I just have 1 doubt. In the question number 3, Can't we just use below query directly instead of with clause? Please do clarify my doubt.                               Select game,count(n.region) from history h
+join noc n on h.noc=n.noc
+group by game",5 months ago (edited),Suchita Achari,UChsThh84InU8c5OWCPLCTbg,2,https://yt3.ggpht.com/ytc/AKedOLTf9KZ7VghEjoweqra5LtNpYk1clStb65aWc7mQXg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxflF9pnvInHjNWi-94AaABAg,You are such an inspiration and my role model .  the way you are helping everyone understand clearly what they want is just amazing. Your efforts are seen and appreciated as well. Seriously so so so proud ❤️,5 months ago,Sheeba Parveen,UCLG0THTDn61-uOe8uz3luCg,2,https://yt3.ggpht.com/ytc/AKedOLS_bbDwk2UdEkLpnVA8niKltV1MsVbZ24fICYS3bA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx6OGr_GUbIukPgqqN4AaABAg,Just came back to your channel. Very happy to see you with many more subscribers. More wishes young man. God bless 🙏,5 months ago,Girija Shamak,UCxRmk_sKwpy59CUg-5XhYNg,1,https://yt3.ggpht.com/ytc/AKedOLSu5QbvbmrP81a6b0H3nSiWVAYz4VYj5uA6mg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxaZ63auKQCXHIinqF4AaABAg,"I'm a beginner and found these videos amazing.
+Everything is just what you need, no frills, no lengthy talking, right to the point, If I can follow, everybody can.
+Real examples of how to solve queries, proper use of screen space, with a strong support from his blog where you can delve into more if still hungry of it.
+All for free, I so much appreciate this work, first class.",5 months ago,Stefano Verugi,UCRz0Tj9G8rqERleiKdPEuRw,10,https://yt3.ggpht.com/ytc/AKedOLQUGIFhho3-NBE4G1GIJMDTD5MaswgtXFJ-eSlTVjc=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx67A36dNZhkdcxyiV4AaABAg,"19:45 i dont understand why this code isnt working on my system, im using MS SQL, using azure Data studio, im getting this error 
+Msg 8120, Level 16, State 1, Line 8
+Column 'T2.Sport' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.",5 months ago,Abin Sharaf,UCU4XKOt55SI8Ex46t7EeQGw,0,https://yt3.ggpht.com/ytc/AKedOLQQ1qXgHRtiU9Qo5xtzzB3ZGFmxEVq2ENvZ_FNxog=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyCQOVHhfq72YR0KoJ4AaABAg,Please which data type can store values like:  1.234.434 in sql,5 months ago,Michael Okoh,UC184w2C-nNEF269iSC6uhyA,1,https://yt3.ggpht.com/ytc/AKedOLSnYooy13KNP49adHv83URzehZkbM3vI2jFyAjIRSEdRXMz9ZJwOPM4hkac5VQu=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyYjaAA8_8eMhZ_H1N4AaABAg,"Hi I've been watching your videos for a while and i love them. They're very helpful! But I wanted to let you know that I think there may be somehing wrong with your crosstab function (or maybe it's not reading the data correctly). For example, your response to question 18 shows that Paraguay has 17 bronze medals. They actually have 17 silver medals. I think the function my be classifying data into the wrong columns. I found that simply pivoting the medal data from rows to columns in MySQL did the trick! Just wanted to let you know. Have a great day!",5 months ago,Maya Reese,UCGrWm-b16NLqQuWzlop6QPw,2,https://yt3.ggpht.com/ytc/AKedOLRXPQKgeiM_dgYTCc420zr74LlL2kkgSs4BqiigUQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy1br8bCW4f6fyBhRV4AaABAg,Thank you ☺️,5 months ago,Reshman Banu,UCN3SWCFzqhUkyFvngFUQUvQ,2,https://yt3.ggpht.com/ytc/AKedOLTi2iZGk7S_bTuwha2xMSg1-8zM024QUttVVA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzIbixS5U5DPN7iOmF4AaABAg,"I am trying to import a .csv file to MYSQL V18.9.1 I am getting this error 
+Can you help me with this
+TITLE: Microsoft SQL Server Management Studio
+------------------------------
+
+Error inserting data into table occured while inserting rows 0 - 100000. (Microsoft.SqlServer.Import.Wizard)
+
+------------------------------
+ADDITIONAL INFORMATION:
+
+Error inserting data into table occured while inserting rows 0 - 100000. (Microsoft.SqlServer.Prose.Import.SDS)
+
+------------------------------
+
+The given value of type String from the data source cannot be converted to type nvarchar of the specified target column. (System.Data)
+
+------------------------------
+
+String or binary data would be truncated. (System.Data)
+
+------------------------------
+BUTTONS:
+
+OK
+------------------------------",5 months ago,Siva Mahesh,UCTrCh2v3NIfTrt4k9yiWCIQ,0,https://yt3.ggpht.com/ytc/AKedOLQnWTGc7dNyAr6E9crVRBW-0zPu5ikZU7gOe1IOaHM=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx2LhD28OF8vGCCv4p4AaABAg,Your explanation  is awasome AND plz make video on Root cause ANALYSIS,5 months ago,Mushtak Khazi,UC4k9_RYUi-bB9nMmKPUM4dg,1,https://yt3.ggpht.com/ytc/AKedOLQS-d-dO7E-Jq3E8_KHxp78DrN_C-QlWRJeCeXYRkAswWWKzHGaWFlqsIVY22b5=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzJzsarazzCL3IFw754AaABAg,thats what i call quality content,5 months ago,Shiv Sharma,UCCz0z8IiU_rjbjBt-4Cbwig,1,https://yt3.ggpht.com/ytc/AKedOLQfRQo_uA1vSYqlSk6zFGJ68elSlUXsaJhrLDhLPg=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugze48TrqUsGDRtRoLx4AaABAg,"Hi bro, I need quary to retriew yesterday date, e.q select * from table name where date_name = yestersday, Please help",5 months ago,venkatesan venki,UCR0EEUw2Vy_aiwtEfyk9xIQ,1,https://yt3.ggpht.com/ytc/AKedOLTXg30XHGMkuvMZ3JPD7LpNlluH9B3__pprwb38_Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzXIYEqW4DduIxVVGd4AaABAg,I am doing the same in MySQL but importing the csv to the table is taking too long,5 months ago,mayank bhardwaj,UCUlMApri_99V_ghwqZdaB0w,3,https://yt3.ggpht.com/ytc/AKedOLTLouGg_JMcrdRWbXyyuKITRDeLcAsCYYhpRxcGAw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyN5v5GgXWWPlNQnEl4AaABAg,"TFQ, it’s like you were reading my mind!   This is exactly where I’ve been stuck, not only finding reliable datasets that are interesting, but not knowing how to properly load them into Postgres so I can play.   I really want to thank you so much for your time and efforts.  I’ve only seen your intro, but you can bet I’ll be returning to see how you’re importing this dataset and connecting it to Postgres.  It seems like that would be an easy thing to do, but I’ve tried and it isn’t.   You will be helping so many people with this video.   And your explanations are better than most instructors I’ve seen.   You have many talents, but you’re an excellent teacher.   Thank you again, so glad I found you here on YouTube!  🙏🏻😀",5 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,3,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwtiIvtJrAdY6iIdaJ4AaABAg,Thanks!!! Make more video like this for sql practice.Also could you make a EDA video for python? You explain things very nicely.,5 months ago (edited),Rishi Gupta,UC2aIf7r_OS1K7K9Sy0w_Uog,3,https://yt3.ggpht.com/ytc/AKedOLThWRMY-r8soixqQiQnzLid6CQ6H2cA_kj6Fg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxgrOeZ6GNikxqzR8J4AaABAg,"I have a question, suppose there is more than just 3 kinds of medals - bronze gold and silver, but now there are 20 different types. Is there a way to do a cross tab without specifying all 20 in the ""as result(""
+It would be cumbersome to list all 20.",5 months ago (edited),Suraj Binwani,UCaHcTNj-lDvCqqIhYiOt1Uw,0,https://yt3.ggpht.com/ytc/AKedOLQ0bocjSjxDyucTLFFfIjtIYrlRzIiGLExD8w=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwLcS9JXzc1F0LRRXR4AaABAg.9UMzhYsJf5o9UOBo7Zwe94,"Thank you :)
+So glad to hear this..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwvSP3aXZ2yqIQgiN14AaABAg.9UM6r1phQiS9UMHikxbmWa,"Thank you Aditya 🙏🏼
+Prior to this video, I had already posted another video where I covered solving complex SQL queries where I used window functions and JOINS.. perhaps you can check that video out.. link below:
+
+https://youtu.be/FNYdBLwZ6cE",5 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyuvaMvK4xTvZyThTV4AaABAg.9UM6ITCtABc9UMHzpgUwiT,"Thank you Prashanth 🙏🏼
+
+Table_Structure.ddl is the file which has the create table scripts..
+Just open this file in any editor and then copy paste the contents of this file into PG Admin to create the tables",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyuvaMvK4xTvZyThTV4AaABAg.9UM6ITCtABc9UN1ufm2OMk, @techTFQ  Got it. Thanks a lot for the kind reply. Hope to keep learning as much :),5 months ago (edited),prashant pathade,UC7PyFNZjc4pywUpSOWPekQQ,1,https://yt3.ggpht.com/ytc/AKedOLST9xchl0NrSwhz95SbIaxNoZuFG4urUDK2k_RJ1g=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyuvaMvK4xTvZyThTV4AaABAg.9UM6ITCtABc9UOF7m07WO-,Your welcome Prashant 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzTcNqUFMqZczUyZpN4AaABAg.9ULqTC0rSWF9UOCQeVcPV1,"You cannot because the output is wrong.. because history table has data for each athlete so there would be multiple athletes from each country corresponding to each olympic games so the counts would be way to more..
+
+For example, in 1896 games, 12 countries participated but from your query you would get 380 (which is the total athletes and not country)",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzTcNqUFMqZczUyZpN4AaABAg.9ULqTC0rSWF9UO_B4gLjNG, @techTFQ  Ahh Okay. Got it. Thank you 👏,5 months ago,Suchita Achari,UChsThh84InU8c5OWCPLCTbg,1,https://yt3.ggpht.com/ytc/AKedOLTf9KZ7VghEjoweqra5LtNpYk1clStb65aWc7mQXg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzTcNqUFMqZczUyZpN4AaABAg.9ULqTC0rSWF9UOdwSkDnlc,Your welcome 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxflF9pnvInHjNWi-94AaABAg.9UK_sF2Gq7D9UODke3lb4W,"Thank you Cheeb for the support always :)
+Happy to receive your feedback 😍",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx6OGr_GUbIukPgqqN4AaABAg.9UJkZPbBzE49UOE9ZaAzVy,Thank you so much Girija :),5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxaZ63auKQCXHIinqF4AaABAg.9UJOMKMa5sc9UJQ6KAhyq2,"This feedback made my day.. 
+thank you Stefano 🙏🏼
+
+Your feedback is so precise that I feel I am able to deliver what I wished to deliver..
+
+Thanks again and I am so happy you are able to follow this video 🙏🏼☺️",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyYjaAA8_8eMhZ_H1N4AaABAg.9UEreWTCGqk9UFMZhEPnrj,"Hi Maya ,
+Thank you for liking my contents 🙏🏼
+And thanks for highlighting this difference.. I am actually surprised,, I had tested it for a few countries data.. let me check this out tomorrow and correct it if needed..
+
+Thanks again 🙏🏼",5 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyYjaAA8_8eMhZ_H1N4AaABAg.9UEreWTCGqk9UFNRfBaTAu," @techTFQ   no problem!! You’ve helped me so much in developing my SQL skills. I really love and appreciate your videos! If you could do more of these types of videos where you display advanced SQL techniques using data on kaggle, that would be awesome. Thanks again and have a great day!",5 months ago,Maya Reese,UCGrWm-b16NLqQuWzlop6QPw,2,https://yt3.ggpht.com/ytc/AKedOLRXPQKgeiM_dgYTCc420zr74LlL2kkgSs4BqiigUQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyYjaAA8_8eMhZ_H1N4AaABAg.9UEreWTCGqk9UFNy-etflF,"Am glad to hear this Maya..
+Yes I plan to cover more such videos in the near future..
+Have a good day to you too..🙂🙏🏼",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy1br8bCW4f6fyBhRV4AaABAg.9UEYVDIiIHP9UFNGqoNtfw,Your welcome 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx2LhD28OF8vGCCv4p4AaABAg.9UCfCrTmRXM9UCgl2Wbktk,Thank you Mushtak 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzJzsarazzCL3IFw754AaABAg.9UCGSaIGTuA9UCOwVbzkeu,Thanks Shiv 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugze48TrqUsGDRtRoLx4AaABAg.9UBpTXKPsZ49UBqAYpuE5w,"In PostgreSQL you can get using below query:
+select (current_date - 1) as yesterday_date; 
+
+In Oracle, it can be as below:
+select (sysdate - 1) as yesterday_date from dual;
+
+If any other database then you need to find the corresponding function for sysdate/current_date and write similar query.",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugze48TrqUsGDRtRoLx4AaABAg.9UBpTXKPsZ49UC-PXzGHX_," @techTFQ  Thanks for response, in MYSQL work bench select (current_date - 1) shows today date only, not shows yesterday",5 months ago,venkatesan venki,UCR0EEUw2Vy_aiwtEfyk9xIQ,1,https://yt3.ggpht.com/ytc/AKedOLTXg30XHGMkuvMZ3JPD7LpNlluH9B3__pprwb38_Q=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugze48TrqUsGDRtRoLx4AaABAg.9UBpTXKPsZ49UC-uDvrDbW,"In MySQL try below:
+
+SELECT DATE_SUB(CURDATE(), INTERVAL 1 DAY) AS yesterday_date;",5 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugze48TrqUsGDRtRoLx4AaABAg.9UBpTXKPsZ49UC432lbJgp,Thank you it's working now,5 months ago,venkatesan venki,UCR0EEUw2Vy_aiwtEfyk9xIQ,1,https://yt3.ggpht.com/ytc/AKedOLTXg30XHGMkuvMZ3JPD7LpNlluH9B3__pprwb38_Q=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugze48TrqUsGDRtRoLx4AaABAg.9UBpTXKPsZ49UC5X10AeKm,Your welcome 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugze48TrqUsGDRtRoLx4AaABAg.9UBpTXKPsZ49UGpZps9tiG,"In sparola sql, how can get yesterday date",5 months ago,venkatesan venki,UCR0EEUw2Vy_aiwtEfyk9xIQ,0,https://yt3.ggpht.com/ytc/AKedOLTXg30XHGMkuvMZ3JPD7LpNlluH9B3__pprwb38_Q=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzXIYEqW4DduIxVVGd4AaABAg.9U9ATc6rtJp9U9CAKGew-l,"Is it.. I tried the same in oracle using SQL Developer tool and it was significantly slower compared to PostgreSQL..
+
+Looks like importing csv file is the fastest in PostgreSQL",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859U7RmQnvSpG,"Hi Laura ,
+Thank you for such an amazing feedback🙏🏼
+Taking your time to appreciate my work, I feel so happy to read each n every word you said.
+Am so glad you have liked my content and I am able to help you with your learning ☺️..
+Thanks again 🙏🏼",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859U7SmWO0coh," @techTFQ  If I am able to make a career change as I hope to, it will be in no small part due to your efforts.  I’m very grateful for your expertise and your ability to explain tricky concepts and break them down easily for us.  Not everyone can do this; you have a gift 🙏🏻!",5 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859U7T0feglwy," @techTFQ  PS I’m also going to try and solve all of your questions and I’ll be visiting your blog for more on that.  Hopefully I won’t need any of your hints but still being new to SQL, I’m not so sure on this.   All the time and effort you put into this is really appreciated.   I hope next year at this time you have over 100K subscribers because you deserve it!",5 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859U7TrO9Y3pJ,"That’s a very big complement Laura .. You’ve made my day by such kind words..
+
+I truly wish you get your dream job .. 
+thank you once again 🙏🏼",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859U7U3yXkTdo,"Wowww amazing.. 100k would be great.. I’ll remember this comment if that happens by next year 😃
+
+And yes try out solving all the queries .. after that hopefully you can come up with some queries of your own.. 
+good luck 👍",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859UFdJD7KX0O," @techTFQ  Sorry to bother you again, TFQ but one more question:  Would you say the queries are ranked in order from easiest to hardest?  I've decided to work this list of queries into my daily study routine because I am learning at a fast pace but I need to apply the learning more (without hints given within the query editor screen by DataCamp instructors) to really solidify it in my mind.   Thanks again for all your work on this!   Edited to add:  The first two were easy, but it looks like the third one is more difficult.  I'm probably at the intermediate level in SQL and just wondering if any of these queries are in your opinion past that level.   I haven't spent much time on #3 yet, and I don't mind spending time on one problem to solve it, but I want to feel like it's solvable for me before I spend that much time, if that makes sense?   Thanks so much!!",5 months ago (edited),Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859UG0-54iNUW,"Hi Laura , happy to read you comments..
+
+All these queries are in sequential order so it’s better to solve them from the top to bottom..
+
+Having said that queries 14 to 18 may be little complex so I would suggest you to do it at the end..
+
+Query 1-13 and 19-20 must be ok for intermediate level..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859UG3IQhliSS," @techTFQ  ok thank you 🙏🏻 so much for this.   I solved #3 but without a join so I wound up with one extra country for two of the years lol 😂.   After a little more research and more queries, looks like I got Newfoundland and Crete, which were separate from Canada and Greece, respectively at that Olympic period, but are now part of those countries.   So the difference makes sense, at least.   I’m going to aim for one of these each day at the end of my study period.   I thank you again for compiling this.   And I hope you celebrate when you reach 10K 🍾😀",5 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859UG4kpxZutN,"Awesome 👏 
+Glad to know your are trying and learning ..
+That’s great..
+And thank you.. will celebrate 😃",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyN5v5GgXWWPlNQnEl4AaABAg.9U7Agdcnk859UKTv73639W," @techTFQ    Thank you again for this video.   I was resisting watching you work the problems, bc I wanted to figure them on my own, but I broke down and watched your analysis of #6 - and it really helped me.  The join you did at the end of this is something I didn't even know you could do in SQL.  I thought you had to have columns of data from different tables to join on - I never realized you could come up with basically the number 29, which was the result of t1, and join that to anything else.   So this will hopefully be a game changer for me as I move forward.   Would it be possible for you to do a video on this type of join, because I'm thinking if it's eye-opening to me (and I watch so many videos and lessons from different sources), then maybe it could get a lot of views for you & help many ppl in the process.  PS:  You're already up to almost 10.5!   (It really is fun to see how quickly you gain viewers - you're helping tons of ppl!  Congratulations again!)",5 months ago (edited),Laura K,UCkN3ctnavk91yVcIEaXnoKw,0,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwtiIvtJrAdY6iIdaJ4AaABAg.9U5RoRDjeVV9U63KDtJELD,"Thank you Rishi 🙏🏼
+Yeah for EDA , I will plan to do it..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx0KWAyoF_SN2jDPC54AaABAg,"Amazing video! I'm a frontend guy, watching your videos help me widen my skills in an excellent way. Thanks! I have a question regarding the performance. I don't know too much about the performance of the partition by statement. In the last task, the partition by was used several times in the concat fns (5-6 times). What do you think regarding the performance in a production ready environment? Would it scale well by the time if total number of records grow?",5 months ago (edited),ATTI0822,UCGFBt9lJ2Nme9DW2KSPnBUQ,4,https://yt3.ggpht.com/ytc/AKedOLQGB5rFdf_I_g1xMyEUE-2Kdolj7ZPwzVmYBA4w0Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwC26aI5UBVMcGn_Ut4AaABAg,You are Great Dear,5 months ago,Honest Review,UCXIXuGRxXpEwt6suPXsH4eA,1,https://yt3.ggpht.com/ytc/AKedOLQ-H7UUXULZYi8mwcX_UDmqcZVh_3OYfA7EixoVGeIsdt2dIf1O_EoyVL3YSx7M=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzThqASsptdquJnTfR4AaABAg,Please cover stored procedures too,5 months ago,Raju Dasari,UCQC4zSBCrDC5nv2ainljDaQ,2,https://yt3.ggpht.com/ytc/AKedOLSB_jFemR63WhV_-VNK0d-Djib_ItN74B4-UQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyqXkke8j5sOOvbPqR4AaABAg,Thank you... thank you....for sharing and posting.to world,5 months ago (edited),pveeranji reddy,UCAiIOYz6VliLYugMJLuh8rA,1,https://yt3.ggpht.com/ytc/AKedOLRZCB88SrBtCNY3aMU2DuR2KsTxOI7UkYT2OQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwIsU9EW0qJXt8CcDN4AaABAg,"Thank You so much techTFQ. Your videos are sooo soo good. After learning window function by myself, the concept wasnt clear for me. It was after watching your video on window function I got a idea of how it works. Last month I had interview and questions were from SQL only. They asked different queries based on window functions and joins. The result came within a week and I am joining the company as Research Executive.",5 months ago,Sudha P,UC3PB_7oTfdDAE9iRcv7QNnw,8,https://yt3.ggpht.com/ytc/AKedOLTC7liL7TgRO4Xbc4pdREtU93n6IbxxUXANJzwi7xPdaMYk700xU5Ee7SmhuhB1=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx0hODgsWT_CGh3Mrl4AaABAg,"You are doing Amazing job, keep on doing the good work!!",5 months ago,Ahmer Jamil,UCgN0l__ampFX6VEjflP_g5g,4,https://yt3.ggpht.com/ytc/AKedOLRiXc3Zb39qnkOVziEMyEVaum6i1pBi4ert0QJ4gg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzX0O02UohTzAzNrLh4AaABAg,You made my day and that of many others’ learning SQL by sharing this amazing video! Please keep posting such valuable materials 👍,5 months ago,Enrique Mbomio,UCcfIj-2iGyK1uhYCHJ23gYw,26,https://yt3.ggpht.com/ytc/AKedOLQQMQMQSsuNVOB1jMQir0GzBw-WcXS2uShMmmPZLQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugxu2xzfbM8r90Sta4t4AaABAg,Proud of you mate...God bless all your efforts and time to give out authentic and precise content👌🏻👌🏻👌🏻🙏,5 months ago,Fathima Farahna,UCmMR20vhhydELL3JFxZ6MoQ,3,https://yt3.ggpht.com/ytc/AKedOLTsP0crbsq7j0CfAPty-RPMZVW7t34FCVgcSt6RIw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz5V10D16V75K_UnMl4AaABAg,Great video sir,5 months ago,Py Django,UC8vPpFwOjcWdep1PLdMlf6w,1,https://yt3.ggpht.com/ytc/AKedOLQlwiD56qoBj-iOg8lZWvH26F5xmy5hvzwJUvSod2Fj7rWw4kYhpRfIvXbuN7Kg=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzpj3uaDOozdNkh9zx4AaABAg,For oracle database plz?,5 months ago,Ganesh chittalwar,UCDiIDXVn2CZ1x_XBH6nxqGw,2,https://yt3.ggpht.com/ytc/AKedOLRe-31OX-KofzJ6j6dyzCry_wCrEXFsK85Cer7Tf6k=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyAFnWRX650aVeOIbR4AaABAg,awesome👍👏👍👍👍👍👍👍👍👍👍👍,5 months ago (edited),Ganesh chittalwar,UCDiIDXVn2CZ1x_XBH6nxqGw,3,https://yt3.ggpht.com/ytc/AKedOLRe-31OX-KofzJ6j6dyzCry_wCrEXFsK85Cer7Tf6k=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzLz73wt94phps4Lq94AaABAg,Sir I saw all the sql videos it was really helpful. You are one of the best faculty and make concepts understand so easily.,5 months ago,Deepak T S,UCo3fecbq8A-PRjKatu4iRFg,7,https://yt3.ggpht.com/ytc/AKedOLR_7MtjUFOCZd1wncatBW_xRM8WRfBzY4TE7MFDUw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx0KWAyoF_SN2jDPC54AaABAg.9U49j691NPP9U4AhOH8Awc,"Hi, thank you 🙏🏼 
+Glad you find these videos useful..
+
+As for performance, window functions are pretty good even if we use partition by.. they should not cause any performance bottlenecks but then it also depends on how you write your sql query.
+
+As for my query in this video, we had around 270k+ records and still the queries with multiple partition by hardly took a few milliseconds to run..
+
+Even with much more data I believe this won’t cause any performance issues but again it all depends on how you write your sql queries and how you create indexes on your tables and few other factors like table statistics etc.",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx0KWAyoF_SN2jDPC54AaABAg.9U49j691NPP9UD9_izxt2n, @techTFQ  thanks for the detailed answer 👍,5 months ago,ATTI0822,UCGFBt9lJ2Nme9DW2KSPnBUQ,1,https://yt3.ggpht.com/ytc/AKedOLQGB5rFdf_I_g1xMyEUE-2Kdolj7ZPwzVmYBA4w0Q=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx0KWAyoF_SN2jDPC54AaABAg.9U49j691NPP9UFNbMkDh5z,Your welcome bro 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwC26aI5UBVMcGn_Ut4AaABAg.9U430i56M5K9U43WYkUDnK,"Thank you 🙏🏼 
+Glad you like the content 🙂",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzThqASsptdquJnTfR4AaABAg.9U3wMGYlLXV9U440jQrnX3,I will cover it raju.. may be in near future..,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzThqASsptdquJnTfR4AaABAg.9U3wMGYlLXV9U4Qo3lypq0, @techTFQ  waiting,5 months ago,Raju Dasari,UCQC4zSBCrDC5nv2ainljDaQ,1,https://yt3.ggpht.com/ytc/AKedOLSB_jFemR63WhV_-VNK0d-Djib_ItN74B4-UQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyqXkke8j5sOOvbPqR4AaABAg.9U3qtqbLzOq9U44Kmf-tO3,"Your welcome bro 🙏🏼
+Glad this helped",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwIsU9EW0qJXt8CcDN4AaABAg.9U3knCsOjQq9U3lt_zPaYJ,"Amazing to hear this Sudha 👌
+Thank you for sharing your success story.. I am really happy to have contributed to your learning .. 
+
+Wishing you all the very best with your new job 💐",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwIsU9EW0qJXt8CcDN4AaABAg.9U3knCsOjQq9UEiWx8uz1Z,Kudos,5 months ago,manoj patil,UC1uypRMQOrqifomrn2syRRQ,1,https://yt3.ggpht.com/ytc/AKedOLRlRYAhPITMF4IiiUV50ehKJ9XPv_RiAYA96Qmuxw=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx0hODgsWT_CGh3Mrl4AaABAg.9U2kZPgqWO09U3ks7zuzms,"Thank you Jamil 🙏🏼
+Glad you liked it..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzX0O02UohTzAzNrLh4AaABAg.9U2bhc1R3_29U3lWNE8gKr,"Thank you Enrique 🙏🏼
+Am so glad to hear you benefited from this video 🙂",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugxu2xzfbM8r90Sta4t4AaABAg.9U2PgW-xeFY9U2QHdkgIUR,Thank you 😘,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz5V10D16V75K_UnMl4AaABAg.9U2Lt-k4LOI9U2NSGf6wZf,Thank you 🙏🏼,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzpj3uaDOozdNkh9zx4AaABAg.9U2KTqcvW169U2KvTjluE5,Most of these queries would work fine in Oracle as well except for the crosstab function. But in oracle instead of crosstab you can use pivot.,5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzpj3uaDOozdNkh9zx4AaABAg.9U2KTqcvW169U2L2cNNTj2,Salute ur work.. Sir. Brilliant. Sir any trick and tutorial for plsql,5 months ago,Ganesh chittalwar,UCDiIDXVn2CZ1x_XBH6nxqGw,1,https://yt3.ggpht.com/ytc/AKedOLRe-31OX-KofzJ6j6dyzCry_wCrEXFsK85Cer7Tf6k=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzpj3uaDOozdNkh9zx4AaABAg.9U2KTqcvW169U2LRPhQQ69,"Thank you bro 🙏🏼
+Pl/sql may be in the future will make some tutorials.. as for some learning material, I’ll let you know if I come across any good one..",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyAFnWRX650aVeOIbR4AaABAg.9U2KNiyovAW9U2Kq7FVUTm,Thank you Ganesh :),5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzLz73wt94phps4Lq94AaABAg.9U2FJQIINnT9U2GAQDTNcx,"Thank you so much Deepak 🙏🏼
+Am so glad you have liked my videos 🙂
+And thank you for taking time to leave your feedback 🙏🏼",5 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
