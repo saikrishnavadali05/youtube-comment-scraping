@@ -1,0 +1,650 @@
+cid,text,time,author,channel,votes,photo,heart
+UgzJmFnzcLxzlBnlgAd4AaABAg,Thank You for making these videos. Keep doing Thoufiq. We appreciate your good work,3 days ago,Lalitha C,UCSBDM94T4g_746kqZLCNfbQ,1,https://yt3.ggpht.com/ytc/AKedOLRZY8X799w6tFMVKf9kd5f4FhgNDP1x9akWjg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwRSdmBSa5jTRrWcnt4AaABAg,Wow!! what an amazing question and how beautifully you solved it.,2 weeks ago,prashant verma,UCI_fwuRO4dJ0mfBIM879dxg,1,https://yt3.ggpht.com/ytc/AKedOLQ3giRQ1uLZbU5vqmTS8Qg3ZG25pyJls66BEQOa_S0=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyI7Xf9YI88uO0gdxJ4AaABAg,"Thank you for making all this tough query easy for us really your way of explanation thanks a lot 
+if possible can you please explain this below problem from stratascratch this might be easy but i tried lot of time :
+
+""""Find the customer with the highest daily total order cost between 2019-02-01 to 2019-05-01. If customer had more than one order on a certain day, sum the order costs on daily basis. Output their first name, total cost of their items, and the date.
+ 
+ For simplicity, you can assume that every first name in the dataset is unique.""""",2 weeks ago,Ravi Sharma,UCLNLFvAUdv_GPAYXc-wkk3A,0,https://yt3.ggpht.com/ytc/AKedOLTN2k1I96RWhX5qBtoeR0eekQYAbsAEGkIAI0DJBh8=s176-c-k-c0x00ffffff-no-rj,0.0
+UgytlA5zEutkt1hG7Zh4AaABAg,"Pls make more real interview questions, excellent explanation.thank you.",1 month ago,AV,UCGdy8hswzNt0UArOExwRxYw,1,https://yt3.ggpht.com/ytc/AKedOLQLNrpfoKv29OFFumJ2fgi6_23-G2t6ORbLo6BQjQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzxfdt33QTX4IuP6HV4AaABAg,"Oh my.  What a very, VERY clever test and I'm NOT talking about the problem definition.  There are 3 faults in this test and I strongly suspect that a hidden part of the test is... did you find the 3 faults?  Tricky, tricky, tricky.  Either my hat is off to the person that wrote the test or they should be fired for phat-phingering an important test.  There's a lesson to be learned in all of this when you're taking a test, especially if it's a BIG company that you want to work for. 
+
+The numbers they posted as the correct numbers do work out right if you manage to avoid the 3 faults in the test.",1 month ago (edited),Jeff Moden,UCnln92mVlkdOesNdX30rdDg,0,https://yt3.ggpht.com/ytc/AKedOLQmcN8DFCCRlbHN-j6wYHYtwR27j9J2hsmxdA=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyziuo9hBram-rBfhF4AaABAg,good one,1 month ago,Saif Khan,UCdpAC9UONjKP2-9CHeCMLew,1,https://yt3.ggpht.com/ytc/AKedOLSlQ2WUPQ5mCs4wL8GFjZ8Pw3QeD31FMyFyG0sLFQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy2kIoQQnppAPXkHt94AaABAg,this guy nailed it all... your explanation is so clear and you teach so well.,1 month ago,JimJohn,UCIMrBRnKMdmImueIRhXsj0w,1,https://yt3.ggpht.com/Iq9AMEdOpcRqlguU4t-hHDeyzonPWaA12RBM7gOVOrSJmovAEchsvpq79g1atxflf2ghZN7EXzI=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwq8Y2RniZWgQ0EEAx4AaABAg,I need one help ..how to find last business day of a month please.,1 month ago,Ramesh Babu,UCLhF6MtfQwZuy0l0zydjOGg,0,https://yt3.ggpht.com/ytc/AKedOLSjYyHlDfliZuMxgTu6bYrZnTd8AYXPf6x72A=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx-6ngYktxasGozklp4AaABAg,"I wanted to take a crack at this. I downloaded MySQL and created a table of this data and came up with this;
+
+with 
+inbound_inv as (
+	select a.ID, a.OnHandQuantityDelta, a.event_type, a.event_datetime , sum(OnHandQuantityDelta) over (order by a.event_datetime) as runningInBound
+	from inv_log a
+	where a.event_type = 'InBound'
+	and date(a.event_datetime) <= @age_as_of
+	group by a.ID, a.OnHandQuantityDelta, a.event_type, a.event_datetime
+	order by a.event_datetime), 
+outbound_sum as (
+	select sum(b.OnHandQuantityDelta) as allOut from inv_log b
+	where b.event_type = 'OutBound'
+	and date(b.event_datetime) <= @age_as_of), 
+aging_data as (
+	select
+	case when c.runningInBound - d.allOut > c.OnHandQuantityDelta 
+		then c.OnHandQuantityDelta 
+	else greatest(0,c.runningInBound - d.allOut)
+	end as InboundLeft,
+	case 
+		when datediff(@age_as_of, c.event_datetime) between 0 and 90 then '0-90'
+		when datediff(@age_as_of, c.event_datetime) between 91 and 180 then '91-180'
+		when datediff(@age_as_of, c.event_datetime) between 181 and 270 then '181-270'
+		when datediff(@age_as_of, c.event_datetime) between 271 and 365  then '271-365'
+		else '365 +' 
+	end as agingCategory
+	from inbound_inv c, outbound_sum d)
+select ifnull((select sum(InBoundLeft) from aging_data where agingCategory = '0-90'),0) as '0-90 days old',
+       ifnull((select sum(InBoundLeft) from aging_data where agingCategory = '91-180'),0) as '91-180 days old',
+       ifnull((select sum(InBoundLeft) from aging_data where agingCategory = '181-270'),0) as '181-270 days old',
+       ifnull((select sum(InBoundLeft) from aging_data where agingCategory = '271-365'),0) as '271-365 days old',
+       ifnull((select sum(InBoundLeft) from aging_data where agingCategory = '365 +'),0) as '365+ days old';",2 months ago,Travis Stratton,UChLOesw6eHy5d8oETh_je3g,0,https://yt3.ggpht.com/ytc/AKedOLSAc9AfXQTA7Qhx7KelMzWOqVesd4zYuu9FqA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzIEo9H1c2olA3zz1V4AaABAg,"At 24:04 ,"" 180th day ka segregation"" this shows , you know good hindi ...",2 months ago,Mohammed Faisal,UCK1LQZPfEbH4CLS_9HCIPmA,1,https://yt3.ggpht.com/xNDM6f2wuPjjf_2fh_KJud9R60AIstJ_NQ9YFk1by1yCKPRZ5mWo0tdKSTS5x2c3vSXp8glDQw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyUbsFWNw-HZXbs83d4AaABAg,"Try with. different data.
+Just three transactions with zero initial stock.
+Day 91.  1 in;   Day 90. 1 in;   Day 1. 2 out.
+Now check line 29.??",2 months ago,David Lewis,UCAjBbtUPuKecPeuy4gQ-llQ,0,https://yt3.ggpht.com/ytc/AKedOLSHRTM1LEVc_KNE9WQ8VDHP_HMkqw3U2raLrA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzZsh14Q4G43RmFJjN4AaABAg,"@techTFQ i know the main idea that we need to find the remain in (90-180) by  (0-180) -(0-90). But i still wonder why you compare DaysOld_180 to (onhandquantity-DaysOld_90) which DaysOld_90 in inv_90_days_final not  inv_90_days. Can you tell the different between them? i try the second way, i know it wrong but i don't know why (onhandquantity-DaysOld_90= negative number in some case if DaysOld_90 in inv_90_days). Thank you in advance!",2 months ago (edited),Thế Trường,UCMh4-73ju_PiGxyQJ3CkpEg,0,https://yt3.ggpht.com/ytc/AKedOLQtauw6wnt-J-2g3Ht96qdvwlOSGptXuHePyKiVJQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwJ-V6iI1CpNqkHVEV4AaABAg,"@techTFQ It's really cool to break such a big task and then plug the pieces back together to get the final result, Enjoyed the video. However, I have one question. Can this be done using recursion? Please let me know.",2 months ago (edited),satya mathamsetty,UC2_4DZ2-Mjl3z7mKMRUfFGg,1,https://yt3.ggpht.com/ytc/AKedOLQAaioJNe49yQLGghFF4Wr6dC7v9y9rvWrK_jgy-Q=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugyi7Tmon4XfedqDs7B4AaABAg,👍👍,2 months ago,hadi,UC1U4CS88J0wFuQzL7clYwIw,1,https://yt3.ggpht.com/ytc/AKedOLRKr7UPloJK761dl7goZPBlrGvDcclG1jiQwZPS=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwvoJJzbt6SodMhJOV4AaABAg,"Here is my MSSQL solution
+with cte_current as (
+select top 1 OnHandQuantity AS CurrentQuantity
+	,event_datetime AS CurrentDate
+from warehouse
+order by event_datetime desc
+)
+, cte_data as (
+select *
+	,sum(OnHandQuantityDelta) over (order by event_datetime desc) AS CumulatedQuantity
+	,DATEDIFF(DAY,event_datetime,CurrentDate) AS Age
+	,CASE 
+		WHEN DATEDIFF(DAY,event_datetime,CurrentDate) <=  90 THEN '0-90'
+		WHEN DATEDIFF(DAY,event_datetime,CurrentDate) <= 180 THEN '91-180'
+		WHEN DATEDIFF(DAY,event_datetime,CurrentDate) <= 270 THEN '181-270'
+		WHEN DATEDIFF(DAY,event_datetime,CurrentDate) <= 365 THEN '271-365'
+	END AS AgeGrouping
+from warehouse w
+	cross join cte_current
+where event_type = 'InBound'
+)
+SELECT 
+	 ISNULL([0-90]	 ,0) AS [0-90]
+	,ISNULL([91-180] ,0) AS [91-180]
+	,ISNULL([181-270],0) AS [181-270]
+	,ISNULL([271-365],0) AS [271-365]
+FROM   
+(select AgeGrouping
+	,sum(iif(CurrentQuantity-CumulatedQuantity>0,OnHandQuantityDelta,OnHandQuantityDelta+CurrentQuantity-CumulatedQuantity)) AS Quantity
+from cte_data
+group by AgeGrouping
+having sum(iif(CurrentQuantity-CumulatedQuantity>0,OnHandQuantityDelta,OnHandQuantityDelta+CurrentQuantity-CumulatedQuantity)) > 0) p  
+PIVOT  
+(  
+SUM (Quantity)  
+FOR AgeGrouping IN  
+( [0-90], [91-180], [181-270], [271-365] )  
+) AS pvt",2 months ago,Eike Becher,UCn4q16oAvhCXzLDUI4UGuPg,0,https://yt3.ggpht.com/ytc/AKedOLR5b2MK8DT8AQpiDSN1-mRqr_EbJvrgdptVik4qEQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwZ0O0WyikFMUkEo6d4AaABAg,great job and please can  you make a video on window function,2 months ago,Fache,UCXURIxeAT3b6IqjdjSr8l8A,1,https://yt3.ggpht.com/ytc/AKedOLQoVEYXgSdZle4zvxzdVztHA-0miv928YTa1fkl6ZlDI8HrbmsqXti3bBb_Mw0L=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzksMnEEd086vjJfW14AaABAg,"hey @techTFQ couldn't help myself to try this out. I did this using analytical functions and arrived to the correct solution in just 10 lines of optimized code. Also liked your solution, its easier for people starting as analysts, though its unoptimized.",2 months ago (edited),Apramey Mishra,UCBBy5p019yQ41ePFimiBS2g,0,https://yt3.ggpht.com/ytc/AKedOLQgtzv0vxXEzkQXF3FizlE9DQfq2CV1vZoCeA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxTxGivPPvpaCUfGAx4AaABAg,"Is that table definitely correct at the start? Shouldn't TR0010 show 347 OnHandQty?
+You have two rows that -1 but they both show 346 after 348.",2 months ago (edited),DecimasoN,UCQ6dBiUAR_o_CA5KUhLp9Vw,0,https://yt3.ggpht.com/ytc/AKedOLQqDUhu5-jeg2fGEpE6xd0NuVPNenfcFPabcQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxDDGeG-emxjaHA85J4AaABAg,"(at 5 minutes in) I actually work with SQL in a warehouse, and I would stop here and say the question and scenario is flawed. The warehouse management system should be redesigned first as it will have major issues in real warehousing scenarios.
+
+The assumption that a warehouse that is designed to use FIFO will actually always do so assumes that no mistakes ever happen, no inventory ever gets misplaced, and nothing is ever manually moved outside the system design specifications. Among other things, a warehouse management system should know the current location, receipt date (or expiration date), and quantity for each pallet/location individually.
+
+When you're already storing this information, the original question becomes trivial.
+
+Also, the question does not account for inventory over a year old. Rare though it may be, it might still happen.
+A report I use regularly identifies product over 2 years old, since at that point we have to start worrying about age-related effects.",2 months ago (edited),Bleu Squid,UCKXLMyTiseLlXAcrZRwyULQ,0,https://yt3.ggpht.com/ytc/AKedOLRTujbvy2vUMBElgmoekXo_Nke0P4YpYiNETNWhhA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzmDsAGI72CgFN982V4AaABAg,"I have an question maybe I am missing something, but why day 1 is first row in dataset ? shouldn't it be that day 1 is a day of running query ? I mean there is no chance that Your query will ever return 0 in day 1-90 bucket  (except when whole dataset is empty)",2 months ago,Cichy,UCVz14j-pp6ZvlL94lzMmvog,1,https://yt3.ggpht.com/ytc/AKedOLRZLy4c35prDci3kTEpkWlFW9588trcwdyDgg=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzJmFnzcLxzlBnlgAd4AaABAg.9_i_C9_LVeO9_jgU3IqSMA,Glad you liked it Lalitha,2 days ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwRSdmBSa5jTRrWcnt4AaABAg.9_Bkas51G4P9_CLrxRZoH5,Glad you liked it Prashant,2 weeks ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgytlA5zEutkt1hG7Zh4AaABAg.9ZSskt9iLcy9ZVrScsd0v1,"Thank you, I will",1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyziuo9hBram-rBfhF4AaABAg.9Z3jcoYp3xN9Z4A3skc20V,Thank you 🙏🏼,1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy2kIoQQnppAPXkHt94AaABAg.9YsBDf8trOO9Yt_keDVPqP,Thank you Jim :),1 month ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzIEo9H1c2olA3zz1V4AaABAg.9XkMmllWd7M9XkReeH5f7m,"Hahaha amazing that u noticed it 😁
+And yes , I am Indian so I do know Hindi",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwJ-V6iI1CpNqkHVEV4AaABAg.9XJVsrnu98b9XJuc8uJYiV,"Thank you 🙏🏼 
+I haven’t tried it with recursive queries yet but there can be several different ways to solve this problem",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyi7Tmon4XfedqDs7B4AaABAg.9XJVB_fWAu19XJudqJydHF,Thank you,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwZ0O0WyikFMUkEo6d4AaABAg.9XHXxcSzLB-9XHYP77TOd9,"Thank you 🙏🏼 
+I have already made 2 videos on window functions covering all the window functions..
+You can find it in my channel",2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxP6IlMCU1l5duCA594AaABAg,"the wrong data in the first warehouse table drives me crazy XD
+
+4th row should be 347
+
+TR006 and 05 are also in the wrong order, watching the timestamp",2 months ago (edited),ilki,UCls6BxO08mDvcmCmvZcYvnA,0,https://yt3.ggpht.com/ytc/AKedOLTx4XWALtyGF_uCB6hC_6bUra6Ysku3LhMN4w=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyx5SpJRkABhx0KjuV4AaABAg,Microsoft should be part of faang,3 months ago,Sudo__,UCBXCiweSCm3Octf05qe7fvQ,2,https://yt3.ggpht.com/ytc/AKedOLQBSRvuJgXkS2kJT2AcQuv1ZsfBhO56Rf8bzC7q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxghhgWOFEjBHK0yYV4AaABAg,thank you for the video and the file with the code in Oracle in your blog,3 months ago,Jose Carlos,UCp7J7YqrTGWNL897gc4pelg,1,https://yt3.ggpht.com/ytc/AKedOLRuEpTRwydypnEFYelxktS6wW6F1SMh_8QJeg=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwk9JLgbgnSo6Oj9yV4AaABAg,"I believe you misread the question.  Consider these items are gallons of milk from your local grocery store and we asking how many gallons of milk has been on the shelf for 1, 2, 3 & 4 days.  You want to find out the number of gallons of milk currently in inventory.  Then you want to subtract the amounts received for each of the days to get the 1, 2, 3 and 4 days old quantities.",3 months ago,Wayne Hamberg,UCOZw-rl53cCOei-cr41XsTw,0,https://yt3.ggpht.com/ytc/AKedOLQVW9Dm3gXgj7bvxjKmd2DTrvVST9H9u7Szog=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwiAWc-AfUXHz1NeOd4AaABAg,"The way you explain is awesome.
+Though Date parts are always been so confusing for me, I have to go through your video couple of times :-)
+Thanks Man.. Keep sharing...",3 months ago,Honest Review,UCXIXuGRxXpEwt6suPXsH4eA,1,https://yt3.ggpht.com/ytc/AKedOLQ-H7UUXULZYi8mwcX_UDmqcZVh_3OYfA7EixoVGeIsdt2dIf1O_EoyVL3YSx7M=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyKBxobwpho3JVVQdx4AaABAg,Excellent query!Thank you i think it will work also that cross join replacing with join days on 1=1.Thank you once again for all the videos!!!,3 months ago (edited),florin copaci,UCtQfOFllXir5TuT00WG3cnQ,1,https://yt3.ggpht.com/ytc/AKedOLR9HBEc6ckMnLoMXY1JT_IbKoNi-5dfeprcug=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwntNPDkKb88hITGzV4AaABAg,When they ask for something 0 to 90 days old wouldn't that be calculated from the current date/time?,3 months ago,Stephen Fulton,UCc2CvRjeE9ScoyuiFn0a8VA,1,https://yt3.ggpht.com/ytc/AKedOLQ0soHghRbJVNNoS7IUzXwn7LJ7uDWiO0EnOoX-i-GaMr992pxBCSYj1cz-M4En=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy0wcea_AmzggnHKEF4AaABAg,"I can't see video clear ....
+Even can't see unavoidable in quality option.
+How can I change quality.
+Please help",3 months ago,Sakhi ForU,UCjIOD46sUm6WQCvZWX_eD1Q,1,https://yt3.ggpht.com/ytc/AKedOLQtqEIoJFyqKVN881bofCVwkNk1AdkFLks9zBZV=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugxhesd6m1dvTGTcTOZ4AaABAg,"I took an entirely different approach:
+
+I chose to just bucket everything and then tally through the buckets and then pivot everything. (I would have used the greatest function instead of a case statement but... Sequel refused to process it (I know oracle and DB2 support this [In fact in DB2 I can use max to process a list instead of as an aggregate function... I miss working with DB2])
+
+with last as (
+select max(event_datetime) bkt from warehouse),
+buck as (
+select DATEADD(day,-90, bkt) bkt1, DATEADD(day,-180, bkt) bkt2, DATEADD(day,-270, bkt) bkt3,
+DATEADD(day,-360, bkt) bkt4 from last),
+bucks as (
+select a., (case when event_datetime >= bkt1 then 1
+when event_datetime >= bkt2 then 2
+when event_datetime >= bkt3 then 3
+else 4 end) bucket
+from warehouse a cross join buck),
+tally as (
+select sum(case when event_type='InBound' then OnHandQuantityDelta else 0 end) inp,
+sum(case when event_type='OutBound' then OnHandQuantityDelta else 0 end) out,
+a.bucket
+from bucks a
+group by a.bucket),
+summs as (
+select coalesce(inp,0) inp, coalesce((select sum(b.inp) from tally b where b.bucket>a.bucket),0) -
+(select sum(b.out) from tally b) out, c
+from tally a right outer join (select from (values(1),(2),(3),(4)) as x(c)) b on bucket=c)
+/* I get to use a right outer join, joy */
+select * from (
+select (case when inp+out<0 then 0 when out<0 then inp+out else inp end) inp, c
+from summs) t
+pivot(
+sum(inp)
+for c in ([1], [2], [3], [4])) as p",3 months ago (edited),Rick,UCqMH2zCzHbc1rM7WsP4-ACA,0,https://yt3.ggpht.com/ytc/AKedOLRU0BHnMN5_YKe-LTYGEANX37Umuhud2GPjJ7MxnQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyQrweu2UEQ9CnfLNJ4AaABAg,"Interesting question, I haven't written any SQL for a few years and thought I'd have a go.
+
+This is the logic that I came up with, reading the comments, others have suggested something similar:
+
+Find the total quantity of all the outbound stock.
+    This can be found using a windowing/analytic function rather than a separate query.
+
+For the inbound stock group into a number of buckets 90 days wide. 
+    This avoids having to repeat code.
+    The bucket number is simply the latest event date minus the event date all divided by 90.
+        The latest event date can be found using a windowing/analytic function rather than a separate query.
+
+Now, starting from the last bucket, subtract the total outbound stock until it has all been accounted for.
+
+At this stage the results are in a column where they can easily be pivoted into the required row.
+
+
+Happy to share the code if you're interested.",3 months ago,Alun,UCW7VM0bg-PYdl_paUu-LWRQ,3,https://yt3.ggpht.com/ytc/AKedOLTYRBfDYuYJeVrCr0V7VHURVU88mHxfW4KmoA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzpQctmg8CWTJM5uJx4AaABAg,Shouldn't you be just using Today as the 'Day 1' day? It seems like no real world application would just use the last entry as the starting point.,3 months ago,Phillip Holmes,UCCxe-JqbcC4ZS9W4A6XdtTQ,0,https://yt3.ggpht.com/ytc/AKedOLT-zQTTswCH5xXsAvp-NbbHh9_y0MIMdPnKkA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyQiKZCFiyeeujwIVp4AaABAg,"I have not completed the video yet ..but as per my understanding the days calculation should be from the last record, the last record should be day 1. tnis understanding of mine seems true with the days range mentioned in the question itself...",3 months ago,Rashmi Pande,UCWFExTJe7Zg2FEVJE-ILxpw,1,https://yt3.ggpht.com/ytc/AKedOLSJk9lg-dpNUz7hv2x4cK6OCEnkeV4DwAQDs4naIQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwr02Rf9HwsmzqQCK94AaABAg,I have always struggled with SQL because it's not procedural.   The logic breakdown you do here is SO GOOD.  It really helps me think in the way I need to for SQL work.  Now I have to learn what coalese means...,3 months ago,Sanford Staab,UCfYh-CGTluQoyKiIpudhSGw,1,https://yt3.ggpht.com/ytc/AKedOLRwnuQHkamsTtDPYZ-qu8oV1SC49TO6MMSvJCHo=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz0B8cWgcgpFne2CQd4AaABAg,"I think you are making a bad assumption that the last entry is the same as the current date.  That`s a very bad assumption considering the small number of entries in the table which clearly shows there are NOT daily shipments.  If there are no shipments for the next 90 days so the table doesn't change and you run your query again, you are going to get exactly the same results.",3 months ago,Robert Woodruff,UCZWD6eOgdMZ-izrSxBBmhKA,2,https://yt3.ggpht.com/ytc/AKedOLR85IEfF2Hw7UgxvNHYtsesrmbihedKVbhelptOdA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwgUHoQCE7WaERpHL14AaABAg,"Sorry if it's already been brought up... but your logic doesn't work, you need a ceiling in your then clause. If you had only 1 package in 180 the query would have still said 120.
+
+Also, depending on the level being hired for, kinda missing that you should be asking the interviewer if they want to see it through time instead of point of time because that's going to be the next ask.",3 months ago (edited),xinco24,UCtP1wnNvqP9GtctYqKLtPQg,0,https://yt3.ggpht.com/ytc/AKedOLTtTsgV-y86ZsizXFhZJaWmmev3mWNVEfugXA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzZTU_oHCPTr4WRbiR4AaABAg,I really appreciate your work that ur doing. I just love it the way that ur approaching,3 months ago,Kavuru Rajesh,UCUJICEs-GIKwLJHCPik86kw,1,https://yt3.ggpht.com/ytc/AKedOLTXZM2sP9vkJWq-TIehKcK77jnWpfcgxo_T_vl5mg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxKk7nSJ2a0gSJXQBt4AaABAg,"Very complicated logic, not so much SQL skills required. Just a cross join to link some different results in a single output row.",3 months ago,Vlad Petre,UCwxVIs0yRC18cCW28OSrOjQ,0,https://yt3.ggpht.com/ytc/AKedOLRNOnHinnrXbbN-JE7laa5qRh9L9YQ9TdVbiA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyQJDmkbzPLbgW-zl54AaABAg,"Thanks for great video...
+I have a little bit confusion in 1 question... If there are two columns A which contains values 1,1,1,2,3,3,3 and second column B which contains values 1,1,2,2,4,Null then what is the output for Left, right, inner, cross join",3 months ago,Dhananjai class,UCMFKGrpSvT6iHRe4ekJqjzQ,1,https://yt3.ggpht.com/Oj4dhhBM9pYJV1UH4r2qnJNBodC2hNvG0o17DjpusPao-idP4e9QP-e0-fZORoFHyw8dOB11=s176-c-k-c0x00ffffff-no-rj,1.0
+UgytrGKo283l_c1WqrJ4AaABAg,You said insert data from text document?? Is that CSV or text file?,3 months ago (edited),Ritesh Sharma,UC-ppKqJE96rrDT05GVbIJew,0,https://yt3.ggpht.com/ytc/AKedOLRQISqLCFM3qwCQO3OSf6rJmfl2iImlkkj7cg8gmg=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwaxCCvdVXEpKkBG8Z4AaABAg,"One Comment I have about your Query for the sake of consistency and loading time.
+
+Replace your initial  *  with the deliberate list of the columns.
+
+Explanation: This is because of Expansion, Redundancy and Query Optimisation, 
+
+Expansion: Sometimes a 4 column datawarehouse may become 15 - 40 columns wide.
+
+Redundancy: When you execute with * you get all the columns, even if you actually don't use them, and as the datawarehouse ages the query will be pulling redundant data increasing I/O for that query (Wear on the Hardware)
+
+Query Optimisation:  The server engine will scope CPU for the full table in the first instance before your filtering, so to improve performance, moving forward always deliberately select what you need not everything from the table. This will also Index much faster because Deliberate Scope within the Statistics is easier for a CPU to handle as  the CPU does not have to check the columns it needs to pul because they are all declared. Note: The query optimiser will probably do the same.",3 months ago,Xyloz Quin,UC-HcYjcFxJfPx5OH3Npdqzw,2,https://yt3.ggpht.com/ytc/AKedOLS1kFVnL_QHIg0ZLp4OGOjaYkwhnUVmUZgjrUhm=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyx5SpJRkABhx0KjuV4AaABAg.9XEPzzjWgz39XGFpmAOZEp,I agree,2 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxghhgWOFEjBHK0yYV4AaABAg.9XD5mHnal5-9XDIOnnzPL3,Your welcome Carlos,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwiAWc-AfUXHz1NeOd4AaABAg.9X2YTfD96u39X377KRf3Cv,"Your welcome buddy ..
+Glad this helped",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyKBxobwpho3JVVQdx4AaABAg.9WxJ8RmLDq99WxjB6eQjyf,"Your welcome 🙏🏼 
+Glad you liked it",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwntNPDkKb88hITGzV4AaABAg.9Wx5tK9Edpc9Wxjwl6_SvR,"My solution is based on the expected output they showed hence my assumption of the days .
+You can solve the problem using many other solutions",3 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwntNPDkKb88hITGzV4AaABAg.9Wx5tK9Edpc9Wxzj7w0HbE, @techTFQ  I saw that but assumed they would have formulated the question and the expected output at the same time. They probably didn't think it through as a general case question to be asked in 6 months from when it was written. I would think that in real world practice the query they would probably want would be from the current date rather than what they asked for. Your answer was correct for what they asked for. But I wonder if it might be more impressive to look beyond what they specifically ask for and speak to using the current date as more appropriate to a likely business case. It risks irritating the interviewer but savvy management appreciates developers that can spot bad questions as well as provide correct answers. Just a thought.,3 months ago,Stephen Fulton,UCc2CvRjeE9ScoyuiFn0a8VA,1,https://yt3.ggpht.com/ytc/AKedOLQ0soHghRbJVNNoS7IUzXwn7LJ7uDWiO0EnOoX-i-GaMr992pxBCSYj1cz-M4En=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwntNPDkKb88hITGzV4AaABAg.9Wx5tK9Edpc9Wy-DcSTOF6,"Agreed 100% Stephen ..
+Definitely something we can ask the interviewer when we are presented with such questions",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy0wcea_AmzggnHKEF4AaABAg.9WuCnQ063Bk9WuDFW_q158,"may be your internet issue Sakhi.. you can watch the video in HD which is pretty clear.
+
+or you can download the video and watch it later",3 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy0wcea_AmzggnHKEF4AaABAg.9WuCnQ063Bk9WuEzrMXete," @techTFQ  thank you sir.
+Even I think due to internet same thing is happening.same happening for download video as well. Will check on full speed internet later . 
+Thanx for reply.",3 months ago,Sakhi ForU,UCjIOD46sUm6WQCvZWX_eD1Q,1,https://yt3.ggpht.com/ytc/AKedOLQtqEIoJFyqKVN881bofCVwkNk1AdkFLks9zBZV=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy0wcea_AmzggnHKEF4AaABAg.9WuCnQ063Bk9WuGpuLNqV1,Cool thanks 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyQiKZCFiyeeujwIVp4AaABAg.9WkWqkSuJcj9WkowHQiK02,Let me know what you find from your solution,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwr02Rf9HwsmzqQCK94AaABAg.9WanPsOgNiI9WapbQGCCJ4,"Thank you Sanford 🙏🏼
+Happy to know this helped you.
+
+As for Coalesce, it’s just a function that replaces NULL (blank) value with any other given value.",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwr02Rf9HwsmzqQCK94AaABAg.9WanPsOgNiI9WumL_dr137,"To add a little bit, there is a function called ISNULL(). This function takes two values. The function evaluates the first value. If the first value is NULL, it will return the second value, regardless of its value. 
+
+So, ISNULL(NULL,'Hello') returns Hello. 
+
+Coalesce uses this same exact logic but allows you to include multiple values, always in left to right order.
+
+So, COALESCE(NULL,'HI','BYE') returns Hi. It never gets to evaluate BYE, as it falls to the right of a valid return value. If all of the COALESCE values are NULL, it will return NULL. 
+
+Just to add flexibility, 6ou can use a CASE statement to do the same thing as ISNULL OR COALESCE. 
+
+For ISNULL:
+CASE
+       WHEN MyValue is NULL THEN  MySecondValue
+       ELSE MyValue 
+END 
+
+For COALESCE:
+CASE
+       WHEN MyValue is NULL THEN CASE
+                                                                          WHEN MySecondValue is NULL THEN MyThirdValue
+                                                                          ELSE MySecondValue
+                                                                END
+         ELSE My first value
+END",3 months ago,Sean Timmons,UCHXywvwHf_ZeXUzOAJw6kLA,0,https://yt3.ggpht.com/ytc/AKedOLRHrMJe9tY4Hy8YOAx1iXADIT-E3CBwbRTABg=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz0B8cWgcgpFne2CQd4AaABAg.9WZTLIQg0nO9WZqYuFYXwD,the query was build based on the Expected Output given in the question. Hence the assumption to arrive at that output.,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzZTU_oHCPTr4WRbiR4AaABAg.9WY3xbyR0Hb9WY6xs3tECH,Thank you bro 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyQJDmkbzPLbgW-zl54AaABAg.9WVx47BipaI9WWRsqLQ-Iu,"Your welcome Dhananjai ..
+I’ve received a few such queries from others too. I’ll be making JOINS video soon and will try to explain this example then",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwmLoHJl5TQ4LNDFlV4AaABAg,"Hey Bro, Great work could you please tell me how to download such database (Tables) which you are working on please",3 months ago,fasih ahmed,UC8slBW0eAnUxJQQxrplQWyA,1,https://yt3.ggpht.com/ytc/AKedOLR-MSQ9UfVbMAI7ZiFhB5A8kMWsq8SY2-q8Pw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgypeuBUJGrBOUd4_gt4AaABAg,isnt it called MANGA now?,3 months ago,Plutus,UCl7D7pQXCAVd8tY9jJD_PJQ,1,https://yt3.ggpht.com/7Dg2Lmja1ApnkL2A7MNgpoZxJTN7gDVUn80RoWvGRBwy-noI2nMVVT2Mj2Ll99AgxD2AsPVxcA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxU3vEfkv4dq07jR1t4AaABAg,"Was it during live interview or home take? It would be pretty hard to complete it live, especially since I don't think that it is allowed to execute multiple queries and peek at preliminary results from draft queries which are so helpful when compiling the final query.",3 months ago,Aziz Mamatov,UCyZ5MGAoZ0UPWqcofkD5H0w,1,https://yt3.ggpht.com/ytc/AKedOLSIbg36thjAk0izKgbhwe3t42X3Q5VmXxpEN8IEy7I=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzS2mXTqR9I-q9Dgdx4AaABAg,"What if we first prepare a dataset with all the remaining goods ages and aggregated stocks by age, and then from that small dataset you will be able to get an easy select of specific ages: 
+
+select age, sum(remaining) as total_remaining from
+(select floor(EXTRACT(EPOCH FROM ('2020-05-25 23:59'::timestamp - ins.event_datetime))/(90*24*60*60)) as age, least(ins.onhandquantitydelta, ins.onhandquantity - sum(outs.onhandquantitydelta)) as remaining
+from schemaname.wh as ins cross join schemaname.wh as outs
+where ins.event_type = 'inbound' and outs.event_type = 'outbound' and
+outs.event_datetime > ins.event_datetime
+group by ins.id) as balance
+where balance.remaining>0
+group by age;
+
+in my query result age=0 is 0-90 days, age=1 is 91-180, etc
+age   | total_remainig
+0	  |  176
+1	  |  102",3 months ago,Viktor Nikolenko,UC7EAH78SK3BvVI57NWZt85w,1,https://yt3.ggpht.com/ytc/AKedOLSgA75P2hg9X81Z9TZ-I2yyczh0dpm2RCeErg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyLKgVEnjbMsnJrKX14AaABAg,So many cross joins are performance heavy also only available in SQL server so not good of the team only use spark or ask for an example in Athena,3 months ago,constantfear,UCzMnktR3QBq7C9qissxk-5A,0,https://yt3.ggpht.com/ytc/AKedOLRScSRM2imXsrUzfqDKyeG9at4hPdfdnJD01g=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy6ynf-tbzV4Q6_XzR4AaABAg,Basically with one CASE and datediff all can be done. But yes I am lazy developer :),3 months ago,Matej Colarić,UCafov2hv8MWua95xCPw1pmA,0,https://yt3.ggpht.com/ytc/AKedOLSFcNvzfvcbg67Rwn8AYIgsS4YwHaa8M7RCMg=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxUWLdRFtjbZmSIrLN4AaABAg,"Well done!  I found it interesting that within the CTEs you put the comma after the statement, but in your select statements your subsequent rows start with the comma. I noticed the inconsistency, and just wanted to comment on it. Personally I will either put the commas at the end OR at the beginning, but I don't mix them. My preference is at the beginning of the statements or row. Also, why use coalesce instead of isnull? isnull came to mind first for me as I was following along and didn't even think of coalesce.",3 months ago (edited),JB,UCQRQOfXD5gvDLum8ACVnPmQ,2,https://yt3.ggpht.com/ytc/AKedOLTzhwAs1tJXuOFKVGp2R6X87aM4VLcFNWT32w=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxtT9Jd79ES43SaruF4AaABAg,Was the job he got a software engineer position or some other role?,3 months ago,D. Woo,UCNXCow8ugTUhrPNNMusPPWA,1,https://yt3.ggpht.com/ytc/AKedOLTfc5MmL4K8f2xP2pS7hesdsA-qeCoOBv8bdAxr=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzkNdRFzlL3lisCHJF4AaABAg,Very well explained with all minor details,3 months ago,Sushovan Mondal,UC4-PEu0L0EQvv0J_pOBEwcg,1,https://yt3.ggpht.com/ytc/AKedOLTu0C3-Ty1XglURLv_t0e3zRKClaUyzHvpUqkzxEQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyRvqEK83v5Fz6HtYB4AaABAg,Sir please make video on CROSS join ...I think ye wala part thoda hard laga muze iss query mai,3 months ago,Rushikesh Joshi,UCCvUkruGdihxYX_ZYvH9zOA,1,https://yt3.ggpht.com/ytc/AKedOLSj7dYJB3kz7ykPoPMpBWt_UJ7mEjt-Xwk-lQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzVQwA4QiiYS9aQlWt4AaABAg,I think this would be much simpler with a ranking function.,3 months ago,Brendon Parker,UCsVVPQPR3ApdyLKWdH2W1sg,1,https://yt3.ggpht.com/ytc/AKedOLTH4vMd212xw4cPVbqTcsOUYuGKzLbg07Fz1YKVWA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzroReggZXdzvjkaD54AaABAg,"Great stuff.
+I would have done it the other way around: Sum all the inbound having (today-event_datetime) > [section age] and build the table considering nothing went out.
+And since this is FIFO, I would then have substracted the total outbound from the oldest category, and what is left over from the 3rd, etc. until there is nothing left to substract resulting in having what is left in the first age categories.
+I love how these kind of problems usually have multiple solutions and seeing how the candidates tackle them.",3 months ago,Pierre Letter,UC84FudcwKDvY7evESnHWUbg,0,https://yt3.ggpht.com/ytc/AKedOLSVyvOpWA8ezrWSq-hA-Ml0WItwmv-CcB9vZM00-Q=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyd3e4oY5heU7G94CJ4AaABAg,Interesting case and good explanation :),3 months ago,Arian Gagica,UCX-7pgAdTpGG_ezGcDH47Gw,1,https://yt3.ggpht.com/ytc/AKedOLSFVdCE6NM2EKKtkhBBj2XAzEDodScmOdaSAGcGBMI=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugyg3g1eRrZSAv8xwhh4AaABAg,"If you say S.Q.L. I automatically think you have no idea what you are talking about. It is pronounced sequel, because the first version was SEQUEL or structured english query language.",3 months ago,Eric Lani,UCDv53vDSG1ysFwx7XnJ63QA,1,https://yt3.ggpht.com/ytc/AKedOLQYeIHd_q5YjKqCITM2vowtMyWagMEM41RPcQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy-Kh7FhhOtvfzo4Kt4AaABAg,"Great explanation, but absolutely horrible question. Why on earth do you have to make educated guesses on how exactly they arrived at the answer provided? It should be crystal clear from the problem description. In any real scenario if there is any doubt about the problem specification, you are supposed to ask the problem owner what they meant instead of guessing",3 months ago,ArgumentumAdHominem,UCCUi3uk7wFTxJB7sytmdAAw,0,https://yt3.ggpht.com/ytc/AKedOLSUwTp6ptiNCy1eovPrO61XfV74a8S21hpP3MU-D4ybbS47m9xmjKJ-JjbghP1m=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwCxoMAOUJS5b6jrdN4AaABAg,Mind-blowing,3 months ago,Parvej Solkar,UC4kK0s424PtVxNjg9c_rkEA,1,https://yt3.ggpht.com/ytc/AKedOLSlbsepxVnWgYE9wKLTEEh4kEqq653famDdkLHuzA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugx43L0J1NtwaU5Z9w14AaABAg,$GSI,3 months ago,Nicolò Orlando,UCL3V-9NQdIFwkJL-OyE-Y1g,0,https://yt3.ggpht.com/ytc/AKedOLSNifP8uDtDD0lFSzYHucXxzyGJkxmHIrde7Yx90ec=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz_Dl7W1W37UDtHGaZ4AaABAg,If the warehouse did not receive a shipment for 2 days then the latest entry would not be day one...,3 months ago,Luke vanDam,UCRnJKGi8CytMhDq3CBVIaWg,0,https://yt3.ggpht.com/ytc/AKedOLSEsQeU0Al9UguWIUOx4dSs4gsivzNf9Wx2lQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzXsEWzgG90vQFKrEF4AaABAg,"I would have put the ranges (0,90 & description..etc.)  into a cte table then left join it in a subsequent cte to categorise the dataset rows. 
+Then use dynamic sql to pivot on the category column. In the future you can then add a new category and range to the first cte and the subsequent queries would remain unchanged.
+Also case statements run on each row so as your dataset grows the query scalling is affected. A table of category values left joined should scale better but that's not tested",3 months ago (edited),Meirbhin O Conaill,UCLcAaOcnHdPm8gArd01fjHQ,1,https://yt3.ggpht.com/ytc/AKedOLSah39s-uQfGqfWsJLQN34GpijY8q7xpyMIVPqg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyRw5xHALWoflgdFXB4AaABAg,"I was planning to learn sql.
+1.Is ssis ssrs and ssas are parts of sql or not?
+2. Dax language used in power bi and ssas Dax are same or not?",3 months ago,Mahathma Sadineni,UCZcAl6mE6nhdhnHIaORU7Fw,0,https://yt3.ggpht.com/ytc/AKedOLRh63G5-cZqUTdcSZzt94pKtKcycX1uwxlVqw=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwmLoHJl5TQ4LNDFlV4AaABAg.9WSfEPdQEvT9WSfNizb_yV,"Thank you Fasih 🙏🏼
+You can download the table structure and the scripts and sql query from my blog for free.
+
+Link to the blog in the description of the video",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgypeuBUJGrBOUd4_gt4AaABAg.9WQfbzIGLNQ9WQfjurNim1,"or GAMAN, NAGAM, MAANG, GNAAM, AMANG, or whatever",3 months ago,Plutus,UCl7D7pQXCAVd8tY9jJD_PJQ,1,https://yt3.ggpht.com/7Dg2Lmja1ApnkL2A7MNgpoZxJTN7gDVUn80RoWvGRBwy-noI2nMVVT2Mj2Ll99AgxD2AsPVxcA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgypeuBUJGrBOUd4_gt4AaABAg.9WQfbzIGLNQ9WRz8PuIDtU,May be bro .. not sure of the new name now but felt FAANG is still something everyone would understand,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxU3vEfkv4dq07jR1t4AaABAg.9WQGY7Xv1pI9WRzprG21CU,"Not really sure about this ..
+I’ll need to check and get back",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxU3vEfkv4dq07jR1t4AaABAg.9WQGY7Xv1pI9XnzWQsEfM2, @techTFQ  Live ones expect us to code a query within 15 minutes. Problems like these seem absolutely impossible within a frame like that,2 months ago,Arka Mukherjee,UCBb4BGj31n3f2qWZi66TL0Q,0,https://yt3.ggpht.com/ytc/AKedOLSERA3EAvcvPRXihHnuCVncoj3EY99tP842SPiQyA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzS2mXTqR9I-q9Dgdx4AaABAg.9WOYO-W4GHZ9WOpDpUDjRH,"Good solution Viktor ..
+This is the beauty of SQL , we can have multiple solutions to the same problem..
+Well done.. I may make a follow up video in the future showcasing different solutions to this same problem.. I’ll consider your solution as well",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy6ynf-tbzV4Q6_XzR4AaABAg.9WLjh1NcOXU9Wm2r3JRPKz,"Lazy developer - good developer 😉. And I guess recursive query will be shorter and clearer, IMHO",3 months ago,bek2074,UCMWzhK9G9sczBPKK2WIFGrg,0,https://yt3.ggpht.com/ytc/AKedOLRgI4NACFaXDzsPhyIKHV2R4Okx_ntkoYOy-Q=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxtT9Jd79ES43SaruF4AaABAg.9WLcR-6whsu9WMeKzaDzOa,Some other role,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzkNdRFzlL3lisCHJF4AaABAg.9WLTmvHtVW19WMeTrE-rjq,Thank you 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyRvqEK83v5Fz6HtYB4AaABAg.9WLApIzsEEw9WMeWx905o_,Will cover it in a separate video soon,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzVQwA4QiiYS9aQlWt4AaABAg.9WJBEQ2OXVc9WKJ7oVtbFd,"May be Brendon.. I am sure there are several different ways to solve this..
+Perhaps I’ll make a follow up video someday with multiple solutions",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzroReggZXdzvjkaD54AaABAg.9WIy3mE_MOX9WK7didKGxz,This was also my first solution after reading the problem. I really like that there is multiple ways to do tasks in SQL.,3 months ago,Silas,UC4i6be43-NXNE0jZmD6WuQA,0,https://yt3.ggpht.com/ytc/AKedOLSuwygh3nE9Aq-LrNywfd7cBYD2MpUUj_9lTBAkLA=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyd3e4oY5heU7G94CJ4AaABAg.9WIrtjK1LtT9WKJCdj-dTC,Thank you Arian 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugyg3g1eRrZSAv8xwhh4AaABAg.9WIqW2zYM_M9WKJKjEseI2,"Sorry to disappoint you Eric.. we can refer to it as either SQL or Sequel..
+
+Both are very commonly used..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwCxoMAOUJS5b6jrdN4AaABAg.9WIMclVwA1E9WIOtLB-0Ez,Thank you 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugx43L0J1NtwaU5Z9w14AaABAg.9WI-YypAdCV9WI3aKp8ozC,Hmmm what does this mean ?,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzXsEWzgG90vQFKrEF4AaABAg.9WH4xh03mQi9WHLLRngi8M,"Hi Meirbhin,
+Good suggestion and yes we can have so many different solutions to this problem.
+
+I do like your suggestion, would you mind sharing the query with your solution. 
+If I come across some really better solutions then I may plan to make a follow up video on this.",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwUVTtbWJO1X3wxrQB4AaABAg,"Correct me if I am wrong, but if you use between for 180 to 90, are you not missing one day? It would only fetch 91 to 179. If a shipment happened on the 180th day, it would be skipped.
+
+Edit: I realized after I posted this that SQL includes the specified start and end in the range, unlike some other programming languages. I will leave this comment anyway for anyone else who has the same question.",3 months ago (edited),Phrosty,UC_4GHNXoxsJoIxXpV9rR-pA,2,https://yt3.ggpht.com/ytc/AKedOLSBBPmjrhpgdi0-W9RxQv3G6d4HnKRdEqznNIcIq0oARtuQJqlPf3r_hi0lnHsv=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxrvaY0ivGShvd2jlB4AaABAg,"Extremely good example of binning and working with date-times (something everyone will no doubt have to do in SQL). I agree with some who have mentioned that you could probably solve this using partitions in a more tidy way, but what I love about this tutorial is that you work through the logic of the problem as you go which helps people understand WHY your query works in the end. 
+
+It would be sort of cool to do a follow-up version of this report using partitions or other alternative methods to compare the query design and determine which is best. 
+
+Great content and patient explanation. Worth a sub for me!",3 months ago,TelQuel,UCd36nPgKJYUDbGzM24_WjBg,14,https://yt3.ggpht.com/tRS2R_zqCdRXywA4PXDk7qxUrtFSSd3ga6Bztt-3ivLP8gQx0rcid5p2o172m4Muv6Cgf5UqYg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgydYqbkYF59Mkw4pLp4AaABAg,"The four-coulumn conversation from the numeric ranges was extremely helpful, I have an extremely relevant thing I am trying to do (sort various data into columns depending on thresholds). Thank goodness I found your channel. You’ve changed my tech world!!",3 months ago,Vulcan Starlight,UCEo8qku1ybK5cVMA7Q3A4FA,7,https://yt3.ggpht.com/zPWzvz50CZlPLj5sPqsbiugb_QixjQycJWZLyM777kIHY3i4VCPb0ngyvJwYkBGw6BEgFUtCnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy_QUQQRVNleFf79At4AaABAg,"I would refuse to do the test on the belief they were trying to have me solve a problem they couldn't - or more efficiently than they have, before offering me a position.",3 months ago,Beedoo X,UCBqw-AV1YMBL4oyeOSW9Qbg,1,https://yt3.ggpht.com/ytc/AKedOLQJWWztHFkC7NgR74CuMKBW9HhBBeYWXt1Rfw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxjAdlSLk3jdXuX0RR4AaABAg,"Really interesting question, I couldn't resist having a go by myself. Managed to complete it with standard sql in 10 lines.",3 months ago,Chris McGrath,UCWyraUxTWF1ihQfmRzZhHJQ,4,https://yt3.ggpht.com/ytc/AKedOLRDPsZeSHqGPzhhYpxD-rBTUXD64Ycs5G7Ctr3D0g=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxwGeXjd505BrH3QvN4AaABAg,Joe Celko would love this :),3 months ago,KangoV,UCO40_J1h4gpQ2oDBKP23x6A,0,https://yt3.ggpht.com/ytc/AKedOLQSRn7gdqQcNOvtwpyJPUWU45Z2jA_Iudua3w=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzE86t2XGfM02HFXA94AaABAg,"Thanks so much for this great content. I have one below concern while while trying to use 'order by' clause inside CTE.. Could you please help on this?
+
+Msg 1033, Level 15, State 1, Line 49
+The ORDER BY clause is invalid in views, inline functions, derived tables, subqueries, and common table expressions, unless TOP, OFFSET or FOR XML is also specified.",3 months ago,neel banerjee,UChoXRREAIDJBy8bbQdtm97Q,2,https://yt3.ggpht.com/ytc/AKedOLRUNEXiezlnDE-jtTLmT0ZXvhAmOScWe-hvpLAR=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxcaLjqS6dHV-1iC4V4AaABAg,Amazingly explained.. Learnt quite a few things from this.. Kudos to you,3 months ago,Saurav,UC_-3sgOfaxqdfTamDQUR0ZQ,1,https://yt3.ggpht.com/ytc/AKedOLQOmBXiHxSXLS68A7PtGlnZKT-TUYNaLd_nS_JtULU=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzqiE4I0PxTmoR4rtp4AaABAg,"Only 1/3rd of the way through but loving the lucid explanation- subscribed!
+
+Also I REALLY appreciate the fact that you’ve stuck to basic operations and commands while carrying this out — understanding how to work with fundamentals is so crucial for learners like us. Thank you for your work.",3 months ago,Siddharth M,UCOiMvpaBEPsfK36W_ocvDwg,12,https://yt3.ggpht.com/ytc/AKedOLRyHXEDhKxr_BoP7HeqSrYc0q_i7qPSHBboplWIiBQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzqu_j48WOaF6NL8mx4AaABAg,Which program did you use to manage the database?,3 months ago,Rubén García,UCr4m9NoIDQfwCqPXFSuwxaA,1,https://yt3.ggpht.com/ytc/AKedOLT492qQT2RgTtlUVZuwlvGskpiiI01QtpoLU6sX_w=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwrvah-UILNHJkYRNt4AaABAg,My immediate reaction is that I would not do this operation within the database but instead on whatever type of scripting language you're using :),3 months ago,Manzell Blakeley,UCmU22rlCVtT8ximFTfj2i3Q,1,https://yt3.ggpht.com/ytc/AKedOLR58VfoPJ_yck-VCyciXregDNKV0zwRnc4X2GjxrQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxhTIEbzLZsSS28och4AaABAg,Very inefficient code... imagine cross join on millions of records..,3 months ago,anurag sharan,UC_-CGsmyVG7FeuwimSnhV1Q,1,https://yt3.ggpht.com/ytc/AKedOLQhFdP72UhJ6v31QUp3Qol__GwPq4efarJ0ix9B8Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyS6ebcga5_6D7UaFR4AaABAg,"Sir, Please Make the videos on SQL for beginners.",3 months ago,Umesh Dussa,UC6-PCz72jO3cLz7E4RWvcxQ,1,https://yt3.ggpht.com/ytc/AKedOLR91KHIC4aWWfN-wdO4U4QU96IW-HaF_ZqxXv3-ZQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxFFbRk9U0u8yxbwOl4AaABAg,I have started working after my graduation . Im making repotrs for small financial company using sql and pentaho reportdesigner.. do u have any suggestions to me?,3 months ago,suraj k,UCakbTHX-7ny5sFaECq26flA,1,https://yt3.ggpht.com/ytc/AKedOLT-F1-JOqW2spfBPEHXwi-nGwIYFh2WhZLctk4XTYwK8miteWy5ZNFTMz-xro3G=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxoO2Yu4yC5UbgbHah4AaABAg,"Why this error is coming =Msg 22050, Level 16, State 1, Line 0Failed to initialize sqlcmd library with error number -2147467259.",3 months ago,Atul Bhandari,UCepvBLN0t_pmoonX4aS5_5Q,0,https://yt3.ggpht.com/ytc/AKedOLQXYBCqeM_CCno0yKFTmS15q6qR4V0_qTmS1_IOTis=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzZocDWn0jS2L3wcJ14AaABAg,Thank you sir for this amazing explanation and knowledge.,3 months ago,surodeep dey,UC4QyEPJjNf6fEM1W0DK1Zmw,1,https://yt3.ggpht.com/ytc/AKedOLTSgWDKA84S-zHG3zIOkDoLjMnktLH5Q0I-3khi=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwjHq1GSkg9YF_AB_J4AaABAg,*MAANG now,3 months ago,Manraj Singh,UCS-IeSUvTuPHQK930_Jt0gA,1,https://yt3.ggpht.com/ytc/AKedOLSKXLSxxTr7wTyvM3id7lGHOw-RELf6TOiyDo2ARg4=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwYTm-rsABnMNSTR_x4AaABAg,"Indian people have the worst English accent of all planet. They are skillful, but I just can't tolerate. My ears hurt when they talk.",3 months ago,Tiago Silva,UCSnjmRdRwpBKa9s8ICPEMdA,1,https://yt3.ggpht.com/ytc/AKedOLRAaDJxbLDzaVQBz6EKHk7PckdVTOrAMeLzrYoFSA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxEi7YNoSCd2RdK2754AaABAg,Excellent question and analysis. I think I am going to use this question on my engineers and see what they come up with.,3 months ago,Ernest Bethel,UCTBFPdoZyM8MWoKLR9vjmTg,2,https://yt3.ggpht.com/ytc/AKedOLRgMcuJKijTm3w8Rd020RkBQ5vCe4cpL9NlDf684g=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugzxj-rK8K9COaAeQsh4AaABAg,"Do you mind post sample data for download as well?
+Thanks.",3 months ago,Xin Chen,UCYRhLjBnobHX1t6elk0QU0Q,1,https://yt3.ggpht.com/ytc/AKedOLRZ8e7c6eTA1qMQtD06LFzhnnkjyptB2RiH_e20gQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwUVTtbWJO1X3wxrQB4AaABAg.9WGCGigL-tj9WHM9zPDvpD,It's a good question and you answered it yourself :),3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxrvaY0ivGShvd2jlB4AaABAg.9WFss35vOcY9WFuN8ZQ8gh,"I love this comment. Thank you Tristan.
+You raised a great point to make a follow up video using some alternate approach and I am sure we can solve this problem in many different ways. And I will plan to make a follow up video sometime in the future.
+
+Thank you for the sub :)",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgydYqbkYF59Mkw4pLp4AaABAg.9WFeXsTH86j9WFutRbBR5C,So happy to know this. glad you liked it :),3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy_QUQQRVNleFf79At4AaABAg.9WEdSG8oKSV9WHMLaxYvtg,"Well it can also be a great chance to impress the recruiters right?
+If you solve a problem which they are struggling with then you make a fantastic impression.",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxjAdlSLk3jdXuX0RR4AaABAg.9WEVLrkvmdB9WE_tLZSGiY,Amazing Chris.. would you mind sharing your solution here ..,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxjAdlSLk3jdXuX0RR4AaABAg.9WEVLrkvmdB9WFKCvZNrex," @techTFQ  No problem, I just posted in on the blog link",3 months ago,Chris McGrath,UCWyraUxTWF1ihQfmRzZhHJQ,1,https://yt3.ggpht.com/ytc/AKedOLRDPsZeSHqGPzhhYpxD-rBTUXD64Ycs5G7Ctr3D0g=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxjAdlSLk3jdXuX0RR4AaABAg.9WEVLrkvmdB9WIDIPZuNjk,"Yep, that solution is much more in line with what i was thinking of how to solve it. Well done.",3 months ago,Professor Trog,UCp7K3PiHN99MB7IJ3dnc21w,0,https://yt3.ggpht.com/ytc/AKedOLSc0fF3-pY3RA7d5ccsx773CJiTeqXbIp5odnU1=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzE86t2XGfM02HFXA94AaABAg.9WCxLInqwhc9WCxg9Jgr_2,"Your welcome 🙏🏼 
+
+The error is because of the limitation in MSSQL.. u cannot use order by inside CTE I think..
+
+I have provided the alternate query in MSSQL in my blog.. u can refer to it..
+
+Not sure why MSSQL has such restrictions",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzE86t2XGfM02HFXA94AaABAg.9WCxLInqwhc9WIBbxlPWfd,"You can add TOP to your CTE, which would then allow the ORDER BY clause
+ SELECT TOP(100) PERCENT * FROM mytable
+ ORDER BY 1",3 months ago,chameleonquest,UCLz2wV7uWyCy2NLGRClDPmw,1,https://yt3.ggpht.com/ytc/AKedOLSMKJi-pJyU-TPEsMDdWZBojemrjAdc0o8ySA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxcaLjqS6dHV-1iC4V4AaABAg.9WC_guCR8Q69WCbJtN25do,"Thank you Saurav 🙏🏼
+Happy to know this helped you learn new things ..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzqiE4I0PxTmoR4rtp4AaABAg.9WCRTLnk9749WCRw4DJX0_,"Thank you Siddharth 🙏🏼
+Glad you liked it ..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzqu_j48WOaF6NL8mx4AaABAg.9WCLiKjnZJC9WCN_6tb93c,"If you are asking about the tool I used then it is PgAdmin 
+
+And the database is PostgreSQL",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzqu_j48WOaF6NL8mx4AaABAg.9WCLiKjnZJC9WCQk2LX9v1, @techTFQ  i see thank you,3 months ago,Rubén García,UCr4m9NoIDQfwCqPXFSuwxaA,1,https://yt3.ggpht.com/ytc/AKedOLT492qQT2RgTtlUVZuwlvGskpiiI01QtpoLU6sX_w=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwrvah-UILNHJkYRNt4AaABAg.9WBStaIz37y9WBk8EW6KfZ,"Yes right , if we were going use pl sql or pl pgsql languages then we could write a procedure or function to do it more efficiently but since this question was to write an sql query that I why I came up with this..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxhTIEbzLZsSS28och4AaABAg.9WBL9ZK4NDh9WBkS_Dn-j2,Good point but this cross join is always going to be with a table returning just 1 record so it’s not going to be that inefficient..,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyS6ebcga5_6D7UaFR4AaABAg.9WA-suodfrH9WAJOEubRQM,"I’ll make it Umesh ..
+I am also planning to conduct a live session on SQL for beginners..
+
+I’ll announce this in a few days .. free session in a different platform..
+Hope you can join it and benefit from it",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxFFbRk9U0u8yxbwOl4AaABAg.9W98biR8Mkd9W9dIE97H56,Just keep learning Suraj and always look for alternative ways to build the same sql query which should help you discover the various features in sql,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzZocDWn0jS2L3wcJ14AaABAg.9W71wsA4b429W77sV42OT7,Your welcome bro 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwjHq1GSkg9YF_AB_J4AaABAg.9W6zt5VoAGN9W77qcIBLvn,Not sure if that’s official but definitely needs a rename now,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwYTm-rsABnMNSTR_x4AaABAg.9W6ZGM1lVH29W77dTzKgsz,"Hi Tiago, It’s sad to read such hateful comments..
+Nothing good will be achieved by leaving such comments ..
+I wish you find your peace..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxEi7YNoSCd2RdK2754AaABAg.9W5uVHQCkq89W6IG_6iubB,Great to know that Ernest 🙂,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugzxj-rK8K9COaAeQsh4AaABAg.9W4edZTgJ2B9W4t_fGyyL7,You can find the insert scripts to get this sample data from my blog..,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwnqlmx1Sl79uAYsRR4AaABAg,"Nice explanation on the problem.  An issue I would point out in your solution is that Day 1 is not the first entry but the current time (In an actual interview, someone would mention this and you can easily change it).  The warehouse could have not done anything for 4 months and your logic would be incorrect. Besides that, I would say it meets the bare minimum requirement to get a passing grade.",3 months ago,Leighton,UC6A9sttCRJDMIf836P5CuoQ,2,https://yt3.ggpht.com/ytc/AKedOLQu6j7kzqtFWVeHQEiPzCfqx5_Pv-FrUJQqBQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy0N6A4IbRFecvedP94AaABAg,"First, this is a very good explanation so I don't want to detract from that.  However, in watching, I had to say that you jumped through a lot of hoops in the effort to keep this the way it is.  As some previous commenters pointed out, you could use various partition and window functions within the query to make things a bit easier.  Personally, I tend to avoid that approach.  I don't tend to care too much for nuanced and very complex queries that could get run on large tables - especially if there might be multiple people working with the report or code eventually.  The one thing I've learned is that the phrase ""competent with SQL"" is a very, very inclusive grouping.
+
+Ideally, I would incorporate the bulk of my logic into a function.  Using something like pl/sql or pl/pgsql would allow you the internal freedom to have flow control and other elements.  But, more to the point, if you have a defined table structure, you can create a generic function to return in integer representing ending inventory for an arbitrary period.  Say it was named ""ending_inventory"" and took two integers for starting days from today and ending days from today as an argument.  Then your final query would be as simple as """"SELECT ending_inventory(0, 90) as '0-90 days', ending_inventory(91, 180) as 91-180 days', ... etc.
+
+This could easily be continued as far back as you wanted or could easily be wrapped into a programmatic loop to be built dynamically by a reporting engine.  As a function, it also allows the underlying code to be maintained without much disturbance of the front end and can be tuned much easier or, in the event of performance issues, promoted to a different language or function type.  I personally like to think down the road when this report has been around the block for five years, the original author is long gone, the table has grown to millions of entries, and something weird breaks.  What's the easiest path to resolution?",3 months ago,Brad Bartram,UC2fFws6_Gi0Vq5cMpQokpOg,3,https://yt3.ggpht.com/ytc/AKedOLRHe2JUAWk-V91_3GgkSiGpT4gp1maFtuSusxBm=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxYPDXXYaBq0EHcQcJ4AaABAg,"I think this could also have been accomplished all inline utilizing analytical functions, such as partition by.",3 months ago,Carsten B,UCo41ilA60NO48gh0i-Knf2A,9,https://yt3.ggpht.com/ytc/AKedOLTEQNTqu6XSyuCaqYV-DkvmorN6GE55knsHhA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzSp-QNUjr1NvlYMWB4AaABAg,Excellent explanation,3 months ago,Raviteja,UCcxQo7XYJNuJy2GIj8t1ixg,1,https://yt3.ggpht.com/ytc/AKedOLTpVlwky-8ZgusAWkyig5IfAs2T4lf05PfthPT_ovwxNNKsIe7wbQMQnB0TOycI=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxTt3UXhojKPtR7SJJ4AaABAg,Thanks a ton Sir,3 months ago,Wonder Woman,UC4zCHP78bP2WGoppHoSxx6w,1,https://yt3.ggpht.com/ytc/AKedOLRNifVQhT7xU7IupeM1n1QXDhtKMDFFXgm55DPN4g=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwgu_wUg0kr369NWNl4AaABAg,"Super 👌, thank you so much, by the way, couldn't we use max(date) to get the date or most recent date and avoid all the cross-joins where possible,  because they take a toll on the server if the data is huge?",4 months ago (edited),Ravikiran,UCwa7gKyXBFGkd0jW6WwBcjw,1,https://yt3.ggpht.com/ytc/AKedOLTeFhP_78lLe2M_VwbUW--e1LkJCndH1j4czA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgynF7_Hnw2b5rAU5Ax4AaABAg,Are you an employee of FAANG?,4 months ago,sai Gowda,UCRiOaLQwEk4CP7fCLfGDCmw,2,https://yt3.ggpht.com/XVzW-THybDlQybk7iPVsEXaKFRcQ2x9pHLZvKPJBcX4BYT6p0MYOy0KxfrstPoq_xk6AxTAUaUQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxLiPm3Y3NwzkvAhwF4AaABAg,how long are these interviews?,4 months ago,kanank13,UCads4Goc404FHZg4Rg6hE_w,1,https://yt3.ggpht.com/ytc/AKedOLRguzL6PA-PIpvbISGJP1HO3JGk4bcJdnOb5hCCrA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxECVndOI2RMHbpvFJ4AaABAg,"Really nice video...Are u helping for the candidate to build the career related to SQL?
+I am good in SQL and I am looking for job still I am not getting any job. From my side I am thinking SQL is good for career",4 months ago,Harish,UCgko2R6uD28_LyGP5Z-nUiQ,1,https://yt3.ggpht.com/ytc/AKedOLSGsZq8sCTJ87M-FYu0faY679pppLxExsUQA0UJeJI=s176-c-k-c0x00ffffff-no-rj,1.0
+UgymaM7m461QqYU1NpB4AaABAg,"Hi Taufiq,  Tomorrow is my SQL interview kindly share Some tips and Q&A .",4 months ago,Sakhawat Khan,UCxP0YCiIVNdW6B48gOmktuA,1,https://yt3.ggpht.com/ytc/AKedOLTQgwvRIAfu8bbuYKsR9iv73e-M3LOtpQ1EVMvoAg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxXdblXu99YaAF-ybF4AaABAg,"Some day after may be two and three days I give first interview on the SQL,pl/ SQL programming
+Give me information",4 months ago,Gaurav Chauhan,UCk-jcd2W95NX9WZW5iXDKsQ,1,https://yt3.ggpht.com/ytc/AKedOLThmRsw4mUBdh4khOcwiNKPeSjDjYK-U7qGdbNm=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzZLTmseZK8kgkHE_t4AaABAg,"Saw the logic explanation again today,
+I can a little bit relate to this query like the one I solved where I had to segregate in debt customers in the number of years intervals.
+Will be waiting for your such questions solving videos along with Much awaited Types of Joins in SQL video. You explained cross joined a bit in this, looking forward to detailed explanation from you in future.
+Thanks bro for your efforts!",4 months ago,Saud Ahmad,UCE68YUju4sLQ_h64dfGwX2Q,2,https://yt3.ggpht.com/ytc/AKedOLT4hwF2Ds3jbWzXZHvXPutZr3PKDrwBFfbN=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxrYUl4leZ9X6l5skx4AaABAg,Logic is same for PL SQL and MS SQL ? I think logic will be same for both... As a biginner i asked u that please also mention for MS SQL also,4 months ago,mahi mahesh,UCA9zodWfr_NwOzOAz-_CRtw,1,https://yt3.ggpht.com/ytc/AKedOLQ_E13Wc3FsC6STuhBNHlh3fXxSm4HB7nAwW0uU2Q=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz4NcOTRzdaNCPjQF94AaABAg,I got a job as a data scientist without even to solve any complex problem. I guess they only use these tests on indian people since the education system ain´t a guarantee for quality over there.,4 months ago,Andy N,UCDBDi-aNQzor9QZ-xaW2hyg,2,https://yt3.ggpht.com/ytc/AKedOLQbn_cjcopwXHEiDfrbbdCthAE4JjPCOSD5HA=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxECpniPu8-dsUiUPt4AaABAg,"I had worked on similar on-hand quantity detail report, it's basically under ERP module called Fixed Assets.",4 months ago,S S,UCJnuErpXW9FAKxlJyJ-6V9A,4,https://yt3.ggpht.com/ytc/AKedOLTv5-3gbhnYuRL1v9pI8jrluklLSbuOAqfs2Q=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxDM5UiktHdChB8F2t4AaABAg,And one more thing I want to you that you make video based on n data recovery query.. mean  if our data lost  somehow so how we can recover,4 months ago,priti rani,UCY-E3haFknntdfDx_wR4C1Q,1,https://yt3.ggpht.com/ytc/AKedOLRNEHxUCiE0e9H7oLCcoYzO2el5DpOElGiE30QDlQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxxSpriqKRimuSMsWR4AaABAg,"Your knowledge and concept really helpful ..thank you,  and plz  make more video based on typical query and usefull query.",4 months ago,priti rani,UCY-E3haFknntdfDx_wR4C1Q,1,https://yt3.ggpht.com/ytc/AKedOLRNEHxUCiE0e9H7oLCcoYzO2el5DpOElGiE30QDlQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwr8ThkgLinX7x1dsJ4AaABAg,servicenow tool tell me sir,4 months ago,mdk kumar,UCJPgwclM7tcWGf6BsrBuwZg,1,https://yt3.ggpht.com/ytc/AKedOLRZ5EWiZarYiiqI_B3AV_ljC3hcYkaglLFGcw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyYjbc41zTlF4IW0HN4AaABAg,please make some video on how to extract data from kafka or any cloud to local system.,4 months ago,Nipur Varshney,UCI4wX5mfO5jcUCQjJdReABw,1,https://yt3.ggpht.com/ytc/AKedOLSN6YUgCPoGiRZYNcu1ATKw_Vqq-gk1I3QSTIWT8NS-cVTP7mxa44gmL_9VZ2EL=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwWz38QnjlW4RoJbJF4AaABAg,Feels so great to see you grow this way.  Wow. Such a great person and a tutor 💖,4 months ago,Sheeba Parveen,UCLG0THTDn61-uOe8uz3luCg,1,https://yt3.ggpht.com/ytc/AKedOLS_bbDwk2UdEkLpnVA8niKltV1MsVbZ24fICYS3bA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwnqlmx1Sl79uAYsRR4AaABAg.9W4QETbIG1q9W4tvuYhje4,"Thank you Rei 🙏🏼
+But I’ll have to disagree with your analysis..
+
+Actually the logic would work even if no shipment happened for last 4 months.. 
+you can modify the data and try it out yourself..
+
+Secondly, day1 is just a reference to the last shipment date and time.. I don’t see any issue with that consideration..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwnqlmx1Sl79uAYsRR4AaABAg.9W4QETbIG1q9W78YWasDx1," @techTFQ  What you are missing is that you set event_datetime as your first day instead of using  
+CURRENT_TIMESTAMP() (or equivalent in your database of choice).  What you are doing is you are getting the earliest datetime from the table.  No where in the problem did it say that the first entry is the first day.  That is your assumption and it is a wrong assumption.  This has nothing to do with the data in the table.  If you run your query today vs 200 days later, you will get the same results.  Unfortunately, that isn't what the question asked.  If you were asked what the inventory age in relation to the last inbound/outbound receieved, then your code will work.",3 months ago,Leighton,UC6A9sttCRJDMIf836P5CuoQ,1,https://yt3.ggpht.com/ytc/AKedOLQu6j7kzqtFWVeHQEiPzCfqx5_Pv-FrUJQqBQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwnqlmx1Sl79uAYsRR4AaABAg.9W4QETbIG1q9W79TmoZ5qT,"Hi Rei,
+
+Was it mentioned in the question that you need to find the age of inventory as of current day ?
+
+If they specified explicitly that we needed to find the age as per current day then yes, using the current date from database would make sense but in this question they just asked for the age as per the given data ..
+
+I fact the last shipment is on May 2020 and if I assumed current day as Day 1 then the output would be not as expected by this question..
+
+As per their given output they kind of wanted us to treat last event date time as the Day 1 from when we needed to calculate the age..
+
+This question was asked to my subscriber just last month so it’s not like this question was asked during May 2020..
+
+I hope this clears your confusion..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwnqlmx1Sl79uAYsRR4AaABAg.9W4QETbIG1q9W7DyK5K1mC," @techTFQ  We can agree to disagree but the question was to generate an sql that will create a report for how long the inventory has been in the warehouse.  It does not have to give you every detail.  As part of the interview process, it is your job to ask questions.  Since you weren't doing the interview and couldn't ask questions I can understand your logic.  Also, the sample output is just that, a sample output.  That sample output was valid for some amount of days but isn't valid today if you run the script today. Unless specifically stated, sample outputs are not your goal.  As an engineer, you are expected to come up with your own set of tests and think about when/how your solution does and does not work.
+
+I'm just saying if you were asked to generate an sql that would be used to generate reports, your sql will not generate the correct report the longer a shipment has not gone in or out of the warehouse.  If this is a busy warehouse then your solution is not a problem.",3 months ago,Leighton,UC6A9sttCRJDMIf836P5CuoQ,1,https://yt3.ggpht.com/ytc/AKedOLQu6j7kzqtFWVeHQEiPzCfqx5_Pv-FrUJQqBQ=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugwnqlmx1Sl79uAYsRR4AaABAg.9W4QETbIG1q9W7EjeJ4z5a,"I understand your point of view but I am just saying for this question in the interview based on the expected output the last shipment date should have been the day 1(since the question was asked in Nov 2021 and the data was as per May 2020) 
+
+If this was a real project then I would have done this using a procedure and a function and considering a lot more scenarios than what was given in the sample data here..
+
+Anyways, you did make a good point and I appreciate your effort in explaining it..
+🙏🏼",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwnqlmx1Sl79uAYsRR4AaABAg.9W4QETbIG1q9WEPioEiqQV,"​ @Leighton  First of all, I think you're way overthinking things. What you're harping on is as simple as replacing d.day90 with today's date and time function. I would hope that the question is trying to see and understand your logic in solving the problem and the query that you use to do so rather than a very simple gotcha in the form of ""uh oh the data was from last year though so by you using the sample data as a reference for the expected output you've failed"". 
+
+Also honestly, It's assumptive either way. Maybe the report was needed to see how long inventory stayed in the warehouse back in May 2020? Maybe the next step is a comparison from then to now to see how efficient they've been with only ordering what they need each inbound shipment. The question isn't clear and it's actually incorrect for you to assume the report needs to be current info as well. If this was a job you'd ask who needed the data what the intended use was. In an interview you'd ask the interviewer and at that point it's up to them as to what the report is trying to accomplish. I'm not sure why you want to have this ""Umm, actually..."" attitude when the main point of a video like this would be to teach the logic behind the query and not literally build a report based on data that you can copy and paste to use for yourself.",3 months ago,Benjamin Odom,UCO-9DU1e21eTlITHAPlJUMg,1,https://yt3.ggpht.com/ytc/AKedOLSd1uESvfhhTSB7CDwq4u2VAy6rvRHD8LCbMEk63g=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy0N6A4IbRFecvedP94AaABAg.9W3cOSYnNry9W5mfu4v8Kc,"Hi Brad,
+Thank you for liking my explanation and for this feedback.. I truly appreciate the details you mentioned here ..
+
+In fact if I had to use pl/sql concepts or pl/pgsql concepts here I would probably would have followed the same method as you mentioned here..
+
+However, as I understand from the person who got this question in his interview, he was asked to write an SQL query to solve this problem hence my solution was built only by considering SQL query in mind and nothing else..",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxYPDXXYaBq0EHcQcJ4AaABAg.9W3Ve9kd8xl9W5EgXsk6jh,"Yea Carsten, I am sure we can solve this using several different ways and using analytical function is one of them..
+
+I’ll make sure to update my blog with alternate solution to this problem (perhaps with analytical functions) in the future",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,6,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzSp-QNUjr1NvlYMWB4AaABAg.9W2u9ySe7Vw9W4x-Ne8JME,Thank you 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxTt3UXhojKPtR7SJJ4AaABAg.9W23-9bzHzn9W2rhUkZK17,Thank you 🙏🏼,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwgu_wUg0kr369NWNl4AaABAg.9Vy7rIjlHN_9Vz1LpdxBbn,"Thank you Ravi..
+We not only need max date but also need the remaining inventories as of Last shipment day hence used this logic..
+
+But of course there can be many different ways of writing this query..",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgynF7_Hnw2b5rAU5Ax4AaABAg.9Vw-JZp3hSy9VwHfqNHi_3,No I am not,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgynF7_Hnw2b5rAU5Ax4AaABAg.9Vw-JZp3hSy9VwcV65TU5H, @techTFQ  don't mind .. generally I have asked ...by the way you're explanation is superb 👏,4 months ago,sai Gowda,UCRiOaLQwEk4CP7fCLfGDCmw,1,https://yt3.ggpht.com/XVzW-THybDlQybk7iPVsEXaKFRcQ2x9pHLZvKPJBcX4BYT6p0MYOy0KxfrstPoq_xk6AxTAUaUQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgynF7_Hnw2b5rAU5Ax4AaABAg.9Vw-JZp3hSy9VxbZqaK660,I understand Sai and thank you 🙏🏼,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxLiPm3Y3NwzkvAhwF4AaABAg.9VuQDj3Qg9r9VvIIYCgbN7,Not really sure but perhaps 1-2 hrs time may be given to solve this kind of questions,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxECVndOI2RMHbpvFJ4AaABAg.9VtV7n21VP49Vu2SrPhHjQ,SQL is good and should get you a job but SQL + Other technologies can open more doors for job and career,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxECVndOI2RMHbpvFJ4AaABAg.9VtV7n21VP49Vv5pXgAwuh, @techTFQ  Thanks Bro,4 months ago,Harish,UCgko2R6uD28_LyGP5Z-nUiQ,1,https://yt3.ggpht.com/ytc/AKedOLSGsZq8sCTJ87M-FYu0faY679pppLxExsUQA0UJeJI=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxECVndOI2RMHbpvFJ4AaABAg.9VtV7n21VP49VvIL_QdpES,Your welcome 🙏🏼,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgymaM7m461QqYU1NpB4AaABAg.9VrRRiGzL-r9VsC7QbwNYw,"Hi Sakhawat,
+Go through the 25 questions I’ve listed in my previous video and also all the queries I worked out in my Practice SQL queries video..
+Those should be good enough to clear sql interview..
+
+But if you do not have the time to cover all those then cover whatever u can till then and then just be confident..
+
+More than answering all questions, how you face a question matters.. be confident and humble 
+
+All the best",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxXdblXu99YaAF-ybF4AaABAg.9VrJwTNncal9VsWAyUobh0,"Hi Gaurav,
+Go through the 25 questions I’ve listed in my previous video and also all the queries I worked out in my Practice SQL queries video..
+Those should be good enough to clear sql interview..
+
+But if you do not have the time to cover all those then cover whatever u can till then and then just be confident..
+
+More than answering all questions, how you face a question matters.. be confident and humble 
+
+All the best",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzZLTmseZK8kgkHE_t4AaABAg.9VqLygRNK1M9Vqn5ea45BP,"Thank you Saud.. 
+glad this helped and glad you able to relate it to your work..
+
+Yes I plan to make video on joins soon",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxrYUl4leZ9X6l5skx4AaABAg.9Vq-VhnxEWX9Vq-rMwvl9t,"Yes logic is the same..
+And I have already provided the query for MSSQL, Oracle, MySQL and PostgreSQL .
+You can download it from my blog",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz4NcOTRzdaNCPjQF94AaABAg.9VoE2v9ovdn9VoVCud-jm2,"This is a wrong thing to say ..
+I don’t think companies ask complicated questions to Indians to test out their competence..
+
+Your job may only require simple sql hence the interview might have been simple..
+
+Data scientist skills may differ across different companies depending on what product they are building and what technologies they use..",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxECpniPu8-dsUiUPt4AaABAg.9VnvEf94KEU9VoVOs5sf3K,Good to know bro,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxECpniPu8-dsUiUPt4AaABAg.9VnvEf94KEU9WKAnrZ4BPK,ERP SMEs are under appreciated,3 months ago,Joshua Simon Porh,UCFfyhRTCPCuXBSNRQUgKPKA,1,https://yt3.ggpht.com/ytc/AKedOLRZQ5EgRGR6O81jO2JUQH2t7WQVSG2KaNHH3A=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxECpniPu8-dsUiUPt4AaABAg.9VnvEf94KEU9WqRfXVVQh5,I used buckets when I created an MRP query.,3 months ago,Rick,UCqMH2zCzHbc1rM7WsP4-ACA,0,https://yt3.ggpht.com/ytc/AKedOLRU0BHnMN5_YKe-LTYGEANX37Umuhud2GPjJ7MxnQ=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxDM5UiktHdChB8F2t4AaABAg.9VnjRXnTSx99Vnrzm0cXk7,"Ok priti, haven’t really thought of making video about data recovery but will definitely consider it for a future video",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxxSpriqKRimuSMsWR4AaABAg.9VniqrxKW_-9VnrtWpMf8m,"Thank you 🙏🏼 
+Glad you liked it",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugwr8ThkgLinX7x1dsJ4AaABAg.9VnQjQLf9RP9Vnb1VcDUxq,Sorry dint get you,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyYjbc41zTlF4IW0HN4AaABAg.9Vm15b5CPDO9W7E4nbkzYo,Will consider this for a future video Nipur ..,3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwWz38QnjlW4RoJbJF4AaABAg.9VlBu42yS-k9VlHTEBngwC,Thank you dear sheeb 😘❤️,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzhyPCgKCkkjGP80254AaABAg,would be great if you could explain star schema and other database concepts and techniques.  BTW .. Thanks for your great videos and sharing your knowledge..,4 months ago,Daniel Victoria,UCMHRjo3PM5FT_ltTVMHpwnQ,1,https://yt3.ggpht.com/ytc/AKedOLRGMx-dTmpZzTEo-euKhLdoKh9GUuE_ilChVg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwhS-cpdGHWcCElRqd4AaABAg,You are the Best !!!,4 months ago,Beant Lamba,UC9LtxbcEGmmhEwrqzQg6o-A,1,https://yt3.ggpht.com/ytc/AKedOLQ9zavXkeDr4U4kluit454Y6rXl_yl2hdB4MIAhfw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyRL5PGwweorloWqy94AaABAg,I am using ur videos to Crack interviews. Thanks a ton bro. God Bless......,4 months ago,Anand Kumar,UCnnYiQkJ9Tn01EucXuHSx9g,1,https://yt3.ggpht.com/ytc/AKedOLRGRajkQEvFV7b8ZXe6OmTxOnQD2PKtIswkxgb_yA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxPUpRuOR1gxAWaG1B4AaABAg,"Your explanations are very clear, as always, and thank you so much for sharing your thought process, because that really helps us, Thoufiq. I think the hardest part of writing a query like this is the part you do at the beginning, where you think it all through and then you figure out the best way to get there. After that, as you said, a lot of it is just repetitive and following that same logic all the way through. I get a little frustrated when I can’t get through that beginning stage when trying to solve a problem, and I get stuck.  Is practice the most important thing for a fresher, do you think?   Any other advice for the freshers 😬😀?",4 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,2,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgynwZhP_2Q_B1YSMKp4AaABAg,I have watched your videos and its awesome...you are the best in explaining the complex queries...I watched so many SQL Videos but your are the best…but when I checked your playlist for SQL Videos there are none...only one SQL full video is there...please upload SQL Tutorials Videos in Playlist...by explaining each and every topic of it. Thanks in Advance.👌😍👍😊,4 months ago (edited),Sai Gangadhar,UCm3SSP4RqABv9LIBG-qyIjQ,1,https://yt3.ggpht.com/ytc/AKedOLQIHKb0LaOM4QSnjWxAEOH5YOnYLIEuE6yE5JJ3=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyUNseRsWEHPRx1oY94AaABAg,"I got my first SQL related job as a product analyst, all thanks to this big man.",4 months ago,Vishal Rohila,UCIACVxyQmALORtpG5xe3V9g,13,https://yt3.ggpht.com/ytc/AKedOLSeINtLWEmyqMBlkf8SWmMiGBW5dj_D9BKEew=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzObtDlRkCKQOqcYKN4AaABAg,"Outstanding, was very helpful.
+A big thank you for sharing.
+Can you please make a detailed videos on SQL data types, like difference between char and varchar and where to use them etc
+That's the most confusing part for me.. will appreciate your efforts if you make a detailed video on this topic",4 months ago,Saud Ahmad,UCE68YUju4sLQ_h64dfGwX2Q,1,https://yt3.ggpht.com/ytc/AKedOLT4hwF2Ds3jbWzXZHvXPutZr3PKDrwBFfbN=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyHZ6-kw4bnqpfP5Fh4AaABAg,"Great video for SQL Intermediate level devs. 
+Warning: Beginners don't even try :D",4 months ago,Pioneer,UCruuhGZEFlo1rv6up5cfeBQ,1,https://yt3.ggpht.com/ytc/AKedOLR9z_HCGk-uXqG--bcJ4SlZ6dxc03b9Zmfcjg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxFO_U8LIPKxlcF2xN4AaABAg,I really appreciate your knowledge and teaching style. I'm transitioning from DBA to SQL Developer and you've been a great blessing to me.,4 months ago,KodFix LLC,UCBUEycNcsBPOaN_FDndmpdg,35,https://yt3.ggpht.com/3G7Jx364eOHO7PbejNHD9H8XL_QGzmgqefAsvY6CUH8PmHpv-0zILrreTBUN8fj3PIcKB0M8dA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwfQql2ELedQtBSg4h4AaABAg,Thank you for this good work. Just wondering if this query will be easier using PIVOT ?,4 months ago,Acer Tech,UCsuxqToxgFMk0CxwosJXIzg,2,https://yt3.ggpht.com/ytc/AKedOLSLxqjg4xasEndqAbiOhmROJk4suHvcUwB0Ag=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwbmNTOdq61pDf7zjh4AaABAg,did that subscriber say how much time the FAANG company gave him to work that out?,4 months ago,b_rizzle,UCzig_IhQ4TozOgNrYuOCgtw,2,https://yt3.ggpht.com/ytc/AKedOLSkIoCG9LJ2PrgDlmkkvWjkOCgowgfflo0cIDfd=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwB1kEbdM833GDK5ix4AaABAg,Awesome! Thank you for your time in explaining this content.,4 months ago,Fábio Coatis,UChrE7VT9n_bpT6M7JMeq9aw,4,https://yt3.ggpht.com/ytc/AKedOLSc055m2QrVX2NjuuuoiahiqRLeUeBUZekT7rQcDg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxSOjC790LHQ6oF8PB4AaABAg,"Great explanation..!! 
+Thanks for the effort",4 months ago,jijo john,UCto1uJNgokJTtZ08u4u1aIw,2,https://yt3.ggpht.com/ytc/AKedOLQaK3fsx6fpFTswmAOV3PcyaDQBCELib8w2lg=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxQrZ-q4dSALe6Yb_N4AaABAg,Thank you sir. Waiting for new video🔥🔥,4 months ago,Debashish Barik,UCjUquwEDXR8fEDsy4Y6LmeA,2,https://yt3.ggpht.com/ytc/AKedOLTxlECx8iZ0TMCkWYqbArqyKmcXo-lw581Hz3fWeA=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzrFp8WBocFqmKA82Z4AaABAg,"Hello,
+This is merhawi. I have send you a message on Facebook. Pls check it? And thank you for your good contents.",4 months ago,Senafe Hakir u r absolutely right.,UC2jH9LT5ctRTRUP3KEEscCg,1,https://yt3.ggpht.com/ytc/AKedOLRYey5GdPR9udDoMHvlE4IxwS4pcbzBHp2F6A=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy536_UT9dqXhSO4gh4AaABAg,Thanks a lot ♥️,4 months ago,Satyam Kumar,UCk8NCTXYqhS6S9cOpqt5nnw,2,https://yt3.ggpht.com/ytc/AKedOLQI823iMtRpKKbjKeB0YlMDBHFyiB-oZI22VQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzOAXHDv9NY-b2torJ4AaABAg,where is your blog link  sir ?,4 months ago,Intraday Trend,UCIWR6l1c_6dLZU2w64w54VQ,2,https://yt3.ggpht.com/ytc/AKedOLSo_Q2CZFkEcXHAmlRC62mBR6CpEbP_FzjR3gq7=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy5_WeETvAx4jiwcKd4AaABAg,Thank you for taking your time out to make such a long video. How long you have been implementing  sql ?,4 months ago,venu gopal,UCvK05ZwRwRGFXPpd6nNcF6A,2,https://yt3.ggpht.com/ytc/AKedOLR28zKP61gAx-bQP-sdMBTr0t_imDBH-NEsYw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzBF9TnVczy-TSvWrV4AaABAg,Really awesome,4 months ago,saravana kumar,UCiVNgCrOnC6flWE5xzig9ow,2,https://yt3.ggpht.com/ytc/AKedOLTVzMWEQce6T6yMdv0cHM8o4L6uhB6F-wlFP7wPpA=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz6ieugDJqO4xb0rER4AaABAg,THANKS VALUE DATA FOR FRESER,4 months ago,challa jeevan,UCKRPy5omxzKqQ9khG40fSDA,3,https://yt3.ggpht.com/ytc/AKedOLQOQJdVjLdl_XhppVwz_OOkkiMGibvOrv7ACh-UQjo=s176-c-k-c0x00ffffff-no-rj,1.0
+UgzhyPCgKCkkjGP80254AaABAg.9Vl5oPIu2AT9VlHd6XCgTV,"Thanks for liking the contents..
+
+As for your requested concepts, I’ll consider them for some future videos..
+
+Thanks for the suggestion",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwhS-cpdGHWcCElRqd4AaABAg.9VkCvXKVKbv9VkRMQQaC45,Thank you bro ☺️,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyRL5PGwweorloWqy94AaABAg.9VjvwPQfy089VkRbObtruD,"Your welcome bro 🙏🏼
+Happy to know my contents have been helpful",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9VkSPcLl_72,"Thank you Laura ☺️
+
+Yes you just need to solve as many sql problems as possible.. the more you solve, the more easy it becomes to get the logic to solve any sql queries..
+
+It’s just practice that u need.. with time u will automatically start getting the solutions as soon as u look at a sql question…",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9VkUpw6jDZ5," @techTFQ  thank you Thoufiq, your encouragement is much appreciated, and I see your subscribership continues to grow!   #100KbyMay",4 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9VkVgZpDq_8,"Thank you Laura ☺️☺️☺️
+It is and people have been very kind and supportive just like you ☺️..
+
+Hey, forgot to inform you.. I updated that previous blog about 25 sql interview questions with pointers mentioning if the question is suitable for beginners, intermediate or senior role .. not sure if you checked it",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9VkYdJXmS1S," @techTFQ  I did notice it, it looks good and thanks for that.  It’ll help me when preparing and I’m sure it’s helping people as we type 😀👌🏻🙏🏻",4 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9VkbOAFKVFx,"Awesome , great to hear that",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9Vta_I4j_p6," @techTFQ  Over 20K so soon?!   Is anyone surprised?   Not I, said the fly 🪰#100KbyMay And 17K views in four days wow 😱😱😱 Congratulations for more great content 🙏🏻",4 months ago (edited),Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9Vu2GtzNEht,"We love your comments ☺️☺️… always so much excitement and support for my channel.. I’ll definitely have a special mention to you if 100k happens by May 🤩..
+
+Thank you Laura 🙏🏼",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9Vu7KqDPmL0," @techTFQ  no need for a mention, I’m just grateful for your work and was born with an encouragement bone.    It is so much fun to watch this channel from 6K or so subscribers just very recently til now, the growth, from a baby channel straight through the teenage years, and almost a young adult status lol.   Keep up the great work, Thoufiq!    It must be an amazing feeling to be able to help so many eager learners 🙏🏻😀",4 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9VvOUqzPwbe,"You are fantastic.. trust me, it means a lot to receive such encouragement Laura..
+
+And to be frank, more than these subscribers count, the comments that I get seeing my contents have helped so many is the best part of this channel.. subscriber count is the cherry on the cake which I never expected it to happen so quickly..
+
+You have a great day Laura 🙏🏼☺️",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9Vw2NqIF964," @techTFQ  This is why your channel is my favorite.  It goes beyond the content to the good intentions and humility of the content provider.   Much success and happiness to you and your family in the coming year, kind sir.  🙏🏻😀",4 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9VwHeN7ITJX,Thank you Laura 🙏🏼🙏🏼🙏🏼,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9W6bwMt8XVI," @techTFQ  22K today, 100 won’t be far away, we may not have to wait til May 😀🙃😀⭐️💫",3 months ago,Laura K,UCkN3ctnavk91yVcIEaXnoKw,1,https://yt3.ggpht.com/ytc/AKedOLRgCVE2PBrzFg53Em15MMSR14TfJ38UzEnlnQ=s176-c-k-c0x00ffffff-no-rj,1.0
+UgxPUpRuOR1gxAWaG1B4AaABAg.9VjUxDw9Xc-9W77ixnYh-d,"Haha thank you Laura 🙏🏼🙂☺️
+Let’s wait and watch",3 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgynwZhP_2Q_B1YSMKp4AaABAg.9VjJtGcZXQ79VkSqGGIIUo,"Thank you so much Sai 🙏🏼
+So happy to know you like my contents ☺️
+
+As for playlist, there are other playlist covering SQL videos.. but for basic SQL tutorial agree there is only one as of now.. I am planning to make a complete sql tutorial covering all basic concepts soon",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgynwZhP_2Q_B1YSMKp4AaABAg.9VjJtGcZXQ79VlX-pTGNOX, @techTFQ  Advance thanks for the tutorials cant wait for them...😊,4 months ago,Sai Gangadhar,UCm3SSP4RqABv9LIBG-qyIjQ,1,https://yt3.ggpht.com/ytc/AKedOLQIHKb0LaOM4QSnjWxAEOH5YOnYLIEuE6yE5JJ3=s176-c-k-c0x00ffffff-no-rj,1.0
+UgynwZhP_2Q_B1YSMKp4AaABAg.9VjJtGcZXQ79Vl_zUK8uLq,Your welcome sai,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyUNseRsWEHPRx1oY94AaABAg.9VjDR2_NFoV9VjFAXo7WEa,"Congratulations Vishal 💐
+Super happy to read this..
+
+And thank you for the credit ☺️",4 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzObtDlRkCKQOqcYKN4AaABAg.9ViUuAK8TZn9ViWHaZqkYC,"Thank you Saud , glad you liked the video..
+
+Regarding differences between different data types, I’ll consider it for a future video",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyHZ6-kw4bnqpfP5Fh4AaABAg.9ViTIUrxPtc9ViWP_OhEj_,"Haha you are scraping the beginners ..
+
+Even the beginners can benefit from it by getting an idea about what kind of logic to apply to solve this kind of questions",4 months ago (edited),techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxFO_U8LIPKxlcF2xN4AaABAg.9VhuVKASzHv9ViEFV6IHSy,Thank you so much bro! I am so glad to read this. Happy that my contents have helped you.,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,3,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwfQql2ELedQtBSg4h4AaABAg.9VhrguwB-FF9ViEUWIyZGX,"Your welcome bro.
+I haven't tried it using PIVOT as yet. I may try it in the future and post it in case that solution would be easier than this. 
+As for now, i thought this was a good solution for this question.",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwbmNTOdq61pDf7zjh4AaABAg.9VhcXWcSHZS9ViEyS3K5-1,He did not.. I would assume an hour or 2,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwB1kEbdM833GDK5ix4AaABAg.9VhaJfvdIru9ViEZxN3j8T,Your welcome Fábio. Hope this helped.,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,1,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxSOjC790LHQ6oF8PB4AaABAg.9VhWhuCiT_A9ViEeOoC1s3,Your welcome John. Glad you liked it.,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxQrZ-q4dSALe6Yb_N4AaABAg.9VhU4xPByaO9ViEhAWMS0v,Your welcome Barik :),4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzrFp8WBocFqmKA82Z4AaABAg.9VhPt2VrWbs9ViKDHnpWk8,Hi Bro will check and respond,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy536_UT9dqXhSO4gh4AaABAg.9VhIrKcVqeP9ViEjiSKXej,Your welcome Satyam :),4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzOAXHDv9NY-b2torJ4AaABAg.9Vh8tES9rlU9ViEtuWIwQO,"Its mentioned in the description of the video.
+
+Anyways mentioning it here to for quick reference:
+Link to my blog: https://techtfq.com/blog/real-sql-interview-question-asked-by-a-faang-company",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy5_WeETvAx4jiwcKd4AaABAg.9Vh85PYT-6m9ViEIwv6hjY,Your welcome bro. Been using SQL for over 12 years.,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,2,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugy5_WeETvAx4jiwcKd4AaABAg.9Vh85PYT-6m9VjK65xnkLk, @techTFQ  OMG...Then how I can became like you...How many days will I have to try...LOL,4 months ago,Sai Gangadhar,UCm3SSP4RqABv9LIBG-qyIjQ,1,https://yt3.ggpht.com/ytc/AKedOLQIHKb0LaOM4QSnjWxAEOH5YOnYLIEuE6yE5JJ3=s176-c-k-c0x00ffffff-no-rj,0.0
+UgzBF9TnVczy-TSvWrV4AaABAg.9Vh1p1SnBHb9ViF-g1cikU,Thank you Saravana,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz6ieugDJqO4xb0rER4AaABAg.9VgvfaHTi749VgwlRxdChX,Your welcome Jeevan,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxkdBVYJJdCudK9G8N4AaABAg,I liked this one.watched it half.I will finish my work and resume. So far its best explaining style on YouTube tech creators .New to your channel Subscribed,4 months ago,Ahana Roshan,UCQ7D0_f5NMvJgVYQqT5bpJQ,3,https://yt3.ggpht.com/ytc/AKedOLT27HBZfAywf-OU2KipQXc4WY-RZrmOZ1l43km_PylHga6HW3Txfugs79EFEUKs=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwvYThtb0Apu6Z9t-R4AaABAg,Good 👍,4 months ago,Shikha Varma,UCHaImYglyvaODq6-0Ma9ulg,1,https://yt3.ggpht.com/ytc/AKedOLRSKCRL6PbXnSsoLY5CJmyF1GDEM92bbGvv5g=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugz_bgkt6hxRdKckcdB4AaABAg,Amazing... kudos to your efforts for always being proactively replying and helping your subscribers👌🏻👏👏,4 months ago,Fathima Farahna,UCmMR20vhhydELL3JFxZ6MoQ,5,https://yt3.ggpht.com/ytc/AKedOLTsP0crbsq7j0CfAPty-RPMZVW7t34FCVgcSt6RIw=s176-c-k-c0x00ffffff-no-rj,1.0
+UgyrCbFscymbdPz-yPV4AaABAg,Thank you so much for this valuable content.,4 months ago,Subrat Das,UCeCJqznPKf9g9sbpf-4dARQ,4,https://yt3.ggpht.com/ytc/AKedOLQ8LuyE1B3Kol4icInuukR7YC4bfN13qINa2H9D=s176-c-k-c0x00ffffff-no-rj,1.0
+UgwPoPgFSBosOEILir94AaABAg,Thanks for sharing..very useful..,4 months ago,Sankar,UCxKssZ3OyIdg30clfbcp72Q,2,https://yt3.ggpht.com/ytc/AKedOLS9wnAI3wKf8FDhr87IrlhPwQOJl0y1RF3LL9hJzW0Hfr1rDooLleKTx7PlwQSR=s176-c-k-c0x00ffffff-no-rj,1.0
+Ugy1-gXRzvFctDyQQk54AaABAg,"Column 1 material names 
+Column 2 material qty
+
+Material A, qty - 10 nos
+After consumption of 2 nos
+What query to write to auto update
+If any new stock comes with 5 nos
+Similarly how to add up
+ How can we write in sql",4 months ago,SOUMYA RANJAN PANIGRAHI,UCSfcURcBBClN5O-C5njq7rA,0,https://yt3.ggpht.com/ytc/AKedOLRA0sMPHp7gztJbBzm7rpafcs1YEx0pLvyYCuQdyw=s176-c-k-c0x00ffffff-no-rj,0.0
+UgxkdBVYJJdCudK9G8N4AaABAg.9VgtjmQKbMH9Vgutbb_qoh,"Thank you Ahana ☺️
+Glad you liked it..",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwvYThtb0Apu6Z9t-R4AaABAg.9Vgs9-Y7olU9VgseUFtiIp,Thank you Shikha 🙏🏼,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+Ugz_bgkt6hxRdKckcdB4AaABAg.9VgnPCseHQM9VgpUq28nEs,Thank you ❤️,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgyrCbFscymbdPz-yPV4AaABAg.9VgnHh3u-tr9Vgp_Cbvwjw,Your welcome bro,4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
+UgwPoPgFSBosOEILir94AaABAg.9VgmNDiJhCB9VgpdI7o8Ib,"Your welcome 🙏🏼 
+Glad this helps",4 months ago,techTFQ,UCnz-ZXXER4jOvuED5trXfEA,0,https://yt3.ggpht.com/68QpkOCRQespfOQ5yZwhCrM6Ab0kipqOU16JwAAhDm9f8I0CfPzMW-qpzdYJmn0TQ-UBd862=s176-c-k-c0x00ffffff-no-rj,0.0
