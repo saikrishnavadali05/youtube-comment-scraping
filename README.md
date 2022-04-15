@@ -5,5 +5,4 @@ scrape all the comments from a single youtube video
 3. video_descrption.py = gives the descrptions of the files that are present in the playlist.   written by bharath
 4. code_reference.py = rohith code.   written by rohith
 5. final_YT_comment_scrape.py.py = code for all details of the single video comments # written by Ravi Teja.
-6. 
 
