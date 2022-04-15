@@ -2,8 +2,7 @@ from googleapiclient.discovery import build
 import pandas as pd
 
 channel_ids = ['UCnz-ZXXER4jOvuED5trXfEA', # techTFQ
-              ]
-video_ID = "eVuYCuKKRQg"         
+              ]       
 
 api_key = "AIzaSyAzbbtcETUl-ThjS3QN2wwBTBujvz3YXxY"
 youtube = build('youtube', 'v3', developerKey=api_key)
