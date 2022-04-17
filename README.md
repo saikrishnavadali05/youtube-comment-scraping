@@ -18,7 +18,7 @@
 1. The ID of the youtube video channel for which comments have to be extracted has to be found out first.
 2. To find out the channel ID, please follow the image shown below.
 
-![alt text](http://url/to/img.png)
+![how to get the channel ID of youtube videos?](https://github.com/saikrishnavadali05/youtube-comment-scraping/blob/master/Screenshot%20(219).png)
 
 ## Commands to run the entire application : 
 1. Install all the dependencies
