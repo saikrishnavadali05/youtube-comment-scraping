@@ -10,6 +10,12 @@
 > All the temporary files that get generated during code execution.
 4. **additional_code_files**
 > All the additional features that can be used and implemented on the application if the need arises.
+5. **sony_outputs**
+6. **wion_outputs**
+7. **nisha_outputs**
+8. **srivastava_outputs**
+
+> 5,6,7,8 folders will have more than 100 csv files generated for more than 100 videos.
 
 ### Master Code Reference (works for a single video execution):
 1. https://github.com/ahmedshahriar/youtube-comment-scraper/blob/main/Youtube_comment_parser.ipynb
