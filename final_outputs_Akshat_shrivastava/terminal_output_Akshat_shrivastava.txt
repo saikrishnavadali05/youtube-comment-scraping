@@ -1,0 +1,1139 @@
+---------------------
+channel_content : [{'Channel_name': 'Akshat Shrivastava', 'Subscribers': '926000', 'Views': '74520626', 'Total_videos': '416', 'playlist_id': 'UUqW8jxh4tH1Z1sWPbkGWL4g'}]
+---------------------
+---------------------
+         Channel_name Subscribers     Views Total_videos               playlist_id
+0  Akshat Shrivastava      926000  74520626          416  UUqW8jxh4tH1Z1sWPbkGWL4g
+---------------------
+---------------------
+['BNCZOFy1neE', 'nDLRea8gp3c', 'NZxejh1HAiE', 'PUBebNPSjm4', 'q53x02iRwPE', 'MOxRi965ybM', 'BKGo_G3sRRE', 'YYi5qiRzVYs', 'Iv1v9VJjvu4', 'YnhJDPk9SUs', 'MHuDl4R14c4', '-dNfBZmPly0', 'rd8l7hDs7vc', 'dYDIv3Ghhyw', 'a3wkypbkJgA', 'YBDmDCruHmA', 'MmyVo9VvHSQ', 'JxZRqJj5WSo', 'ctfJapIt0aY', 'PU44P0CpNOE', 'aYzxX-T1CUs', '96KM562jyKI', 'rHGw4qSlXwk', 'sdrZoDy-o-Q', 'xCazdIy558Q', '2WNJO0ybd4g', 'dpNfQ84JTIU', 'WfSE9t1PRtM', 'svNeEAOA-Vk', 'IEeJGw4yCN8', '20Svqr0APdo', 'eI8hZWbGCoU', 'FTY98SiFTEI', 'm81ihLG1ZWg', '0W1JI_WogFI', 'NQqlA4Y7brY', 'HuvpsT--KVE', 'u70OpBPtlZo', 'SsTYLs60VYk', 'CSU28yiq2kE', 'IGLkUuY2SJ0', 'HaYupvyjJxI', 'LYNKvboBRqQ', 'MRYw1hwWa4s', 'Y5PDep8SmSA', 'CecGfzZs4cE', 'kg2P_Rpns3Y', 'sEvl-Td67Nw', 'Q8zPmD2sU9U', '_heZ4WBec2I', 'D7BUvtIWi2s', 'SCKbgchHrNE', 'Nuqf65RMzz4', 'bG7Pgp2GXPQ', 'fZL5MFtRzJ0', 'YhFOhoFL9sY', 'lmbaOrsoPGM', 'OqXx3ldF5uY', '21Pm9MB6kOk', 'ezzsId2DaUs', 'b6SMhDtGCsQ', '98RQJrTfO4s', 'hqbMGuqtBuI', 'pgEI24DQ9gs', 'HpkOye6CBp0', 'MwJPvB-UAos', 'bd8ry8pGO1w', 'Rxu-WSCVEi0', 'ViPPMraSTeo', 'EslOHUxESt0', 'bS15md6jqi4', 'ICZUilA3eU8', 'B348n650iLM', 'PMC_611pVGw', 'cM8l4RKG-uw', 'wggDXnby1UU', 'Rt21-qOqNKg', 'dE2cjK8chQ8', 'qj7Kv1fiX9Q', 'pUOujJlSTOU', 'S4yV6rcXFmE', '8VC5Z_WVkAc', 'cOap-VC-wRQ', 'p_haMc1Ld1o', 'yjxy2aDXRE0', 
+'eQPlHHz0W7o', 'Kwiu95BHZkA', 'ZmyehGvmGsU', 'mob-MKBf-Pk', 'jFO7U-9M3RI', 'Bdsu5js-bqs', '-pXIGwbnRwc', 'h10GygeLL8I', 'OlRXgBRvO7g', 'XgkMloGkwpU', 'reV-oxdm_bU', 'z1zqLizic7Y', 'hgIZij5yARs', 'gAfWIPnbjq0', 'ECc_0RCyYY0', 'QlUTcW0PMvk', 'cYhdEB_oLgo', '0mfd8MPAhEU', 'Oj8QpbNdfwE', 'Y0yzjw1xg3k', 'N1nIlTzOAM0', 'e2JUsVCxqTk', '2Ms2gG27wyA', 'jtvysmkz-qM', '9Tc8-LiAcDU', 'E0XvzM7rVak', 'Mmv7Pt91tO4', 'jjnNw6Mi4Yo', 'lAfd44X_ZS8', 'V3We22sDi-I', 'I3O-viCUS3A', 'SqNehYabteo', 'zwLHJlNMlf4', '2r2eDY2qTsg', '1UAzlN2-47Q', 'dy-ISjr1Wgk', 'V2ailBMoBoI', 'NjKTvIMWqxM', 'EKzofU_8FnU', 'sp_EtDL5XoI', 'RvRvZltTo8o', 'IciqMVnNh6g', 'Rbmxkuqqj0s', 'zd02mQSJidQ', 'E8hjR3F3QOs', 'X5NBRp9tWO4', 'rhcHuBgM6Lw', 'p8cRw2_aXFQ', '8fUcU4nkKgs', 'SUaVedd9L9g', 'YtSaidtGc9U', 'h-CJ24omKrw', 'Bz9m8C8X_jU', 'hOrqOJ6dXO8', 's9oSsNGC3H0', 'YWA214UdNjk', 'aTQh_RQZ8MQ', 'nnK8kbibtgs', 'ZWz7eqbsJmk', 'MpTadQpq9LY', 'UfMuKG1ViJ4', '1I-XQViRFq0', 'OY4otpxkeqs', 'sjRjE0lxKQQ', '8jf8HYi39W8', 'tLJ2iCfmzHY', 't8m26sJgKMg', 'wOqJzJri8B0', 'Gz07wOEk8YQ', '8Q1OXvjS4yM', '5HQTcxAWKqk', 'yq5VEdfTZIc', 'mBun0K5exVM', 'VQp7tx8xEao', 'qCvpa991XsU', 'hjcvBHuPKrA', 'wEXtbPxbDlc', '_pfHRCuYh6M', 'DZOZ2B_iXjo', 'eNyNtj2zf3A', 'TicLJU6DXJ0', 'KooB6MqY-jw', 'dda1SkfLjrI', '-fJRdBJ8U8c', 'P94DxjckQh8', 'vnq8i-Rdw08', 'nldId7UtBg0', 'ObYEixHwgYw', 'aik2AnFO8Po', 'jj5KiWvIFes', '6FVI-0a5YXg', 'aSxNaJvAgl4', 'gDMJ2AOMe_M', 'SuU1eAQd900', 'kczsCOd8iKA', '1VNr88Mviho', 'g0hFUTMrw2c', 'bZPDW062vgU', 'OreLLwtoPj8', 'U371Mns2-eg', 'tD1vjCNTWko', '93RGd512qrw', 'fMnAdWTcgbc', 'letzMLRmR6Y', 'kriJ0QSOf1k', '4ELuiRL7T1Y', 'uwYJeiECR9E', 'rRLgWn8sfxw', '8phvgDauxQM', 'PlN9f1cLI4A', '4hU0307L6hY', 'Y9wb2XGMPYk', '5XVIhmtzLLM', 'zDj4VoNu0yg', 'LIWTSmk1rlI', '30wmprUlw3I', 
+'VrG-wQ5plGw', 'L4anHNVN21E', 'eMZ6-gjG3Sk', '39y-nyM3xKo', 'KxAxntYazAQ', 'cgi7H11KMac', 'pAgaEWah0kg', '2RygPXeoiNg', '1mV_sjFLKPY', 'D3AAiauEbsg', 'CUMc1pRoXlQ', 'pfe9NVW9Ll0', 'iJwbHeQkfDc', 'TPR7TfrGUHw', '_fwHMckVLa8', '0pHkufFiFks', '9RNoid4y7i4', 'lPTXNq3cfzI', 'qTlmXPUOG_k', 'bUXLJiZhb8M', 'Nqc_6I3turw', 'xhFfRLTb45w', '1SyX64uQTgM', 'Gcox6BZXGxU', 'um42od-JW-M', 'hjglquW-RRA', '1JzGemtOpO4', 'AeJO5BV-mWo', 'i8kiKaht74U', 'gTWWJ00Btg4', '0QtG_bRhGM0', 'p2g8xXjsXyg', 't9UPE8CDuFs', 'IeFkmdcGTlk', 'yPtUDNUO7BQ', 'wAwgtXOEUHk', 'upet0P9p3xU', '2pV0ZMtF5K0', '-fktVCXDDac', 'S2IX8ph2c-k', 'PZiMHFOX68s', '7tjJ4Ziuy9I', 'CW-iEVN8zyk', 'w_i9KxUqc_0', 'Ep08ccGf0mM', 'QKng1gSDq80', 'jmJKiPb8Z4o', 'y0hokqpsupU', 'UP-n1nt_jo8', 'VRNUT2Y_ULQ', 'ym7FaH2HTQo', 'kbfz7gTaQvg', 'Zs9d9XidgN0', 'V1ZSYo3xAmg', 'irtdoP3YqCk', 'PhLF0-TjBu4', 'KdIIgJkogGk', 'ZLp_QBIcbxo', '4FXf_bV95yU', 'vl47UUNBPaw', 'iptbESNg_mc', 'v8h_YnNyhWc', 'PTUVVBQyaXE', 'wBH3iRQgQp0', 'qgFaOB-pNMU', 'IsuZEoMGCsA', 'gWs8iAgB6Ek', 'qgSCMKaE5TU', 'TAouuq2KUXg', 'olJqTa2vzkM', 'sqvK5TI1yZc', 'kzZKOSDj4cQ', 'v919XbwhwUw', 'ctYaB_e4Lb0', 'UHkN7ZrvcNQ', 'kbhdLmMfkfA', 'cUrFfBam7H8', 'mFvSaVs7UZo', '-E9pL_Kur1g', 'zhzv4eQ97mU', 'H7LAnBpp2CY', '7L-xmfgKomA', 'f9RjCbTrOSM', 'NPLa-JDGjcg', 'CN8PwGi_Spw', 'KoT3XAANJak', 'PA461nKogws', 'iWBjHPFrwrM', '-5hLoMZ5cd4', 'o-OhcV9H6pw', '98YROwxUI4Y', 'q-cuNO4UanY', 'djM5ungZ6mo', 'PjRmIZP5GKw', 'vi7hJLDZIzo', 'b1V2qfgOT9A', 'TW3W0W8PTrc', 'b46D9QnK4jA', 'g6UHikNtmy4', 'nTS56LqZTnk', '5ov_LiTAn_U', 'IwBu_YYXGzY', 'Pbx31ib6gT4', '7Xc9alkDMH8', '-xOZP3Ut8J0', 'DvjCPu0odG4', '1ktVglH2xk4', 'g7jO8Qdn43Y', 'zQZVISQWvLU', 'ByVCe0BmcMQ', '0Ef0Iy9Vf_A', 'ie-n7tIX0EU', '2LuanPuxBnE', 'ZwPjQYCKzgc', 'X9Bk2AlQrDA', 'PHxVp0eEfPs', 
+'iSZ0iULWymI', 'Pylw3tqzv1U', '3C6Y8dGF3Sc', 'z7flclYFFsM', 'tKm0eTQ8iDw', 'BSgG3g7ca-g', 'E2uMn-tuETY', 'WNCOSPaOst8', 'z37HBLc5tco', 'HixoHQPLFSs', 'oMRZj_R2nq8', '4_09a-AxUvM', 'kkftLltoxJo', 'xMdUDwrrlLQ', 'qqYpoFbbzqw', 'h56R5N0D9cc', '9vyKAKUX0WI', 'hZjxuCp9ElQ', 'qZf-_ONigvo', 'EYM2UENSObk', 'I1rafrEcCpA', '1EYKX-11aeo', '-wQDfiiDBaU', 'U5CYdmsR9Sw', 'XXPo8SvZPpc', 'cGNTVozi6Ns', 'mHh6gnYvEFQ', 'R29lvWs1yBE', 'BUJv7ehejpU', 'krBXdItE5m0', 'RpNkyTtmC6o', 'DZYv6-nP5Wc', '_DYuHz9VBLo', 'hLqGReZSr5c', '-07FjvLc_fg', 'iAtcKU5xIOw', 'rT6nZdCZFN8', 'gK29O6rf_f4', 'IvWI14YKw9A', 'TXJ-8m9NxJA', 'HSUsSBk7Wqg', 'rvtElDrxAD8', 'Q1ZJ3NaVYNA', 'GPdaC1957oA', 'LNH92gLyWNI', 'NjARAAZnoB0', 'TbWQ7ZC1JEc', 'EjGsFj3t5X0', '4TbdqWbF_PE', 'hzhqDyZTpfU', 'Fi_kMc6hLxI', 'DNYCgsyOAW4', '5UNyxzwP7BM', 'BH96YTu88p8', 'Vh0f3K8Jp1I', '-ZiHE82-x3c', 'H0WD-yF9AGo', '0hjpOEwFeTA', 'BfTtp-5nfK4', 'XNTNdNL0HBw', '7o9faZReOuI', 'gXJMKbSYSzw', 'CbCkhscjgaA', 'WUacVXg1uVk', 'bd2YlYE2DFY', 'qEglKvuwIVc', 'KZV5OS3INY8', '5c70QrCVH6E', 'niEK_1Xwwws', 'bAJ1D7bW8L8', 'msIaL-136i8', 'VBbgrnaP8yI', 'ZPquLlQ_qR0', 'P9teWNAab1Q', 'LSuFcP29Ntw', 'JV06tippAq0', 'Nla2U0_Nw3E', '72RxiPBxzRY', 'FEAHnilxy6w', '5KXueVtv2mk', '6lUMyx12-r4', 'SoPysgleHB8', '46HtE-ebk80', '87Qczya5HTU', 'yJGky2gqpnU', 's_-e0vwFPwA', 'MnGoddRQ3qI', 'kroV540RFak', 'qFluIaEU1KY', 'OeGZR_27Tgs', 'Nv1mbDVxGZc', '4PIQznQs5Rc', 'V-LWUcw0sfQ', '8VioTIBXYms', '8ilU-PzbXqo', '_E0xvLeE1TY', 'LVhpws4zGDc', 'X_Gfx6rCBGY', 'khGAVJlqCcY', 'CsfrqOSn6og']
+---------------------
+https://www.youtube.com/watch?v=BNCZOFy1neE
+https://www.youtube.com/watch?v=nDLRea8gp3c
+https://www.youtube.com/watch?v=NZxejh1HAiE
+https://www.youtube.com/watch?v=PUBebNPSjm4
+https://www.youtube.com/watch?v=q53x02iRwPE
+https://www.youtube.com/watch?v=MOxRi965ybM
+https://www.youtube.com/watch?v=BKGo_G3sRRE
+https://www.youtube.com/watch?v=YYi5qiRzVYs
+https://www.youtube.com/watch?v=Iv1v9VJjvu4
+https://www.youtube.com/watch?v=YnhJDPk9SUs
+https://www.youtube.com/watch?v=MHuDl4R14c4
+https://www.youtube.com/watch?v=-dNfBZmPly0
+https://www.youtube.com/watch?v=rd8l7hDs7vc
+https://www.youtube.com/watch?v=dYDIv3Ghhyw
+https://www.youtube.com/watch?v=a3wkypbkJgA
+https://www.youtube.com/watch?v=YBDmDCruHmA
+https://www.youtube.com/watch?v=MmyVo9VvHSQ
+https://www.youtube.com/watch?v=JxZRqJj5WSo
+https://www.youtube.com/watch?v=ctfJapIt0aY
+https://www.youtube.com/watch?v=PU44P0CpNOE
+https://www.youtube.com/watch?v=aYzxX-T1CUs
+https://www.youtube.com/watch?v=96KM562jyKI
+https://www.youtube.com/watch?v=rHGw4qSlXwk
+https://www.youtube.com/watch?v=sdrZoDy-o-Q
+https://www.youtube.com/watch?v=xCazdIy558Q
+https://www.youtube.com/watch?v=2WNJO0ybd4g
+https://www.youtube.com/watch?v=dpNfQ84JTIU
+https://www.youtube.com/watch?v=WfSE9t1PRtM
+https://www.youtube.com/watch?v=svNeEAOA-Vk
+https://www.youtube.com/watch?v=IEeJGw4yCN8
+https://www.youtube.com/watch?v=20Svqr0APdo
+https://www.youtube.com/watch?v=eI8hZWbGCoU
+https://www.youtube.com/watch?v=FTY98SiFTEI
+https://www.youtube.com/watch?v=m81ihLG1ZWg
+https://www.youtube.com/watch?v=0W1JI_WogFI
+https://www.youtube.com/watch?v=NQqlA4Y7brY
+https://www.youtube.com/watch?v=HuvpsT--KVE
+https://www.youtube.com/watch?v=u70OpBPtlZo
+https://www.youtube.com/watch?v=SsTYLs60VYk
+https://www.youtube.com/watch?v=CSU28yiq2kE
+https://www.youtube.com/watch?v=IGLkUuY2SJ0
+https://www.youtube.com/watch?v=HaYupvyjJxI
+https://www.youtube.com/watch?v=LYNKvboBRqQ
+https://www.youtube.com/watch?v=MRYw1hwWa4s
+https://www.youtube.com/watch?v=Y5PDep8SmSA
+https://www.youtube.com/watch?v=CecGfzZs4cE
+https://www.youtube.com/watch?v=kg2P_Rpns3Y
+https://www.youtube.com/watch?v=sEvl-Td67Nw
+https://www.youtube.com/watch?v=Q8zPmD2sU9U
+https://www.youtube.com/watch?v=_heZ4WBec2I
+https://www.youtube.com/watch?v=D7BUvtIWi2s
+https://www.youtube.com/watch?v=SCKbgchHrNE
+https://www.youtube.com/watch?v=Nuqf65RMzz4
+https://www.youtube.com/watch?v=bG7Pgp2GXPQ
+https://www.youtube.com/watch?v=fZL5MFtRzJ0
+https://www.youtube.com/watch?v=YhFOhoFL9sY
+https://www.youtube.com/watch?v=lmbaOrsoPGM
+https://www.youtube.com/watch?v=OqXx3ldF5uY
+https://www.youtube.com/watch?v=21Pm9MB6kOk
+https://www.youtube.com/watch?v=ezzsId2DaUs
+https://www.youtube.com/watch?v=b6SMhDtGCsQ
+https://www.youtube.com/watch?v=98RQJrTfO4s
+https://www.youtube.com/watch?v=hqbMGuqtBuI
+https://www.youtube.com/watch?v=pgEI24DQ9gs
+https://www.youtube.com/watch?v=HpkOye6CBp0
+https://www.youtube.com/watch?v=MwJPvB-UAos
+https://www.youtube.com/watch?v=bd8ry8pGO1w
+https://www.youtube.com/watch?v=Rxu-WSCVEi0
+https://www.youtube.com/watch?v=ViPPMraSTeo
+https://www.youtube.com/watch?v=EslOHUxESt0
+https://www.youtube.com/watch?v=bS15md6jqi4
+https://www.youtube.com/watch?v=ICZUilA3eU8
+https://www.youtube.com/watch?v=B348n650iLM
+https://www.youtube.com/watch?v=PMC_611pVGw
+https://www.youtube.com/watch?v=cM8l4RKG-uw
+https://www.youtube.com/watch?v=wggDXnby1UU
+https://www.youtube.com/watch?v=Rt21-qOqNKg
+https://www.youtube.com/watch?v=dE2cjK8chQ8
+https://www.youtube.com/watch?v=qj7Kv1fiX9Q
+https://www.youtube.com/watch?v=pUOujJlSTOU
+https://www.youtube.com/watch?v=S4yV6rcXFmE
+https://www.youtube.com/watch?v=8VC5Z_WVkAc
+https://www.youtube.com/watch?v=cOap-VC-wRQ
+https://www.youtube.com/watch?v=p_haMc1Ld1o
+https://www.youtube.com/watch?v=yjxy2aDXRE0
+https://www.youtube.com/watch?v=eQPlHHz0W7o
+https://www.youtube.com/watch?v=Kwiu95BHZkA
+https://www.youtube.com/watch?v=ZmyehGvmGsU
+https://www.youtube.com/watch?v=mob-MKBf-Pk
+https://www.youtube.com/watch?v=jFO7U-9M3RI
+https://www.youtube.com/watch?v=Bdsu5js-bqs
+https://www.youtube.com/watch?v=-pXIGwbnRwc
+https://www.youtube.com/watch?v=h10GygeLL8I
+https://www.youtube.com/watch?v=OlRXgBRvO7g
+https://www.youtube.com/watch?v=XgkMloGkwpU
+https://www.youtube.com/watch?v=reV-oxdm_bU
+https://www.youtube.com/watch?v=z1zqLizic7Y
+https://www.youtube.com/watch?v=hgIZij5yARs
+https://www.youtube.com/watch?v=gAfWIPnbjq0
+https://www.youtube.com/watch?v=ECc_0RCyYY0
+https://www.youtube.com/watch?v=QlUTcW0PMvk
+https://www.youtube.com/watch?v=cYhdEB_oLgo
+https://www.youtube.com/watch?v=0mfd8MPAhEU
+https://www.youtube.com/watch?v=Oj8QpbNdfwE
+https://www.youtube.com/watch?v=Y0yzjw1xg3k
+https://www.youtube.com/watch?v=N1nIlTzOAM0
+https://www.youtube.com/watch?v=e2JUsVCxqTk
+https://www.youtube.com/watch?v=2Ms2gG27wyA
+https://www.youtube.com/watch?v=jtvysmkz-qM
+https://www.youtube.com/watch?v=9Tc8-LiAcDU
+https://www.youtube.com/watch?v=E0XvzM7rVak
+https://www.youtube.com/watch?v=Mmv7Pt91tO4
+https://www.youtube.com/watch?v=jjnNw6Mi4Yo
+https://www.youtube.com/watch?v=lAfd44X_ZS8
+https://www.youtube.com/watch?v=V3We22sDi-I
+https://www.youtube.com/watch?v=I3O-viCUS3A
+https://www.youtube.com/watch?v=SqNehYabteo
+https://www.youtube.com/watch?v=zwLHJlNMlf4
+https://www.youtube.com/watch?v=2r2eDY2qTsg
+https://www.youtube.com/watch?v=1UAzlN2-47Q
+https://www.youtube.com/watch?v=dy-ISjr1Wgk
+https://www.youtube.com/watch?v=V2ailBMoBoI
+https://www.youtube.com/watch?v=NjKTvIMWqxM
+https://www.youtube.com/watch?v=EKzofU_8FnU
+https://www.youtube.com/watch?v=sp_EtDL5XoI
+https://www.youtube.com/watch?v=RvRvZltTo8o
+https://www.youtube.com/watch?v=IciqMVnNh6g
+https://www.youtube.com/watch?v=Rbmxkuqqj0s
+https://www.youtube.com/watch?v=zd02mQSJidQ
+https://www.youtube.com/watch?v=E8hjR3F3QOs
+https://www.youtube.com/watch?v=X5NBRp9tWO4
+https://www.youtube.com/watch?v=rhcHuBgM6Lw
+https://www.youtube.com/watch?v=p8cRw2_aXFQ
+https://www.youtube.com/watch?v=8fUcU4nkKgs
+https://www.youtube.com/watch?v=SUaVedd9L9g
+https://www.youtube.com/watch?v=YtSaidtGc9U
+https://www.youtube.com/watch?v=h-CJ24omKrw
+https://www.youtube.com/watch?v=Bz9m8C8X_jU
+https://www.youtube.com/watch?v=hOrqOJ6dXO8
+https://www.youtube.com/watch?v=s9oSsNGC3H0
+https://www.youtube.com/watch?v=YWA214UdNjk
+https://www.youtube.com/watch?v=aTQh_RQZ8MQ
+https://www.youtube.com/watch?v=nnK8kbibtgs
+https://www.youtube.com/watch?v=ZWz7eqbsJmk
+https://www.youtube.com/watch?v=MpTadQpq9LY
+https://www.youtube.com/watch?v=UfMuKG1ViJ4
+https://www.youtube.com/watch?v=1I-XQViRFq0
+https://www.youtube.com/watch?v=OY4otpxkeqs
+https://www.youtube.com/watch?v=sjRjE0lxKQQ
+https://www.youtube.com/watch?v=8jf8HYi39W8
+https://www.youtube.com/watch?v=tLJ2iCfmzHY
+https://www.youtube.com/watch?v=t8m26sJgKMg
+https://www.youtube.com/watch?v=wOqJzJri8B0
+https://www.youtube.com/watch?v=Gz07wOEk8YQ
+https://www.youtube.com/watch?v=8Q1OXvjS4yM
+https://www.youtube.com/watch?v=5HQTcxAWKqk
+https://www.youtube.com/watch?v=yq5VEdfTZIc
+https://www.youtube.com/watch?v=mBun0K5exVM
+https://www.youtube.com/watch?v=VQp7tx8xEao
+https://www.youtube.com/watch?v=qCvpa991XsU
+https://www.youtube.com/watch?v=hjcvBHuPKrA
+https://www.youtube.com/watch?v=wEXtbPxbDlc
+https://www.youtube.com/watch?v=_pfHRCuYh6M
+https://www.youtube.com/watch?v=DZOZ2B_iXjo
+https://www.youtube.com/watch?v=eNyNtj2zf3A
+https://www.youtube.com/watch?v=TicLJU6DXJ0
+https://www.youtube.com/watch?v=KooB6MqY-jw
+https://www.youtube.com/watch?v=dda1SkfLjrI
+https://www.youtube.com/watch?v=-fJRdBJ8U8c
+https://www.youtube.com/watch?v=P94DxjckQh8
+https://www.youtube.com/watch?v=vnq8i-Rdw08
+https://www.youtube.com/watch?v=nldId7UtBg0
+https://www.youtube.com/watch?v=ObYEixHwgYw
+https://www.youtube.com/watch?v=aik2AnFO8Po
+https://www.youtube.com/watch?v=jj5KiWvIFes
+https://www.youtube.com/watch?v=6FVI-0a5YXg
+https://www.youtube.com/watch?v=aSxNaJvAgl4
+https://www.youtube.com/watch?v=gDMJ2AOMe_M
+https://www.youtube.com/watch?v=SuU1eAQd900
+https://www.youtube.com/watch?v=kczsCOd8iKA
+https://www.youtube.com/watch?v=1VNr88Mviho
+https://www.youtube.com/watch?v=g0hFUTMrw2c
+https://www.youtube.com/watch?v=bZPDW062vgU
+https://www.youtube.com/watch?v=OreLLwtoPj8
+https://www.youtube.com/watch?v=U371Mns2-eg
+https://www.youtube.com/watch?v=tD1vjCNTWko
+https://www.youtube.com/watch?v=93RGd512qrw
+https://www.youtube.com/watch?v=fMnAdWTcgbc
+https://www.youtube.com/watch?v=letzMLRmR6Y
+https://www.youtube.com/watch?v=kriJ0QSOf1k
+https://www.youtube.com/watch?v=4ELuiRL7T1Y
+https://www.youtube.com/watch?v=uwYJeiECR9E
+https://www.youtube.com/watch?v=rRLgWn8sfxw
+https://www.youtube.com/watch?v=8phvgDauxQM
+https://www.youtube.com/watch?v=PlN9f1cLI4A
+https://www.youtube.com/watch?v=4hU0307L6hY
+https://www.youtube.com/watch?v=Y9wb2XGMPYk
+https://www.youtube.com/watch?v=5XVIhmtzLLM
+https://www.youtube.com/watch?v=zDj4VoNu0yg
+https://www.youtube.com/watch?v=LIWTSmk1rlI
+https://www.youtube.com/watch?v=30wmprUlw3I
+https://www.youtube.com/watch?v=VrG-wQ5plGw
+https://www.youtube.com/watch?v=L4anHNVN21E
+https://www.youtube.com/watch?v=eMZ6-gjG3Sk
+https://www.youtube.com/watch?v=39y-nyM3xKo
+https://www.youtube.com/watch?v=KxAxntYazAQ
+https://www.youtube.com/watch?v=cgi7H11KMac
+https://www.youtube.com/watch?v=pAgaEWah0kg
+https://www.youtube.com/watch?v=2RygPXeoiNg
+https://www.youtube.com/watch?v=1mV_sjFLKPY
+https://www.youtube.com/watch?v=D3AAiauEbsg
+https://www.youtube.com/watch?v=CUMc1pRoXlQ
+https://www.youtube.com/watch?v=pfe9NVW9Ll0
+https://www.youtube.com/watch?v=iJwbHeQkfDc
+https://www.youtube.com/watch?v=TPR7TfrGUHw
+https://www.youtube.com/watch?v=_fwHMckVLa8
+https://www.youtube.com/watch?v=0pHkufFiFks
+https://www.youtube.com/watch?v=9RNoid4y7i4
+https://www.youtube.com/watch?v=lPTXNq3cfzI
+https://www.youtube.com/watch?v=qTlmXPUOG_k
+https://www.youtube.com/watch?v=bUXLJiZhb8M
+https://www.youtube.com/watch?v=Nqc_6I3turw
+https://www.youtube.com/watch?v=xhFfRLTb45w
+https://www.youtube.com/watch?v=1SyX64uQTgM
+https://www.youtube.com/watch?v=Gcox6BZXGxU
+https://www.youtube.com/watch?v=um42od-JW-M
+https://www.youtube.com/watch?v=hjglquW-RRA
+https://www.youtube.com/watch?v=1JzGemtOpO4
+https://www.youtube.com/watch?v=AeJO5BV-mWo
+https://www.youtube.com/watch?v=i8kiKaht74U
+https://www.youtube.com/watch?v=gTWWJ00Btg4
+https://www.youtube.com/watch?v=0QtG_bRhGM0
+https://www.youtube.com/watch?v=p2g8xXjsXyg
+https://www.youtube.com/watch?v=t9UPE8CDuFs
+https://www.youtube.com/watch?v=IeFkmdcGTlk
+https://www.youtube.com/watch?v=yPtUDNUO7BQ
+https://www.youtube.com/watch?v=wAwgtXOEUHk
+https://www.youtube.com/watch?v=upet0P9p3xU
+https://www.youtube.com/watch?v=2pV0ZMtF5K0
+https://www.youtube.com/watch?v=-fktVCXDDac
+https://www.youtube.com/watch?v=S2IX8ph2c-k
+https://www.youtube.com/watch?v=PZiMHFOX68s
+https://www.youtube.com/watch?v=7tjJ4Ziuy9I
+https://www.youtube.com/watch?v=CW-iEVN8zyk
+https://www.youtube.com/watch?v=w_i9KxUqc_0
+https://www.youtube.com/watch?v=Ep08ccGf0mM
+https://www.youtube.com/watch?v=QKng1gSDq80
+https://www.youtube.com/watch?v=jmJKiPb8Z4o
+https://www.youtube.com/watch?v=y0hokqpsupU
+https://www.youtube.com/watch?v=UP-n1nt_jo8
+https://www.youtube.com/watch?v=VRNUT2Y_ULQ
+https://www.youtube.com/watch?v=ym7FaH2HTQo
+https://www.youtube.com/watch?v=kbfz7gTaQvg
+https://www.youtube.com/watch?v=Zs9d9XidgN0
+https://www.youtube.com/watch?v=V1ZSYo3xAmg
+https://www.youtube.com/watch?v=irtdoP3YqCk
+https://www.youtube.com/watch?v=PhLF0-TjBu4
+https://www.youtube.com/watch?v=KdIIgJkogGk
+https://www.youtube.com/watch?v=ZLp_QBIcbxo
+https://www.youtube.com/watch?v=4FXf_bV95yU
+https://www.youtube.com/watch?v=vl47UUNBPaw
+https://www.youtube.com/watch?v=iptbESNg_mc
+https://www.youtube.com/watch?v=v8h_YnNyhWc
+https://www.youtube.com/watch?v=PTUVVBQyaXE
+https://www.youtube.com/watch?v=wBH3iRQgQp0
+https://www.youtube.com/watch?v=qgFaOB-pNMU
+https://www.youtube.com/watch?v=IsuZEoMGCsA
+https://www.youtube.com/watch?v=gWs8iAgB6Ek
+https://www.youtube.com/watch?v=qgSCMKaE5TU
+https://www.youtube.com/watch?v=TAouuq2KUXg
+https://www.youtube.com/watch?v=olJqTa2vzkM
+https://www.youtube.com/watch?v=sqvK5TI1yZc
+https://www.youtube.com/watch?v=kzZKOSDj4cQ
+https://www.youtube.com/watch?v=v919XbwhwUw
+https://www.youtube.com/watch?v=ctYaB_e4Lb0
+https://www.youtube.com/watch?v=UHkN7ZrvcNQ
+https://www.youtube.com/watch?v=kbhdLmMfkfA
+https://www.youtube.com/watch?v=cUrFfBam7H8
+https://www.youtube.com/watch?v=mFvSaVs7UZo
+https://www.youtube.com/watch?v=-E9pL_Kur1g
+https://www.youtube.com/watch?v=zhzv4eQ97mU
+https://www.youtube.com/watch?v=H7LAnBpp2CY
+https://www.youtube.com/watch?v=7L-xmfgKomA
+https://www.youtube.com/watch?v=f9RjCbTrOSM
+https://www.youtube.com/watch?v=NPLa-JDGjcg
+https://www.youtube.com/watch?v=CN8PwGi_Spw
+https://www.youtube.com/watch?v=KoT3XAANJak
+https://www.youtube.com/watch?v=PA461nKogws
+https://www.youtube.com/watch?v=iWBjHPFrwrM
+https://www.youtube.com/watch?v=-5hLoMZ5cd4
+https://www.youtube.com/watch?v=o-OhcV9H6pw
+https://www.youtube.com/watch?v=98YROwxUI4Y
+https://www.youtube.com/watch?v=q-cuNO4UanY
+https://www.youtube.com/watch?v=djM5ungZ6mo
+https://www.youtube.com/watch?v=PjRmIZP5GKw
+https://www.youtube.com/watch?v=vi7hJLDZIzo
+https://www.youtube.com/watch?v=b1V2qfgOT9A
+https://www.youtube.com/watch?v=TW3W0W8PTrc
+https://www.youtube.com/watch?v=b46D9QnK4jA
+https://www.youtube.com/watch?v=g6UHikNtmy4
+https://www.youtube.com/watch?v=nTS56LqZTnk
+https://www.youtube.com/watch?v=5ov_LiTAn_U
+https://www.youtube.com/watch?v=IwBu_YYXGzY
+https://www.youtube.com/watch?v=Pbx31ib6gT4
+https://www.youtube.com/watch?v=7Xc9alkDMH8
+https://www.youtube.com/watch?v=-xOZP3Ut8J0
+https://www.youtube.com/watch?v=DvjCPu0odG4
+https://www.youtube.com/watch?v=1ktVglH2xk4
+https://www.youtube.com/watch?v=g7jO8Qdn43Y
+https://www.youtube.com/watch?v=zQZVISQWvLU
+https://www.youtube.com/watch?v=ByVCe0BmcMQ
+https://www.youtube.com/watch?v=0Ef0Iy9Vf_A
+https://www.youtube.com/watch?v=ie-n7tIX0EU
+https://www.youtube.com/watch?v=2LuanPuxBnE
+https://www.youtube.com/watch?v=ZwPjQYCKzgc
+https://www.youtube.com/watch?v=X9Bk2AlQrDA
+https://www.youtube.com/watch?v=PHxVp0eEfPs
+https://www.youtube.com/watch?v=iSZ0iULWymI
+https://www.youtube.com/watch?v=Pylw3tqzv1U
+https://www.youtube.com/watch?v=3C6Y8dGF3Sc
+https://www.youtube.com/watch?v=z7flclYFFsM
+https://www.youtube.com/watch?v=tKm0eTQ8iDw
+https://www.youtube.com/watch?v=BSgG3g7ca-g
+https://www.youtube.com/watch?v=E2uMn-tuETY
+https://www.youtube.com/watch?v=WNCOSPaOst8
+https://www.youtube.com/watch?v=z37HBLc5tco
+https://www.youtube.com/watch?v=HixoHQPLFSs
+https://www.youtube.com/watch?v=oMRZj_R2nq8
+https://www.youtube.com/watch?v=4_09a-AxUvM
+https://www.youtube.com/watch?v=kkftLltoxJo
+https://www.youtube.com/watch?v=xMdUDwrrlLQ
+https://www.youtube.com/watch?v=qqYpoFbbzqw
+https://www.youtube.com/watch?v=h56R5N0D9cc
+https://www.youtube.com/watch?v=9vyKAKUX0WI
+https://www.youtube.com/watch?v=hZjxuCp9ElQ
+https://www.youtube.com/watch?v=qZf-_ONigvo
+https://www.youtube.com/watch?v=EYM2UENSObk
+https://www.youtube.com/watch?v=I1rafrEcCpA
+https://www.youtube.com/watch?v=1EYKX-11aeo
+https://www.youtube.com/watch?v=-wQDfiiDBaU
+https://www.youtube.com/watch?v=U5CYdmsR9Sw
+https://www.youtube.com/watch?v=XXPo8SvZPpc
+https://www.youtube.com/watch?v=cGNTVozi6Ns
+https://www.youtube.com/watch?v=mHh6gnYvEFQ
+https://www.youtube.com/watch?v=R29lvWs1yBE
+https://www.youtube.com/watch?v=BUJv7ehejpU
+https://www.youtube.com/watch?v=krBXdItE5m0
+https://www.youtube.com/watch?v=RpNkyTtmC6o
+https://www.youtube.com/watch?v=DZYv6-nP5Wc
+https://www.youtube.com/watch?v=_DYuHz9VBLo
+https://www.youtube.com/watch?v=hLqGReZSr5c
+https://www.youtube.com/watch?v=-07FjvLc_fg
+https://www.youtube.com/watch?v=iAtcKU5xIOw
+https://www.youtube.com/watch?v=rT6nZdCZFN8
+https://www.youtube.com/watch?v=gK29O6rf_f4
+https://www.youtube.com/watch?v=IvWI14YKw9A
+https://www.youtube.com/watch?v=TXJ-8m9NxJA
+https://www.youtube.com/watch?v=HSUsSBk7Wqg
+https://www.youtube.com/watch?v=rvtElDrxAD8
+https://www.youtube.com/watch?v=Q1ZJ3NaVYNA
+https://www.youtube.com/watch?v=GPdaC1957oA
+https://www.youtube.com/watch?v=LNH92gLyWNI
+https://www.youtube.com/watch?v=NjARAAZnoB0
+https://www.youtube.com/watch?v=TbWQ7ZC1JEc
+https://www.youtube.com/watch?v=EjGsFj3t5X0
+https://www.youtube.com/watch?v=4TbdqWbF_PE
+https://www.youtube.com/watch?v=hzhqDyZTpfU
+https://www.youtube.com/watch?v=Fi_kMc6hLxI
+https://www.youtube.com/watch?v=DNYCgsyOAW4
+https://www.youtube.com/watch?v=5UNyxzwP7BM
+https://www.youtube.com/watch?v=BH96YTu88p8
+https://www.youtube.com/watch?v=Vh0f3K8Jp1I
+https://www.youtube.com/watch?v=-ZiHE82-x3c
+https://www.youtube.com/watch?v=H0WD-yF9AGo
+https://www.youtube.com/watch?v=0hjpOEwFeTA
+https://www.youtube.com/watch?v=BfTtp-5nfK4
+https://www.youtube.com/watch?v=XNTNdNL0HBw
+https://www.youtube.com/watch?v=7o9faZReOuI
+https://www.youtube.com/watch?v=gXJMKbSYSzw
+https://www.youtube.com/watch?v=CbCkhscjgaA
+https://www.youtube.com/watch?v=WUacVXg1uVk
+https://www.youtube.com/watch?v=bd2YlYE2DFY
+https://www.youtube.com/watch?v=qEglKvuwIVc
+https://www.youtube.com/watch?v=KZV5OS3INY8
+https://www.youtube.com/watch?v=5c70QrCVH6E
+https://www.youtube.com/watch?v=niEK_1Xwwws
+https://www.youtube.com/watch?v=bAJ1D7bW8L8
+https://www.youtube.com/watch?v=msIaL-136i8
+https://www.youtube.com/watch?v=VBbgrnaP8yI
+https://www.youtube.com/watch?v=ZPquLlQ_qR0
+https://www.youtube.com/watch?v=P9teWNAab1Q
+https://www.youtube.com/watch?v=LSuFcP29Ntw
+https://www.youtube.com/watch?v=JV06tippAq0
+https://www.youtube.com/watch?v=Nla2U0_Nw3E
+https://www.youtube.com/watch?v=72RxiPBxzRY
+https://www.youtube.com/watch?v=FEAHnilxy6w
+https://www.youtube.com/watch?v=5KXueVtv2mk
+https://www.youtube.com/watch?v=6lUMyx12-r4
+https://www.youtube.com/watch?v=SoPysgleHB8
+https://www.youtube.com/watch?v=46HtE-ebk80
+https://www.youtube.com/watch?v=87Qczya5HTU
+https://www.youtube.com/watch?v=yJGky2gqpnU
+https://www.youtube.com/watch?v=s_-e0vwFPwA
+https://www.youtube.com/watch?v=MnGoddRQ3qI
+https://www.youtube.com/watch?v=kroV540RFak
+https://www.youtube.com/watch?v=qFluIaEU1KY
+https://www.youtube.com/watch?v=OeGZR_27Tgs
+https://www.youtube.com/watch?v=Nv1mbDVxGZc
+https://www.youtube.com/watch?v=4PIQznQs5Rc
+https://www.youtube.com/watch?v=V-LWUcw0sfQ
+https://www.youtube.com/watch?v=8VioTIBXYms
+https://www.youtube.com/watch?v=8ilU-PzbXqo
+https://www.youtube.com/watch?v=_E0xvLeE1TY
+https://www.youtube.com/watch?v=LVhpws4zGDc
+https://www.youtube.com/watch?v=X_Gfx6rCBGY
+https://www.youtube.com/watch?v=khGAVJlqCcY
+https://www.youtube.com/watch?v=CsfrqOSn6og
+temporary_code_files folder doesnot exist. Creating now
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+only_titles :  ['These_stocks_could_give_a_Breakout!_', 'Why_did_I_quit_my_high_paying_job?', 'Can_Elon_Musk_buy_Twitter?_#shorts_#ElonMusk', 'Fundamental_Analysis_of_a_MONOPOLY_STOCK', 'Government_should_pay_you_TAX_#shorts_#taxinindia', 'Salaried_class_in_India_gets_crushed!_(Why_&_how?)_', 'The_FREEBIE_political_economy_in_India', 'Global_recession_soon?_', 'How_to_save_30%_Crypto_Tax?_', 'Fundamental_Analysis_of_a_rising_FMCG_stock', 'Why_PETROL/Diesel_prices_are_high_in_India?', '5_MUST_KNOW_finance_rules_for_everyone_', 'MONEY_MAKES_MONEY_', 'How_to_live_a_great_life_on_a_Low_Salary!_[5_practical_strategies]', 'The_best_Fixed_Deposit_option_with_0_taxes!', 'HDFC,_the_growth_story:_Buy_or_Sell_now?_#HDFC_#HDFCBank', 'Middle_Class_getting_CRUSHED_in_India_#shorts', 'How_politicians_rob_citizens?_[Sri_Lanka_economic_crisis]', 'How_Rs.100_today_becomes_Rs.96_next_year!_#shorts', 'Earn_MORE_by_working_LESS_', 'Russia_buying_more_GOLD!_How_will_it_impact_the_Indian_and_the_US_stock_markets?', 'Make_15%_returns_from_Stock_Markets_easily!', 'Why_does_the_salaried_class_suffer_in_India?', 'How_to_invest_your_salary_for_good_returns?', 'How_to_build_a_side_income?_', 'Where_to_invest_in_the_SHORT-TERM?_[1-3_years_period]', 'Buy_stocks_like_a_PRO!_#shorts', 'How_to_invest_in_PSU_Stocks?_', '1-minute_FREE_startup_course_by_JEFF_BEZOS!_#shorts_#jeffbezos', 'The_SIMPLEST_SWING_TRADE_EVER_[with_almost_guaranteed_returns]_', 'Making_your_FIRST_1Cr_is_Difficult!__Here_is_why...._#shorts', 'Buy_Zomato_now?_10-min_delivery_model,_decoded!', 'How_India_is_getting_BANKRUPT?_#shorts', 'How_to_make_dividend_income_', 'How_to_EARN_More_', 'How_to_make_money_on_YouTube?_#shorts', 'Maruti_Stock_about_to_Skyrocket?_', 'This_MONOPOLY_Tech_stock_could_easily_double!_', 'My_portfolio_revealed!_', 'How_to_BUY_undervalued_stocks?_[simple_strategies]_#STOCK_MARKET_INVESTING_FOR_BEGINNERS', 'PayTm,_Nykaa,_Zomato_in_NIFTY_Next_50!_Buy_now?_#shorts', 'Cryptos_will_SKYROCKET!_[Ultimate_Crypto_investing_guide_2022]_', 'Maruti:_No_EV_BUSINESS?_#shorts', 'STOCK_MARKETS_will_fall_due_to_weak_rupee?_(and_how_to_save_wealth!)', 'Paytm_Crash_', 'How_to_build_a_GREAT_PORTFOLIO_with_1Lakh_rupees_', 'Good_vs_Bad_Monopoly_stocks!', 'Invest_in_Fixed_Deposits_#shorts', 'Several_Stocks_will_CRASH', 'Job_market_crash_2022_#shorts', 'Very_SLOW_growth_ahead?_', 'How_to_choose_your_career?_#shorts', 'Right_time_to_invest_in_this_revolutionary_tech?', 'Why_INDIANS_are_paid_LOW_SALARIES?_#shorts', 'Buy/Sell_these_stocks?', 'Pay_HIGH_tax,_but_what_do_you_get_in_return?_#shorts', 'LIVE_DISCUSSION:_Stock_Market_FALL!_', 'RICHEST_politician_in_the_world_#shorts', 'How_to_invest_in_the_stock_markets_[Ultimate_Guide_2022]', 'Buy_Low,_Sell_High_(EASIEST_STRATEGY_TO_MAKE_MONEY!)_#shorts', 'Buy_more_or_exit_the_market?', 'Why_is_India_SUPER_EXPENSIVE_for_the_MIDDLE_CLASS?_#shorts', 'Buy_or_Rent_a_house_in_2022?', 'THIS_will_increase_your_salary_100%....', 'Bluechips_[HUL,_HDFC]_fall_massively!_', 'To_retire_with_1L/month,_you_need_a_corpus_of...._#shorts', 'NO_30%_tax_on_buying_Bitcoins_', 'Banks_Fall,_Buy_More?_', 'When_will_the_markets_recover_(or_crash)?_', 'Become_DEBT_FREE_[0_Debt,_0_Tension]_#shorts', '3_Trends_that_can_5X_your_returns!_[Trend_Based_Investing_Strategy]', 'Rent,_not_buy_a_house_[LOGIC]_#shorts', 'A_GREAT_stock?_Fundamental_Analysis', 'Are_Cryptos_fundamentally_bad?_#shorts', '5_strategies_to_buy_every_dip!', 'Buy_or_Sell?', 'Russia-Ukraine_Crisis:_Which_stocks_did_I_buy_today?', 'Great_time_to_buy!', 'Buy_or_Sell_Now?', '10X_Returns_now?', '40_Lakh_job_WITHOUT_COLLEGE?_#shorts', '5_AMAZING_strategies_for_making_money_', 'Financial_Independence_in_1_minute', 'Buy_or_Sell_stocks?', 'Drop_out_of_college_NOW?_#shorts', 'Why_the_rich_are_getting_RICHER!', 'How_RETAIL_INVESTORS_can_invest_in_Startups', 'Great_stock_to_buy!', 'How_to_invest_in_volatile_markets_safely', 'Selling_my_Cryptos_now?', '3_SIMPLE_rules_to_get_SUPER_Rich!', 'Why_you_should_not_buy_BNPL/other_fancy_cards?', 'Buy_more_or_sell_these_FUNDAMENTALLY_STRONG_stocks', "Markets_falling_(RBI's_Monetary_Policy)_?", 'Bitcoin_vs_CBDC_[Central_Bank_Digital_Currency]_', 'Markets_will_CRASH_7_TIMES_this_year?', '3_Mistakes_that_will_make_you_RICH!', 'Buy_now?', 'How_to_make_1L_in_dividends?', 'Great_stock_to_buy!', 'Tech_Meltdown,_great_time_to_buy?', '56X_possible_returns!', 'Invest_in_0_profit_firms_#shorts', 'Best_Investment_Strategy_right_now?_', 'Buy_1/4th_MRF?_#shorts', 'Budget_Discussion_2022', 'Watch_Budget_&_Buy_Stocks?_#shorts_#budget2022', 'How_to_make_massive_returns!', 'Stock_Market_will_go_up?_#BUDGET2022', 'Buying_these_stocks_right_now', 'Top_stocks_gutted_down,_should_you_buy?', 'World_War_3_&_Impact_on_your_portfolio', 'Bitcoin:_Buy_on_Dips?_#shorts_#cryptos', 'How_to_invest_with_Saurabh_Mukherjea,_Salil_Desai_and_Akshat', 'Crypto_Crash_-_Buy_or_Sell?', '15*15*15=1Cr?_', 'Market_Crash_-_Reasons_and_Way_ahead', 'Should_you_invest?_Ft._@Ayushi_Chand', 'Great_buying_opportunity?', 'Global_economy_crashing?_', 'How_to_invest_in_this_revolutionary_tech?', 'Buy/Sell:_These_stocks_could_Skyrocket', 'Stock_Analysis:_Deep_discount_or_Trap_for_retail_investors?', 'Stocks_to_buy_and_avoid', 'Should_you_buy_this_stock?', 'Where_to_invest_in_2022?', 'Small_Investments,_great_returns--_SPECULATION_Strategy_in_Stock_INVESTING,_explained!', 'Work_from_Home_Earning_Options_in_METAVERSE!', '5_steps_to_make_MORE_RETURNS!', 'GREAT_time_to_buy_tech_stocks?', 'Bull_Run_in_India_', 'The_REAL_POWER_of_Monopoly_TECH_STOCKS', '5_Business_Ideas_that_can_make_you_RICH', '1_stock,_100%_gains_', 'Build_these_3_Amazing_income_streams!', 'What_are_SMART_CONTRACTS?__(Explained_in_15_mins!)', 'Markets_', 'Fake_vs_Real_Growth_in_Stocks', 'My_total_stock_market_returns_', 'Investment_strategies_for_great_returns!_[Dhando_Strategy]', '3_great_stock_market_strategies_for_salaried_people', 'Should_YOU_invest?_The_REAL_Value_of_NFTs', 'How_to_invest_15K_for_GROWTH!', 'Great_stock,_Decent_price', 'My_SECRET_to_analysing_stocks!', 'Make_100X_returns_like_Musk_', 'Great_strategy_to_buy_the_dip!', 'The_next_YES_Bank?_', 'My_BEST_&_Worst_Investments_in_2021_', 'Finance_with_Akshat_and_Zayn_#shorts', '1_Crore_package_reality_IIT/IIM_Salary_', 'Profitable_but_Risky_portfolio_with_INR_10,000_', 'NFT_Investing_and_Staking_explained_', 'TECHNICAL_Analysis_of_Stocks_for_beginners_', 'What_stocks_to_buy_with_1L_', 'My_5_secrets_to_making_money!', "India's_potential_Multibagger_Tech_stocks_#AtomstoBitsFramework", 'Should_you_buy_or_sell?_And_re-enter_later', 'Tutorial_Video:_How_to_invest_in_US_stocks_', 'How_to_Earn,_spend_and_invest_money!', 'LIVE_DISCUSSION:_Market_and_Fall_-_What_to_do?', 'How_to_make_a_lot_of_money_in_the_stock_market', 'How_to_build_these_8_income_streams', 'What_are_BAT_tokens?_And_why_am_I_buying_these?', 'Stocks_that_I_am_buying_and_selling', 'My_3_NEW_Crypto_investments_in_2022_', 'How_to_CATCH_A_FALLING_KNIFE_to_make_money!', 'How_YOU_can_invest_in_Metaverse', 'List_of_great_Mid-cap_stocks', 'TATA_Group:_Fundamental_Analysis_of_Stocks_', '5_stocks_at_discount!', 'GREAT_returns_with_SMALL_investments!', 'Where_to_invest_in_2022?', 'Can_an_IIT_graduate_save_this_firm?', 'Which_stocks_to_BUY_NOW?', 'Why_this_market_leader_is_falling?', 'Best_EV_Stock?', '[GIVEAWAY_ANNOUNCEMENT]_3_things_that_can_kill_Bitcoin', 'Multibagger_or_Overpriced?', 'List_of_good_stocks', 'Buying_this_now!', 'When_do_I_sell_my_stocks?', 'How_to_make_regular_income_from_investments?', 'Bitcoin_banned_in_India?_#shorts_#bitcoin_#cryptonews', 'How_to_grow_fast_in_your_career!', 'Should_you_sell_ALL_your_Cryptos_now?', 'Should_you_buy,_hold_or_sell_stocks?', 'How_YOU_can_save_A_LOT_OF_taxes_', 'Stock_Market_Fall:_Live_Discussion', 'GREAT_buying_opportunity_in_2_SOLID_stocks!', 'These_5_skills_will_change_your_career!', 'Great_buying_opportunity_in_this_stock?', 'Invest_NOW?_', 'PayTM_falls_27%,_what_should_you_do?_#shorts_#PayTMIPO', 'How_to_invest_in_Commercial_Properties:_expected_return,_REITS_and_other_details.', 'Crypto_CRASH_today!--fundamental_analysis_of_Cryptos_', 'Job_Market_Crash!', 'Why_are_big_investors_buying_this_TECH_giant?', 'Buying_big!', 'Inexpensive_stocks:_Are_they_worth_it?', 'How_Penny_stocks_move?', 'Investing_in_these_two_Cryptos!', 'FOMO_Marketing?', 'How_to_make_MORE_MONEY?_', 'Yield_Farming,_Bonds_and_Squid_Tokens!', 'Buying_big!', 'This_stock_can_give_5X_returns?', 'What_am_I_buying_for_my_Son_for_the_next_20_Diwalis_#MuhuratTrading', 'Finance_YouTuber_singing_', 'How_to_get_RICH?', 'Where_should_you_invest:_HDFC_vs_ICICI?', 'Next_5_years,_where_am_I_investing', '7000000%_returns_on_this_asset?!_Building_an_investment_framework', 'This_SMALLCAP_can_give_massive_returns_', 'Buy/Sell?', 'Investing_in_this_new_asset', 'Investing_heavily_in_these_stocks_(#Smallcase)', 'Buying_HUL_', 'How_and_when_am_I_buying_more_of_this_asset', 'How_do_I_invest_in_Mutual_Funds?_INDEX_INVESTING_(Market_Weighted_vs_Equal_Weighted)_', 'Asian_Paints_&_a_mid-cap_MULTIBAGGER', 'My_investing_style_', 'Buy,_Hold_or_Sell?', 'One_stock_that_I_REGRET_not_buying.', 'INVEST_MORE?_', 'Masterclass_on_communicating_effectively_', 'BUYING_more_stocks_', 'THINK_in_English_and_become_FLUENT!_#shorts_#cambly', 'NO_MORE_BANKING_stocks!', 'Buy_this_and_get_bankrupt_', 'Low_risk,_high_return_SMALL_CAP', '0_Profits,_Billions_in_Valuations_', 'A_PENNY_Stock_worth_GOLD!', 'Make_money_by_using_these_TECHNICAL_indicators_', 'YOUTUBE_LIVE:_A_discussion_about_Stock_Market_and_Career', 'BEST_TIME_to_invest_in_this_sector?_Massive_growth_potential_in_Airlines?', 'Should_you_INVEST_in_the_US_or_India?_', 'My_stocks_and_crypto_picks_for_October_', 'Fundamental_analysis_of_a_MONOPOLY_STOCK', 'Monopoly_Stock:_Buy_or_Sell?_(SWING_TRADE)', 'Own_these_assets_and_GET_RICH!', 'Why_do_you_pay_TAXES?_', 'Bitcoin:_Is_it_REALLY_an_Asset?', 'Where_to_invest?_', 'Live_investing_in_Cryptos_post_China_ban', '6_reasons_why_I_sell_stocks', 'How_the_BULL_RUN_might_end?_', 'How_NEO-banks_can_help_you_save_more_', 'Billionaires_who_changed_their_minds_about_#Bitcoin_#shorts', 'Start_buying_this_FUNDAMENTALLY_STRONG_stock!', 'These_6_financial_mistakes_will_cost_you_A_LOT!', 'How_much_can_you_REALLY_EARN_by_working_abroad?', 'Understand\xa0the\xa0NFT\xa0game_', 'Market_CRASH_2021?_China_&_#Evergrande_CRISIS_explained', 'GROW_YOUR_WEALTH_in_10_years_', 'How_I_am_preparing_for_the_NEXT_BIG_CRASH!', 'How_did_I_SAVE_&_INVEST_INR_4.44_CR?', 'Make_money_in_STOCK_MARKETS-_Learn_these_concepts!', 'Attend_my_FREE_Masterclass_on_Personal_Finance_#Neobanks', 'Fundamental_Analysis_of_great_stocks_(MOAT_method)', 'CASH_VS_Cryptos:_What_will_survive?_', 'How_many_stocks_should_you_buy?', 'Crypto_crash_soon?_[not_really!]_#shorts_#cryptocurrency_#bitcoin', "Schools_DON'T_teach_you_about_MONEY,_but_SHOULD!", 'Investing_in_Future_Tech_monopolies_', 'Investing_in_FUTURE_tech_monopolies!__#_No-FAANG_stocks', 'Should_you_invest_in_the_market_NOW?_', 'Why_did_I_invest_INR_85L_in_these_4_stocks?', "How_NOT_to_lose_money_-_'Tulip_Mania'_explained", 'How_am_I_investing_for_growth?', 'Right_way_to_Invest_in_GOLD_(Digital_Gold_vs_Physical_Gold?)', 'Blockchain_&_Corruption_Free_India_', 'Use_these_apps_to_make_money_online!', 'Learn_this_skill_to_make_A_LOT_of_money_', '5_GREAT_stocks_for_long_term!_#Smallcase', 'Live_investing_-_#FundamentalAnalysis_of_Stocks!_/_Understand_Sector_rotation', 'How_governments_rob_their_citizens?_#moneyheist_in_real_life', 'How_safe_are_your_Crypto_investments?', 'How_to_get_RICH,_starting_from_0_', 'Tech_stocks_overvalued?_', '4_stocks_in_Consumer_Durable_Goods_industry', 'My_Philosophy_of_Money_', 'Investing_in_an_UNDERVALUED_sector!', 'Grow_your_income_MASSIVELY!_', 'How_our_parents_lose_money:_LESSONS_LEARNT', 'Easiest_Strategy_to_Invest_in_India_', 'Market_CRASH_coming?', '5_things_to_do_in_college_to_skyrocket_your_career_', 'Fundamentals_of_Stock_Analysis_', 'Is_Crypto_worth_anything?_#NFT_#SMARTCONTRACT_', "Banking_stocks_I'm_buying_", 'Fundamental_Analysis:_How_to_pick_the_right_banking_stocks_right_now!', '4_Great_Stocks_I_am_Buying_', 'IPO_Investing_', 'Why_you_will_lose_money_in_the_STOCK_MARKETS_', 'MASTERCLASS_Passive_Income', 'Best_Platform_-_Buy_and_Sell_Cryptos!_', '3_GREAT_financial_decisions_I_made_to_become_Financially_Independent!', 'Stock_Market_Investing_', 'Fundamental_Analysis_of_3_Small_Cap_and_Penny_stocks_', 'Grow_in_your_CAREER_&_on_YouTUBE!_', 'Speak_English_FLUENTLY!', 'Why_will_I_NOT_buy_a_house?', 'Fundamental_Analysis_of_Cryptocurrencies', 'My_next_3_FINANCIALLY_DUMB_decisions', 'Fundamental_Analysis_of_3_Blue-Chip_Stocks!_#FundamentalAnalysis', 'How_do_I_make_money_consistently?', 'Design_a_diversified_portfolio_by_using_STOCKS,_DEBTS,_Cryptos_(#Bitcoins!)', 'How_Big_Ed-Tech_can_kill_the_education_sector?', 'Work_From_Home_Dad_in_India_(my_life!)', 'Where_am_I_investing?', 'How_am_I_investing_Rs._50_lakhs?_Strategy_Explained!', 'ITC_-_Should_you_Invest?_', '5_things_I_did_to_become_financially_free_at_30', 'Rising_Startups_of_the_future!', 'How_to_be_a_Millionaire?_', 'Make_money_via_CRYPTOCURRENCIES_', 'Make_BIG_MONEY_from_SMALL_AMOUNT!_', 'FUNDAMENTAL_ANALYSIS_made_easy_', 'REALITY_of_SALARIES_at_IIT,_IIMs,_ISB_and_other_institutes_', "How_to_have_a_'conversation'_during_an_interview?", 'Zomato:_(I)_Its_(P)_Probably_(O)_Overpriced_', 'Why_the_RICH_own_NOTHING?_', 'Health_Insurance_&_Rising_Healthcare_Inflation', 'Smallcase_investing_explained!_(How_NOT_to_lose_money?)_#SmallCase_#StockMarketforbeginners', "ABC:_Akshat's_Book_Club_-_Deep_Work_by_Cal_Newport", 'How_to_invest_INR_10,000_per_month_in_a_mutual_fund?_#MutualFunds_#InvestmentTips', 'How_Did_I_retire_in_my_30s?_#financialfreedom_#Investing', '6_Things_I_will_NEVER_buy_as_a_Millionaire_', 'CASE_STUDY:_Airlines_Industry_in_India_', '100K+_Subs_Celebration_-_Thanks_for_the_support!_:)_#shorts', 'FAKE_IT?_on_your_resume_and_interviews?', "90's_Kids_vs_GEN-Z_", 'How_to_invest_your_first_INR_1_lakh?_', 'Harvard,_Stanford,_INSEAD-_What_do_you_ACTUALLY_learn?', "Why_are_CRED's_advertisements_so_effective?_", 'Why_do_I_always_smile?_Get_to_know_me!', 'Importance_of_#Networking_#shorts', 'CAREERS_in_India_-_Which_one_should_you_pursue?_', 'RESUMEs_and_DEGREES._-_are_they_still_worth_it?_', 'Wait_or_Invest_now?_', "ABC:_Akshat's_Book_Club_-__The_Psychology_of_Money", 'Why_am_I_investing_in_the_Electric_Vehicle_(EV)_Sector_in_India?_', 'MBA:_USA_or_Europe?_', 'Build_STRONG_habits_and_become_a_great_mentor_to_others', 'Why_every_Indian_needs_to_get_a_HEALTH_INSURANCE_-_Health_Insurance_explained_#HealthInsurance', '(Still)_Running_after_a_job_in_2021?_Listen_to_this_#CareerAdvice_#JobMarketTrends', 'Against_Conventional_Wisdom:_Is_formal_education_system_actually_good?_#CareerTips', 'Should_you_do_a_#TechMBA?_#shorts', 'Become_a_MILLIONAIRE_by_30!_-_Investment_Strategy_Explained_', 'Buy_Low,_Sell_High_and_make_money_in_STOCK_MARKET_', "Case_Study:_Paytm's_Strategy_", 'One_simple_tip_to_speak_English_fluently_', 'MBA:_India_or_Abroad?_', 'Inside_the_world_of_VENTURE_CAPITAL_', 'Win_an_INTERNSHIP/JOB_in_2021_', 'How_to_be_HAPPY?_', 'INR_1_Cr._in_Stock_Market_', "ABC:_Akshat's_Book_Club_-__The_Subtle_Art_of_Not_Giving_a_F*ck", 'GET_RICH_in_Stock_Market!_', 'CASE_STUDY:_TATA_Group_', 'Career_in_MIDDLE_EAST_', 'Should_you_do_an_MBA?_', 'CREDIT_CARDS_and_BAD_FINANCIAL_HABITS_', 'Grow_in_your_Career!_', 'GET_RICH_by_analyzing_stocks!_', 'Case_Study:_ZERODHA_', "Become_wealthy_and_invest_in_'assets'_", 'Finance_for_Dummies_', 'The_power_of_Investing_', 'FOMO_Marketing_in_Ed-tech_', 'Best_Career_Paths_in_India!_', 'INVESTMENT_BANKING_vs._MANAGEMENT_CONSULTING_', 'Amazon_MGM_deal:_Netflix_competition?_', 'Consulting_Interviews_', "Case_Study:_Zomato's_IPO_", 'GET_RICH_by_INFLATION_', "MBA_in_USA?_Here's_the_checklist_", 'Want_to_Work_abroad?_Know_what_to_do!_', 'Write_AWESOME_Emails_', 'Jobs_in_SINGAPORE__', 'How_to_become_an_INVESTMENT_BANKER?_', "Case_Study:_Why_RELIANCE_will_become_India's_biggest_tech_company?_", 'Tips_from_a_Management_Consultant_to_become_more_PRODUCTIVE!_', 'MBA_-_2_years_versus_1_year_', 'How_to_THINK_about_Career_and_Money', 'Salaries_in_Consulting_-_Mckinsey,_BCG,_Bain', 'Elon_dumps_Bitcoin_', 
+'FINANCE:_Career_Options_', 'HIGHEST_RECRUITMENT-_Management_Consulting!_#shorts', 'MBA_or_MiM?', 'Make_Rs._1_CRORE_from_Rs._15,000_monthly_investment_', 'McKinsey,_Bain,_BCG:_Work_life_balance?_MBA?_Cases?_(Basics)', 'Get_into_MCKINSEY,_BCG,_BAIN!_', 'BEST_1-YEAR_MBA_PROGRAMS_#shorts', "DON'T_invest_in_stocks_if_you_don't_WANT_to_learn_", 'STUDY_ABROAD?_', 'HARVARD_BUSINESS_SCHOOL:_Top_skill_you_need_to_get_into_HBS_#shorts', 'Can_Modi_Ban_Bitcoin_(and_other_Cryptocurrencies?)_', 'Get_that_job_with_an_AWESOME_VIDEO_RESUME!_', 'How_to_become_rich?_', 'How_to_impress_your_boss?', 'Want_to_IMPRESS_YOUR_BOSS_and_get_a_HIGH_RATING?', "SMART_READING--_Don't_like_reading_books?_This_is_what_you_need_to_do_to_read_more_effectively", 'How_to_get_a_job_at_McKinsey/BCG/Bain?_#shorts', 'How_to_network_in_the_offline_world?_', 'Learn_how_to_network_effectively_and_get_a_job_at_McKinsey!_', 'CRYPTOS_or_CASH?_', 'Want_better_jobs?_Learn_to_Network_', 'Negotiating_Salary_', 'Negotiating_job_offers_', 'Negotiations_Basics_', 'Become_a_smart_negotiator_', 'GMAT_', 'Social_Impact_Career_Paths_', 'Ace_your_communication_style!', 'Can_this_HEC_MBA_graduate_get_into_McKinsey/BCG/Bain?']
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+['These_stocks_could_give_a_Breakout!_', 'Why_did_I_quit_my_high_paying_job?', 'Can_Elon_Musk_buy_Twitter?_#shorts_#ElonMusk', 'Fundamental_Analysis_of_a_MONOPOLY_STOCK', 'Government_should_pay_you_TAX_#shorts_#taxinindia', 'Salaried_class_in_India_gets_crushed!_(Why_&_how?)_', 'The_FREEBIE_political_economy_in_India', 'Global_recession_soon?_', 
+'How_to_save_30%_Crypto_Tax?_', 'Fundamental_Analysis_of_a_rising_FMCG_stock', 'Why_PETROL/Diesel_prices_are_high_in_India?', '5_MUST_KNOW_finance_rules_for_everyone_', 'MONEY_MAKES_MONEY_', 'How_to_live_a_great_life_on_a_Low_Salary!_[5_practical_strategies]', 'The_best_Fixed_Deposit_option_with_0_taxes!', 'HDFC,_the_growth_story:_Buy_or_Sell_now?_#HDFC_#HDFCBank', 'Middle_Class_getting_CRUSHED_in_India_#shorts', 'How_politicians_rob_citizens?_[Sri_Lanka_economic_crisis]', 'How_Rs.100_today_becomes_Rs.96_next_year!_#shorts', 'Earn_MORE_by_working_LESS_', 'Russia_buying_more_GOLD!_How_will_it_impact_the_Indian_and_the_US_stock_markets?', 'Make_15%_returns_from_Stock_Markets_easily!', 'Why_does_the_salaried_class_suffer_in_India?', 'How_to_invest_your_salary_for_good_returns?', 'How_to_build_a_side_income?_', 'Where_to_invest_in_the_SHORT-TERM?_[1-3_years_period]', 'Buy_stocks_like_a_PRO!_#shorts', 'How_to_invest_in_PSU_Stocks?_', '1-minute_FREE_startup_course_by_JEFF_BEZOS!_#shorts_#jeffbezos', 'The_SIMPLEST_SWING_TRADE_EVER_[with_almost_guaranteed_returns]_', 'Making_your_FIRST_1Cr_is_Difficult!__Here_is_why...._#shorts', 'Buy_Zomato_now?_10-min_delivery_model,_decoded!', 'How_India_is_getting_BANKRUPT?_#shorts', 'How_to_make_dividend_income_', 'How_to_EARN_More_', 'How_to_make_money_on_YouTube?_#shorts', 'Maruti_Stock_about_to_Skyrocket?_', 'This_MONOPOLY_Tech_stock_could_easily_double!_', 'My_portfolio_revealed!_', 'How_to_BUY_undervalued_stocks?_[simple_strategies]_#STOCK_MARKET_INVESTING_FOR_BEGINNERS', 'PayTm,_Nykaa,_Zomato_in_NIFTY_Next_50!_Buy_now?_#shorts', 'Cryptos_will_SKYROCKET!_[Ultimate_Crypto_investing_guide_2022]_', 'Maruti:_No_EV_BUSINESS?_#shorts', 'STOCK_MARKETS_will_fall_due_to_weak_rupee?_(and_how_to_save_wealth!)', 'Paytm_Crash_', 'How_to_build_a_GREAT_PORTFOLIO_with_1Lakh_rupees_', 'Good_vs_Bad_Monopoly_stocks!', 'Invest_in_Fixed_Deposits_#shorts', 'Several_Stocks_will_CRASH', 'Job_market_crash_2022_#shorts', 'Very_SLOW_growth_ahead?_', 'How_to_choose_your_career?_#shorts', 'Right_time_to_invest_in_this_revolutionary_tech?', 'Why_INDIANS_are_paid_LOW_SALARIES?_#shorts', 'Buy/Sell_these_stocks?', 'Pay_HIGH_tax,_but_what_do_you_get_in_return?_#shorts', 'LIVE_DISCUSSION:_Stock_Market_FALL!_', 'RICHEST_politician_in_the_world_#shorts', 'How_to_invest_in_the_stock_markets_[Ultimate_Guide_2022]', 'Buy_Low,_Sell_High_(EASIEST_STRATEGY_TO_MAKE_MONEY!)_#shorts', 'Buy_more_or_exit_the_market?', 'Why_is_India_SUPER_EXPENSIVE_for_the_MIDDLE_CLASS?_#shorts', 'Buy_or_Rent_a_house_in_2022?', 'THIS_will_increase_your_salary_100%....', 'Bluechips_[HUL,_HDFC]_fall_massively!_', 'To_retire_with_1L/month,_you_need_a_corpus_of...._#shorts', 'NO_30%_tax_on_buying_Bitcoins_', 'Banks_Fall,_Buy_More?_', 'When_will_the_markets_recover_(or_crash)?_', 'Become_DEBT_FREE_[0_Debt,_0_Tension]_#shorts', '3_Trends_that_can_5X_your_returns!_[Trend_Based_Investing_Strategy]', 'Rent,_not_buy_a_house_[LOGIC]_#shorts', 'A_GREAT_stock?_Fundamental_Analysis', 'Are_Cryptos_fundamentally_bad?_#shorts', '5_strategies_to_buy_every_dip!', 'Buy_or_Sell?', 'Russia-Ukraine_Crisis:_Which_stocks_did_I_buy_today?', 'Great_time_to_buy!', 'Buy_or_Sell_Now?', '10X_Returns_now?', '40_Lakh_job_WITHOUT_COLLEGE?_#shorts', '5_AMAZING_strategies_for_making_money_', 'Financial_Independence_in_1_minute', 'Buy_or_Sell_stocks?', 'Drop_out_of_college_NOW?_#shorts', 'Why_the_rich_are_getting_RICHER!', 'How_RETAIL_INVESTORS_can_invest_in_Startups', 'Great_stock_to_buy!', 'How_to_invest_in_volatile_markets_safely', 'Selling_my_Cryptos_now?', '3_SIMPLE_rules_to_get_SUPER_Rich!', 'Why_you_should_not_buy_BNPL/other_fancy_cards?', 'Buy_more_or_sell_these_FUNDAMENTALLY_STRONG_stocks', "Markets_falling_(RBI's_Monetary_Policy)_?", 'Bitcoin_vs_CBDC_[Central_Bank_Digital_Currency]_', 'Markets_will_CRASH_7_TIMES_this_year?', '3_Mistakes_that_will_make_you_RICH!', 'Buy_now?', 'How_to_make_1L_in_dividends?', 'Great_stock_to_buy!', 'Tech_Meltdown,_great_time_to_buy?', '56X_possible_returns!', 'Invest_in_0_profit_firms_#shorts', 'Best_Investment_Strategy_right_now?_', 'Buy_1/4th_MRF?_#shorts', 'Budget_Discussion_2022', 'Watch_Budget_&_Buy_Stocks?_#shorts_#budget2022', 'How_to_make_massive_returns!', 'Stock_Market_will_go_up?_#BUDGET2022', 'Buying_these_stocks_right_now', 'Top_stocks_gutted_down,_should_you_buy?', 'World_War_3_&_Impact_on_your_portfolio', 'Bitcoin:_Buy_on_Dips?_#shorts_#cryptos', 'How_to_invest_with_Saurabh_Mukherjea,_Salil_Desai_and_Akshat', 'Crypto_Crash_-_Buy_or_Sell?', '15*15*15=1Cr?_', 'Market_Crash_-_Reasons_and_Way_ahead', 'Should_you_invest?_Ft._@Ayushi_Chand', 'Great_buying_opportunity?', 
+'Global_economy_crashing?_', 'How_to_invest_in_this_revolutionary_tech?', 'Buy/Sell:_These_stocks_could_Skyrocket', 
+'Stock_Analysis:_Deep_discount_or_Trap_for_retail_investors?', 'Stocks_to_buy_and_avoid', 'Should_you_buy_this_stock?', 'Where_to_invest_in_2022?', 'Small_Investments,_great_returns--_SPECULATION_Strategy_in_Stock_INVESTING,_explained!', 'Work_from_Home_Earning_Options_in_METAVERSE!', '5_steps_to_make_MORE_RETURNS!', 'GREAT_time_to_buy_tech_stocks?', 'Bull_Run_in_India_', 'The_REAL_POWER_of_Monopoly_TECH_STOCKS', '5_Business_Ideas_that_can_make_you_RICH', '1_stock,_100%_gains_', 'Build_these_3_Amazing_income_streams!', 'What_are_SMART_CONTRACTS?__(Explained_in_15_mins!)', 'Markets_', 'Fake_vs_Real_Growth_in_Stocks', 'My_total_stock_market_returns_', 'Investment_strategies_for_great_returns!_[Dhando_Strategy]', '3_great_stock_market_strategies_for_salaried_people', 'Should_YOU_invest?_The_REAL_Value_of_NFTs', 'How_to_invest_15K_for_GROWTH!', 'Great_stock,_Decent_price', 'My_SECRET_to_analysing_stocks!', 'Make_100X_returns_like_Musk_', 'Great_strategy_to_buy_the_dip!', 'The_next_YES_Bank?_', 'My_BEST_&_Worst_Investments_in_2021_', 'Finance_with_Akshat_and_Zayn_#shorts', '1_Crore_package_reality_IIT/IIM_Salary_', 'Profitable_but_Risky_portfolio_with_INR_10,000_', 'NFT_Investing_and_Staking_explained_', 'TECHNICAL_Analysis_of_Stocks_for_beginners_', 'What_stocks_to_buy_with_1L_', 'My_5_secrets_to_making_money!', "India's_potential_Multibagger_Tech_stocks_#AtomstoBitsFramework", 'Should_you_buy_or_sell?_And_re-enter_later', 'Tutorial_Video:_How_to_invest_in_US_stocks_', 'How_to_Earn,_spend_and_invest_money!', 'LIVE_DISCUSSION:_Market_and_Fall_-_What_to_do?', 'How_to_make_a_lot_of_money_in_the_stock_market', 'How_to_build_these_8_income_streams', 'What_are_BAT_tokens?_And_why_am_I_buying_these?', 'Stocks_that_I_am_buying_and_selling', 'My_3_NEW_Crypto_investments_in_2022_', 'How_to_CATCH_A_FALLING_KNIFE_to_make_money!', 'How_YOU_can_invest_in_Metaverse', 'List_of_great_Mid-cap_stocks', 'TATA_Group:_Fundamental_Analysis_of_Stocks_', '5_stocks_at_discount!', 'GREAT_returns_with_SMALL_investments!', 'Where_to_invest_in_2022?', 'Can_an_IIT_graduate_save_this_firm?', 'Which_stocks_to_BUY_NOW?', 'Why_this_market_leader_is_falling?', 'Best_EV_Stock?', '[GIVEAWAY_ANNOUNCEMENT]_3_things_that_can_kill_Bitcoin', 'Multibagger_or_Overpriced?', 'List_of_good_stocks', 'Buying_this_now!', 'When_do_I_sell_my_stocks?', 'How_to_make_regular_income_from_investments?', 'Bitcoin_banned_in_India?_#shorts_#bitcoin_#cryptonews', 'How_to_grow_fast_in_your_career!', 'Should_you_sell_ALL_your_Cryptos_now?', 'Should_you_buy,_hold_or_sell_stocks?', 'How_YOU_can_save_A_LOT_OF_taxes_', 'Stock_Market_Fall:_Live_Discussion', 'GREAT_buying_opportunity_in_2_SOLID_stocks!', 'These_5_skills_will_change_your_career!', 'Great_buying_opportunity_in_this_stock?', 'Invest_NOW?_', 'PayTM_falls_27%,_what_should_you_do?_#shorts_#PayTMIPO', 'How_to_invest_in_Commercial_Properties:_expected_return,_REITS_and_other_details.', 'Crypto_CRASH_today!--fundamental_analysis_of_Cryptos_', 'Job_Market_Crash!', 'Why_are_big_investors_buying_this_TECH_giant?', 'Buying_big!', 'Inexpensive_stocks:_Are_they_worth_it?', 'How_Penny_stocks_move?', 'Investing_in_these_two_Cryptos!', 'FOMO_Marketing?', 'How_to_make_MORE_MONEY?_', 'Yield_Farming,_Bonds_and_Squid_Tokens!', 'Buying_big!', 'This_stock_can_give_5X_returns?', 'What_am_I_buying_for_my_Son_for_the_next_20_Diwalis_#MuhuratTrading', 'Finance_YouTuber_singing_', 'How_to_get_RICH?', 'Where_should_you_invest:_HDFC_vs_ICICI?', 'Next_5_years,_where_am_I_investing', '7000000%_returns_on_this_asset?!_Building_an_investment_framework', 'This_SMALLCAP_can_give_massive_returns_', 'Buy/Sell?', 'Investing_in_this_new_asset', 'Investing_heavily_in_these_stocks_(#Smallcase)', 'Buying_HUL_', 'How_and_when_am_I_buying_more_of_this_asset', 'How_do_I_invest_in_Mutual_Funds?_INDEX_INVESTING_(Market_Weighted_vs_Equal_Weighted)_', 'Asian_Paints_&_a_mid-cap_MULTIBAGGER', 'My_investing_style_', 'Buy,_Hold_or_Sell?', 'One_stock_that_I_REGRET_not_buying.', 'INVEST_MORE?_', 'Masterclass_on_communicating_effectively_', 'BUYING_more_stocks_', 'THINK_in_English_and_become_FLUENT!_#shorts_#cambly', 'NO_MORE_BANKING_stocks!', 'Buy_this_and_get_bankrupt_', 'Low_risk,_high_return_SMALL_CAP', '0_Profits,_Billions_in_Valuations_', 'A_PENNY_Stock_worth_GOLD!', 'Make_money_by_using_these_TECHNICAL_indicators_', 'YOUTUBE_LIVE:_A_discussion_about_Stock_Market_and_Career', 'BEST_TIME_to_invest_in_this_sector?_Massive_growth_potential_in_Airlines?', 'Should_you_INVEST_in_the_US_or_India?_', 'My_stocks_and_crypto_picks_for_October_', 'Fundamental_analysis_of_a_MONOPOLY_STOCK', 'Monopoly_Stock:_Buy_or_Sell?_(SWING_TRADE)', 'Own_these_assets_and_GET_RICH!', 'Why_do_you_pay_TAXES?_', 'Bitcoin:_Is_it_REALLY_an_Asset?', 'Where_to_invest?_', 'Live_investing_in_Cryptos_post_China_ban', '6_reasons_why_I_sell_stocks', 'How_the_BULL_RUN_might_end?_', 'How_NEO-banks_can_help_you_save_more_', 'Billionaires_who_changed_their_minds_about_#Bitcoin_#shorts', 'Start_buying_this_FUNDAMENTALLY_STRONG_stock!', 'These_6_financial_mistakes_will_cost_you_A_LOT!', 'How_much_can_you_REALLY_EARN_by_working_abroad?', 'Understand\xa0the\xa0NFT\xa0game_', 'Market_CRASH_2021?_China_&_#Evergrande_CRISIS_explained', 'GROW_YOUR_WEALTH_in_10_years_', 'How_I_am_preparing_for_the_NEXT_BIG_CRASH!', 'How_did_I_SAVE_&_INVEST_INR_4.44_CR?', 'Make_money_in_STOCK_MARKETS-_Learn_these_concepts!', 'Attend_my_FREE_Masterclass_on_Personal_Finance_#Neobanks', 'Fundamental_Analysis_of_great_stocks_(MOAT_method)', 'CASH_VS_Cryptos:_What_will_survive?_', 'How_many_stocks_should_you_buy?', 'Crypto_crash_soon?_[not_really!]_#shorts_#cryptocurrency_#bitcoin', "Schools_DON'T_teach_you_about_MONEY,_but_SHOULD!", 'Investing_in_Future_Tech_monopolies_', 'Investing_in_FUTURE_tech_monopolies!__#_No-FAANG_stocks', 'Should_you_invest_in_the_market_NOW?_', 'Why_did_I_invest_INR_85L_in_these_4_stocks?', "How_NOT_to_lose_money_-_'Tulip_Mania'_explained", 'How_am_I_investing_for_growth?', 'Right_way_to_Invest_in_GOLD_(Digital_Gold_vs_Physical_Gold?)', 'Blockchain_&_Corruption_Free_India_', 'Use_these_apps_to_make_money_online!', 'Learn_this_skill_to_make_A_LOT_of_money_', '5_GREAT_stocks_for_long_term!_#Smallcase', 'Live_investing_-_#FundamentalAnalysis_of_Stocks!_/_Understand_Sector_rotation', 'How_governments_rob_their_citizens?_#moneyheist_in_real_life', 'How_safe_are_your_Crypto_investments?', 'How_to_get_RICH,_starting_from_0_', 'Tech_stocks_overvalued?_', '4_stocks_in_Consumer_Durable_Goods_industry', 'My_Philosophy_of_Money_', 'Investing_in_an_UNDERVALUED_sector!', 'Grow_your_income_MASSIVELY!_', 'How_our_parents_lose_money:_LESSONS_LEARNT', 'Easiest_Strategy_to_Invest_in_India_', 'Market_CRASH_coming?', '5_things_to_do_in_college_to_skyrocket_your_career_', 'Fundamentals_of_Stock_Analysis_', 'Is_Crypto_worth_anything?_#NFT_#SMARTCONTRACT_', "Banking_stocks_I'm_buying_", 'Fundamental_Analysis:_How_to_pick_the_right_banking_stocks_right_now!', '4_Great_Stocks_I_am_Buying_', 'IPO_Investing_', 'Why_you_will_lose_money_in_the_STOCK_MARKETS_', 'MASTERCLASS_Passive_Income', 'Best_Platform_-_Buy_and_Sell_Cryptos!_', '3_GREAT_financial_decisions_I_made_to_become_Financially_Independent!', 'Stock_Market_Investing_', 'Fundamental_Analysis_of_3_Small_Cap_and_Penny_stocks_', 'Grow_in_your_CAREER_&_on_YouTUBE!_', 'Speak_English_FLUENTLY!', 'Why_will_I_NOT_buy_a_house?', 'Fundamental_Analysis_of_Cryptocurrencies', 'My_next_3_FINANCIALLY_DUMB_decisions', 'Fundamental_Analysis_of_3_Blue-Chip_Stocks!_#FundamentalAnalysis', 'How_do_I_make_money_consistently?', 'Design_a_diversified_portfolio_by_using_STOCKS,_DEBTS,_Cryptos_(#Bitcoins!)', 'How_Big_Ed-Tech_can_kill_the_education_sector?', 'Work_From_Home_Dad_in_India_(my_life!)', 'Where_am_I_investing?', 'How_am_I_investing_Rs._50_lakhs?_Strategy_Explained!', 'ITC_-_Should_you_Invest?_', '5_things_I_did_to_become_financially_free_at_30', 'Rising_Startups_of_the_future!', 'How_to_be_a_Millionaire?_', 'Make_money_via_CRYPTOCURRENCIES_', 'Make_BIG_MONEY_from_SMALL_AMOUNT!_', 'FUNDAMENTAL_ANALYSIS_made_easy_', 'REALITY_of_SALARIES_at_IIT,_IIMs,_ISB_and_other_institutes_', "How_to_have_a_'conversation'_during_an_interview?", 'Zomato:_(I)_Its_(P)_Probably_(O)_Overpriced_', 'Why_the_RICH_own_NOTHING?_', 'Health_Insurance_&_Rising_Healthcare_Inflation', 'Smallcase_investing_explained!_(How_NOT_to_lose_money?)_#SmallCase_#StockMarketforbeginners', "ABC:_Akshat's_Book_Club_-_Deep_Work_by_Cal_Newport", 'How_to_invest_INR_10,000_per_month_in_a_mutual_fund?_#MutualFunds_#InvestmentTips', 'How_Did_I_retire_in_my_30s?_#financialfreedom_#Investing', '6_Things_I_will_NEVER_buy_as_a_Millionaire_', 'CASE_STUDY:_Airlines_Industry_in_India_', '100K+_Subs_Celebration_-_Thanks_for_the_support!_:)_#shorts', 'FAKE_IT?_on_your_resume_and_interviews?', "90's_Kids_vs_GEN-Z_", 'How_to_invest_your_first_INR_1_lakh?_', 'Harvard,_Stanford,_INSEAD-_What_do_you_ACTUALLY_learn?', "Why_are_CRED's_advertisements_so_effective?_", 'Why_do_I_always_smile?_Get_to_know_me!', 'Importance_of_#Networking_#shorts', 'CAREERS_in_India_-_Which_one_should_you_pursue?_', 'RESUMEs_and_DEGREES._-_are_they_still_worth_it?_', 'Wait_or_Invest_now?_', "ABC:_Akshat's_Book_Club_-__The_Psychology_of_Money", 'Why_am_I_investing_in_the_Electric_Vehicle_(EV)_Sector_in_India?_', 'MBA:_USA_or_Europe?_', 'Build_STRONG_habits_and_become_a_great_mentor_to_others', 'Why_every_Indian_needs_to_get_a_HEALTH_INSURANCE_-_Health_Insurance_explained_#HealthInsurance', '(Still)_Running_after_a_job_in_2021?_Listen_to_this_#CareerAdvice_#JobMarketTrends', 'Against_Conventional_Wisdom:_Is_formal_education_system_actually_good?_#CareerTips', 'Should_you_do_a_#TechMBA?_#shorts', 'Become_a_MILLIONAIRE_by_30!_-_Investment_Strategy_Explained_', 'Buy_Low,_Sell_High_and_make_money_in_STOCK_MARKET_', "Case_Study:_Paytm's_Strategy_", 'One_simple_tip_to_speak_English_fluently_', 'MBA:_India_or_Abroad?_', 'Inside_the_world_of_VENTURE_CAPITAL_', 'Win_an_INTERNSHIP/JOB_in_2021_', 'How_to_be_HAPPY?_', 'INR_1_Cr._in_Stock_Market_', "ABC:_Akshat's_Book_Club_-__The_Subtle_Art_of_Not_Giving_a_F*ck", 'GET_RICH_in_Stock_Market!_', 'CASE_STUDY:_TATA_Group_', 'Career_in_MIDDLE_EAST_', 'Should_you_do_an_MBA?_', 'CREDIT_CARDS_and_BAD_FINANCIAL_HABITS_', 'Grow_in_your_Career!_', 'GET_RICH_by_analyzing_stocks!_', 'Case_Study:_ZERODHA_', "Become_wealthy_and_invest_in_'assets'_", 'Finance_for_Dummies_', 'The_power_of_Investing_', 'FOMO_Marketing_in_Ed-tech_', 'Best_Career_Paths_in_India!_', 'INVESTMENT_BANKING_vs._MANAGEMENT_CONSULTING_', 'Amazon_MGM_deal:_Netflix_competition?_', 'Consulting_Interviews_', "Case_Study:_Zomato's_IPO_", 'GET_RICH_by_INFLATION_', "MBA_in_USA?_Here's_the_checklist_", 'Want_to_Work_abroad?_Know_what_to_do!_', 'Write_AWESOME_Emails_', 'Jobs_in_SINGAPORE__', 'How_to_become_an_INVESTMENT_BANKER?_', "Case_Study:_Why_RELIANCE_will_become_India's_biggest_tech_company?_", 'Tips_from_a_Management_Consultant_to_become_more_PRODUCTIVE!_', 'MBA_-_2_years_versus_1_year_', 'How_to_THINK_about_Career_and_Money', 'Salaries_in_Consulting_-_Mckinsey,_BCG,_Bain', 'Elon_dumps_Bitcoin_', 'FINANCE:_Career_Options_', 'HIGHEST_RECRUITMENT-_Management_Consulting!_#shorts', 'MBA_or_MiM?', 'Make_Rs._1_CRORE_from_Rs._15,000_monthly_investment_', 'McKinsey,_Bain,_BCG:_Work_life_balance?_MBA?_Cases?_(Basics)', 'Get_into_MCKINSEY,_BCG,_BAIN!_', 'BEST_1-YEAR_MBA_PROGRAMS_#shorts', "DON'T_invest_in_stocks_if_you_don't_WANT_to_learn_", 'STUDY_ABROAD?_', 'HARVARD_BUSINESS_SCHOOL:_Top_skill_you_need_to_get_into_HBS_#shorts', 'Can_Modi_Ban_Bitcoin_(and_other_Cryptocurrencies?)_', 'Get_that_job_with_an_AWESOME_VIDEO_RESUME!_', 'How_to_become_rich?_', 'How_to_impress_your_boss?', 'Want_to_IMPRESS_YOUR_BOSS_and_get_a_HIGH_RATING?', "SMART_READING--_Don't_like_reading_books?_This_is_what_you_need_to_do_to_read_more_effectively", 'How_to_get_a_job_at_McKinsey/BCG/Bain?_#shorts', 'How_to_network_in_the_offline_world?_', 
+'Learn_how_to_network_effectively_and_get_a_job_at_McKinsey!_', 'CRYPTOS_or_CASH?_', 'Want_better_jobs?_Learn_to_Network_', 'Negotiating_Salary_', 'Negotiating_job_offers_', 'Negotiations_Basics_', 'Become_a_smart_negotiator_', 'GMAT_', 'Social_Impact_Career_Paths_', 'Ace_your_communication_style!', 'Can_this_HEC_MBA_graduate_get_into_McKinsey/BCG/Bain?']
+Outputs folder doesnot exist. Creating now
+#############################################################
+video_count : 0
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=BNCZOFy1neE
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsThese_stocks_could_give_a_Breakout!_.csv file
+#############################################################
+#############################################################
+video_count : 1
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=nDLRea8gp3c
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsWhy_did_I_quit_my_high_paying_job?.csv'
+Failed at this video : Why_did_I_quit_my_high_paying_job?
+continuing with the next video from the same channel
+#############################################################
+video_count : 2
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=NZxejh1HAiE
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsCan_Elon_Musk_buy_Twitter?_#shorts_#ElonMusk.csv'
+Failed at this video : Can_Elon_Musk_buy_Twitter?_#shorts_#ElonMusk
+continuing with the next video from the same channel
+#############################################################
+video_count : 3
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=PUBebNPSjm4
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsFundamental_Analysis_of_a_MONOPOLY_STOCK.csv file
+#############################################################
+#############################################################
+video_count : 4
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=q53x02iRwPE
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsGovernment_should_pay_you_TAX_#shorts_#taxinindia.csv 
+file
+#############################################################
+#############################################################
+video_count : 5
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=MOxRi965ybM
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsSalaried_class_in_India_gets_crushed!_(Why_&_how?)_.csv'
+Failed at this video : Salaried_class_in_India_gets_crushed!_(Why_&_how?)_
+continuing with the next video from the same channel
+#############################################################
+video_count : 6
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=BKGo_G3sRRE
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsThe_FREEBIE_political_economy_in_India.csv file
+#############################################################
+#############################################################
+video_count : 7
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=YYi5qiRzVYs
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsGlobal_recession_soon?_.csv'
+Failed at this video : Global_recession_soon?_
+continuing with the next video from the same channel
+#############################################################
+video_count : 8
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Iv1v9VJjvu4
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_to_save_30%_Crypto_Tax?_.csv'
+Failed at this video : How_to_save_30%_Crypto_Tax?_
+continuing with the next video from the same channel
+#############################################################
+video_count : 9
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=YnhJDPk9SUs
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsFundamental_Analysis_of_a_rising_FMCG_stock.csv file
+#############################################################
+#############################################################
+video_count : 10
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=MHuDl4R14c4
+Error: [Errno 2] No such file or directory: 'outputs/ytb_commentsWhy_PETROL/Diesel_prices_are_high_in_India?.csv'
+Failed at this video : Why_PETROL/Diesel_prices_are_high_in_India?
+continuing with the next video from the same channel
+#############################################################
+video_count : 11
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=-dNfBZmPly0
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_comments5_MUST_KNOW_finance_rules_for_everyone_.csv file
+#############################################################
+#############################################################
+video_count : 12
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=rd8l7hDs7vc
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsMONEY_MAKES_MONEY_.csv file
+#############################################################
+#############################################################
+video_count : 13
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=dYDIv3Ghhyw
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_to_live_a_great_life_on_a_Low_Salary!_[5_practical_strategies].csv file
+#############################################################
+#############################################################
+video_count : 14
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=a3wkypbkJgA
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsThe_best_Fixed_Deposit_option_with_0_taxes!.csv file  
+#############################################################
+#############################################################
+video_count : 15
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=YBDmDCruHmA
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHDFC,_the_growth_story:_Buy_or_Sell_now?_#HDFC_#HDFCBank.csv file
+#############################################################
+#############################################################
+video_count : 16
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=MmyVo9VvHSQ
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsMiddle_Class_getting_CRUSHED_in_India_#shorts.csv file#############################################################
+#############################################################
+video_count : 17
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=JxZRqJj5WSo
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_politicians_rob_citizens?_[Sri_Lanka_economic_crisis].csv'
+Failed at this video : How_politicians_rob_citizens?_[Sri_Lanka_economic_crisis]
+continuing with the next video from the same channel
+#############################################################
+video_count : 18
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=ctfJapIt0aY
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_Rs.100_today_becomes_Rs.96_next_year!_#shorts.csv 
+file
+#############################################################
+#############################################################
+video_count : 19
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=PU44P0CpNOE
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsEarn_MORE_by_working_LESS_.csv file
+#############################################################
+#############################################################
+video_count : 20
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=aYzxX-T1CUs
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsRussia_buying_more_GOLD!_How_will_it_impact_the_Indian_and_the_US_stock_markets?.csv'
+Failed at this video : Russia_buying_more_GOLD!_How_will_it_impact_the_Indian_and_the_US_stock_markets?
+continuing with the next video from the same channel
+#############################################################
+video_count : 21
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=96KM562jyKI
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsMake_15%_returns_from_Stock_Markets_easily!.csv file
+#############################################################
+#############################################################
+video_count : 22
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=rHGw4qSlXwk
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsWhy_does_the_salaried_class_suffer_in_India?.csv'
+Failed at this video : Why_does_the_salaried_class_suffer_in_India?
+continuing with the next video from the same channel
+#############################################################
+video_count : 23
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=sdrZoDy-o-Q
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_to_invest_your_salary_for_good_returns?.csv'
+Failed at this video : How_to_invest_your_salary_for_good_returns?
+continuing with the next video from the same channel
+#############################################################
+video_count : 24
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=xCazdIy558Q
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_to_build_a_side_income?_.csv'
+Failed at this video : How_to_build_a_side_income?_
+continuing with the next video from the same channel
+#############################################################
+video_count : 25
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=2WNJO0ybd4g
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsWhere_to_invest_in_the_SHORT-TERM?_[1-3_years_period].csv'
+Failed at this video : Where_to_invest_in_the_SHORT-TERM?_[1-3_years_period]
+continuing with the next video from the same channel
+#############################################################
+video_count : 26
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=dpNfQ84JTIU
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBuy_stocks_like_a_PRO!_#shorts.csv file
+#############################################################
+#############################################################
+video_count : 27
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=WfSE9t1PRtM
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_to_invest_in_PSU_Stocks?_.csv'
+Failed at this video : How_to_invest_in_PSU_Stocks?_
+continuing with the next video from the same channel
+#############################################################
+video_count : 28
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=svNeEAOA-Vk
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_comments1-minute_FREE_startup_course_by_JEFF_BEZOS!_#shorts_#jeffbezos.csv file
+#############################################################
+#############################################################
+video_count : 29
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=IEeJGw4yCN8
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsThe_SIMPLEST_SWING_TRADE_EVER_[with_almost_guaranteed_returns]_.csv file
+#############################################################
+#############################################################
+video_count : 30
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=20Svqr0APdo
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsMaking_your_FIRST_1Cr_is_Difficult!__Here_is_why...._#shorts.csv file
+#############################################################
+#############################################################
+video_count : 31
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=eI8hZWbGCoU
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsBuy_Zomato_now?_10-min_delivery_model,_decoded!.csv'
+Failed at this video : Buy_Zomato_now?_10-min_delivery_model,_decoded!
+continuing with the next video from the same channel
+#############################################################
+video_count : 32
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=FTY98SiFTEI
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_India_is_getting_BANKRUPT?_#shorts.csv'
+Failed at this video : How_India_is_getting_BANKRUPT?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 33
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=m81ihLG1ZWg
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_to_make_dividend_income_.csv file
+#############################################################
+#############################################################
+video_count : 34
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=0W1JI_WogFI
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_to_EARN_More_.csv file
+#############################################################
+#############################################################
+video_count : 35
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=NQqlA4Y7brY
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_to_make_money_on_YouTube?_#shorts.csv'
+Failed at this video : How_to_make_money_on_YouTube?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 36
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=HuvpsT--KVE
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsMaruti_Stock_about_to_Skyrocket?_.csv'
+Failed at this video : Maruti_Stock_about_to_Skyrocket?_
+continuing with the next video from the same channel
+#############################################################
+video_count : 37
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=u70OpBPtlZo
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsThis_MONOPOLY_Tech_stock_could_easily_double!_.csv file
+#############################################################
+#############################################################
+video_count : 38
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=SsTYLs60VYk
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsMy_portfolio_revealed!_.csv file
+#############################################################
+#############################################################
+video_count : 39
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=CSU28yiq2kE
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_to_BUY_undervalued_stocks?_[simple_strategies]_#STOCK_MARKET_INVESTING_FOR_BEGINNERS.csv'
+Failed at this video : How_to_BUY_undervalued_stocks?_[simple_strategies]_#STOCK_MARKET_INVESTING_FOR_BEGINNERS     
+continuing with the next video from the same channel
+#############################################################
+video_count : 40
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=IGLkUuY2SJ0
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsPayTm,_Nykaa,_Zomato_in_NIFTY_Next_50!_Buy_now?_#shorts.csv'
+Failed at this video : PayTm,_Nykaa,_Zomato_in_NIFTY_Next_50!_Buy_now?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 41
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=HaYupvyjJxI
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsCryptos_will_SKYROCKET!_[Ultimate_Crypto_investing_guide_2022]_.csv file
+#############################################################
+#############################################################
+video_count : 42
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=LYNKvboBRqQ
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsMaruti:_No_EV_BUSINESS?_#shorts.csv file
+#############################################################
+#############################################################
+video_count : 43
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=MRYw1hwWa4s
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsSTOCK_MARKETS_will_fall_due_to_weak_rupee?_(and_how_to_save_wealth!).csv'
+Failed at this video : STOCK_MARKETS_will_fall_due_to_weak_rupee?_(and_how_to_save_wealth!)
+continuing with the next video from the same channel
+#############################################################
+video_count : 44
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Y5PDep8SmSA
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsPaytm_Crash_.csv file
+#############################################################
+#############################################################
+video_count : 45
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=CecGfzZs4cE
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_to_build_a_GREAT_PORTFOLIO_with_1Lakh_rupees_.csv 
+file
+#############################################################
+#############################################################
+video_count : 46
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=kg2P_Rpns3Y
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsGood_vs_Bad_Monopoly_stocks!.csv file
+#############################################################
+#############################################################
+video_count : 47
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=sEvl-Td67Nw
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsInvest_in_Fixed_Deposits_#shorts.csv file
+#############################################################
+#############################################################
+video_count : 48
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Q8zPmD2sU9U
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsSeveral_Stocks_will_CRASH.csv file
+#############################################################
+#############################################################
+video_count : 49
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=_heZ4WBec2I
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsJob_market_crash_2022_#shorts.csv file
+#############################################################
+#############################################################
+video_count : 50
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=D7BUvtIWi2s
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsVery_SLOW_growth_ahead?_.csv'
+Failed at this video : Very_SLOW_growth_ahead?_
+continuing with the next video from the same channel
+#############################################################
+video_count : 51
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=SCKbgchHrNE
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_to_choose_your_career?_#shorts.csv'
+Failed at this video : How_to_choose_your_career?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 52
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Nuqf65RMzz4
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsRight_time_to_invest_in_this_revolutionary_tech?.csv'
+Failed at this video : Right_time_to_invest_in_this_revolutionary_tech?
+continuing with the next video from the same channel
+#############################################################
+video_count : 53
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=bG7Pgp2GXPQ
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsWhy_INDIANS_are_paid_LOW_SALARIES?_#shorts.csv'
+Failed at this video : Why_INDIANS_are_paid_LOW_SALARIES?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 54
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=fZL5MFtRzJ0
+Error: [Errno 2] No such file or directory: 'outputs/ytb_commentsBuy/Sell_these_stocks?.csv'
+Failed at this video : Buy/Sell_these_stocks?
+continuing with the next video from the same channel
+#############################################################
+video_count : 55
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=YhFOhoFL9sY
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsPay_HIGH_tax,_but_what_do_you_get_in_return?_#shorts.csv'
+Failed at this video : Pay_HIGH_tax,_but_what_do_you_get_in_return?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 56
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=lmbaOrsoPGM
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsLIVE_DISCUSSION:_Stock_Market_FALL!_.csv file
+#############################################################
+#############################################################
+video_count : 57
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=OqXx3ldF5uY
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsRICHEST_politician_in_the_world_#shorts.csv file
+#############################################################
+#############################################################
+video_count : 58
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=21Pm9MB6kOk
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_to_invest_in_the_stock_markets_[Ultimate_Guide_2022].csv file
+#############################################################
+#############################################################
+video_count : 59
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=ezzsId2DaUs
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBuy_Low,_Sell_High_(EASIEST_STRATEGY_TO_MAKE_MONEY!)_#shorts.csv file
+#############################################################
+#############################################################
+video_count : 60
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=b6SMhDtGCsQ
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsBuy_more_or_exit_the_market?.csv'
+Failed at this video : Buy_more_or_exit_the_market?
+continuing with the next video from the same channel
+#############################################################
+video_count : 61
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=98RQJrTfO4s
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsWhy_is_India_SUPER_EXPENSIVE_for_the_MIDDLE_CLASS?_#shorts.csv'
+Failed at this video : Why_is_India_SUPER_EXPENSIVE_for_the_MIDDLE_CLASS?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 62
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=hqbMGuqtBuI
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsBuy_or_Rent_a_house_in_2022?.csv'
+Failed at this video : Buy_or_Rent_a_house_in_2022?
+continuing with the next video from the same channel
+#############################################################
+video_count : 63
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=pgEI24DQ9gs
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsTHIS_will_increase_your_salary_100%.....csv file
+#############################################################
+#############################################################
+video_count : 64
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=HpkOye6CBp0
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBluechips_[HUL,_HDFC]_fall_massively!_.csv file
+#############################################################
+#############################################################
+video_count : 65
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=MwJPvB-UAos
+Error: Failed to set sorting
+Failed at this video : To_retire_with_1L/month,_you_need_a_corpus_of...._#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 66
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=bd8ry8pGO1w
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsNO_30%_tax_on_buying_Bitcoins_.csv file
+#############################################################
+#############################################################
+video_count : 67
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Rxu-WSCVEi0
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsBanks_Fall,_Buy_More?_.csv'
+Failed at this video : Banks_Fall,_Buy_More?_
+continuing with the next video from the same channel
+#############################################################
+video_count : 68
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=ViPPMraSTeo
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsWhen_will_the_markets_recover_(or_crash)?_.csv'
+Failed at this video : When_will_the_markets_recover_(or_crash)?_
+continuing with the next video from the same channel
+#############################################################
+video_count : 69
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=EslOHUxESt0
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBecome_DEBT_FREE_[0_Debt,_0_Tension]_#shorts.csv file
+#############################################################
+#############################################################
+video_count : 70
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=bS15md6jqi4
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_comments3_Trends_that_can_5X_your_returns!_[Trend_Based_Investing_Strategy].csv file
+#############################################################
+#############################################################
+video_count : 71
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=ICZUilA3eU8
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsRent,_not_buy_a_house_[LOGIC]_#shorts.csv file
+#############################################################
+#############################################################
+video_count : 72
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=B348n650iLM
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsA_GREAT_stock?_Fundamental_Analysis.csv'
+Failed at this video : A_GREAT_stock?_Fundamental_Analysis
+continuing with the next video from the same channel
+#############################################################
+video_count : 73
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=PMC_611pVGw
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsAre_Cryptos_fundamentally_bad?_#shorts.csv'
+Failed at this video : Are_Cryptos_fundamentally_bad?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 74
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=cM8l4RKG-uw
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_comments5_strategies_to_buy_every_dip!.csv file
+#############################################################
+#############################################################
+video_count : 75
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=wggDXnby1UU
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsBuy_or_Sell?.csv'
+Failed at this video : Buy_or_Sell?
+continuing with the next video from the same channel
+#############################################################
+video_count : 76
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Rt21-qOqNKg
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsRussia-Ukraine_Crisis:_Which_stocks_did_I_buy_today?.csv file
+#############################################################
+#############################################################
+video_count : 77
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=dE2cjK8chQ8
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsGreat_time_to_buy!.csv file
+#############################################################
+#############################################################
+video_count : 78
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=qj7Kv1fiX9Q
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsBuy_or_Sell_Now?.csv'
+Failed at this video : Buy_or_Sell_Now?
+continuing with the next video from the same channel
+#############################################################
+video_count : 79
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=pUOujJlSTOU
+Error: [Errno 22] Invalid argument: 'outputs/ytb_comments10X_Returns_now?.csv'
+Failed at this video : 10X_Returns_now?
+continuing with the next video from the same channel
+#############################################################
+video_count : 80
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=S4yV6rcXFmE
+Error: [Errno 22] Invalid argument: 'outputs/ytb_comments40_Lakh_job_WITHOUT_COLLEGE?_#shorts.csv'
+Failed at this video : 40_Lakh_job_WITHOUT_COLLEGE?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 81
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=8VC5Z_WVkAc
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_comments5_AMAZING_strategies_for_making_money_.csv file
+#############################################################
+#############################################################
+video_count : 82
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=cOap-VC-wRQ
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsFinancial_Independence_in_1_minute.csv file
+#############################################################
+#############################################################
+video_count : 83
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=p_haMc1Ld1o
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsBuy_or_Sell_stocks?.csv'
+Failed at this video : Buy_or_Sell_stocks?
+continuing with the next video from the same channel
+#############################################################
+video_count : 84
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=yjxy2aDXRE0
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsDrop_out_of_college_NOW?_#shorts.csv'
+Failed at this video : Drop_out_of_college_NOW?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 85
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=eQPlHHz0W7o
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsWhy_the_rich_are_getting_RICHER!.csv file
+#############################################################
+#############################################################
+video_count : 86
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Kwiu95BHZkA
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_RETAIL_INVESTORS_can_invest_in_Startups.csv file
+#############################################################
+#############################################################
+video_count : 87
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=ZmyehGvmGsU
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsGreat_stock_to_buy!.csv file
+#############################################################
+#############################################################
+video_count : 88
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=mob-MKBf-Pk
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_to_invest_in_volatile_markets_safely.csv file
+#############################################################
+#############################################################
+video_count : 89
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=jFO7U-9M3RI
+Error: Failed to set sorting
+Failed at this video : Selling_my_Cryptos_now?
+continuing with the next video from the same channel
+#############################################################
+video_count : 90
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Bdsu5js-bqs
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_comments3_SIMPLE_rules_to_get_SUPER_Rich!.csv file
+#############################################################
+#############################################################
+video_count : 91
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=-pXIGwbnRwc
+Error: [Errno 2] No such file or directory: 'outputs/ytb_commentsWhy_you_should_not_buy_BNPL/other_fancy_cards?.csv'Failed at this video : Why_you_should_not_buy_BNPL/other_fancy_cards?
+continuing with the next video from the same channel
+#############################################################
+video_count : 92
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=h10GygeLL8I
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBuy_more_or_sell_these_FUNDAMENTALLY_STRONG_stocks.csv file
+#############################################################
+#############################################################
+video_count : 93
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=OlRXgBRvO7g
+Error: [Errno 22] Invalid argument: "outputs/ytb_commentsMarkets_falling_(RBI's_Monetary_Policy)_?.csv"
+Failed at this video : Markets_falling_(RBI's_Monetary_Policy)_?
+continuing with the next video from the same channel
+#############################################################
+video_count : 94
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=XgkMloGkwpU
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBitcoin_vs_CBDC_[Central_Bank_Digital_Currency]_.csv file
+#############################################################
+#############################################################
+video_count : 95
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=reV-oxdm_bU
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsMarkets_will_CRASH_7_TIMES_this_year?.csv'
+Failed at this video : Markets_will_CRASH_7_TIMES_this_year?
+continuing with the next video from the same channel
+#############################################################
+video_count : 96
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=z1zqLizic7Y
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_comments3_Mistakes_that_will_make_you_RICH!.csv file
+#############################################################
+#############################################################
+video_count : 97
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=hgIZij5yARs
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsBuy_now?.csv'
+Failed at this video : Buy_now?
+continuing with the next video from the same channel
+#############################################################
+video_count : 98
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=gAfWIPnbjq0
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsHow_to_make_1L_in_dividends?.csv'
+Failed at this video : How_to_make_1L_in_dividends?
+continuing with the next video from the same channel
+#############################################################
+video_count : 99
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=ECc_0RCyYY0
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsGreat_stock_to_buy!.csv file
+#############################################################
+#############################################################
+video_count : 100
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=QlUTcW0PMvk
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsTech_Meltdown,_great_time_to_buy?.csv'
+Failed at this video : Tech_Meltdown,_great_time_to_buy?
+continuing with the next video from the same channel
+#############################################################
+video_count : 101
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=cYhdEB_oLgo
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_comments56X_possible_returns!.csv file
+#############################################################
+#############################################################
+video_count : 102
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=0mfd8MPAhEU
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsInvest_in_0_profit_firms_#shorts.csv file
+#############################################################
+#############################################################
+video_count : 103
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Oj8QpbNdfwE
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsBest_Investment_Strategy_right_now?_.csv'
+Failed at this video : Best_Investment_Strategy_right_now?_
+continuing with the next video from the same channel
+#############################################################
+video_count : 104
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Y0yzjw1xg3k
+Error: [Errno 2] No such file or directory: 'outputs/ytb_commentsBuy_1/4th_MRF?_#shorts.csv'
+Failed at this video : Buy_1/4th_MRF?_#shorts
+continuing with the next video from the same channel
+#############################################################
+video_count : 105
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=N1nIlTzOAM0
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBudget_Discussion_2022.csv file
+#############################################################
+#############################################################
+video_count : 106
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=e2JUsVCxqTk
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsWatch_Budget_&_Buy_Stocks?_#shorts_#budget2022.csv'
+Failed at this video : Watch_Budget_&_Buy_Stocks?_#shorts_#budget2022
+continuing with the next video from the same channel
+#############################################################
+video_count : 107
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=2Ms2gG27wyA
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_to_make_massive_returns!.csv file
+#############################################################
+#############################################################
+video_count : 108
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=jtvysmkz-qM
+Error: Failed to set sorting
+Failed at this video : Stock_Market_will_go_up?_#BUDGET2022
+continuing with the next video from the same channel
+#############################################################
+video_count : 109
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=9Tc8-LiAcDU
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBuying_these_stocks_right_now.csv file
+#############################################################
+#############################################################
+video_count : 110
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=E0XvzM7rVak
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsTop_stocks_gutted_down,_should_you_buy?.csv'
+Failed at this video : Top_stocks_gutted_down,_should_you_buy?
+continuing with the next video from the same channel
+#############################################################
+video_count : 111
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=Mmv7Pt91tO4
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsWorld_War_3_&_Impact_on_your_portfolio.csv file
+#############################################################
+#############################################################
+video_count : 112
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=jjnNw6Mi4Yo
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsBitcoin:_Buy_on_Dips?_#shorts_#cryptos.csv file
+#############################################################
+#############################################################
+video_count : 113
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=lAfd44X_ZS8
+Finished extracting comments for the video. Moving on to next video
+Comments and other data can be found at : outputs/ytb_commentsHow_to_invest_with_Saurabh_Mukherjea,_Salil_Desai_and_Akshat.csv file
+#############################################################
+#############################################################
+video_count : 114
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=V3We22sDi-I
+Error: [Errno 22] Invalid argument: 'outputs/ytb_commentsCrypto_Crash_-_Buy_or_Sell?.csv'
+Failed at this video : Crypto_Crash_-_Buy_or_Sell?
+continuing with the next video from the same channel
+#############################################################
+video_count : 115
+Extracting Youtube comments for the video with ID: https://www.youtube.com/watch?v=I3O-viCUS3A
+Error: [Errno 22] Invalid argument: 'outputs/ytb_comments15*15*15=1Cr?_.csv'
+Failed at this video : 15*15*15=1Cr?_
+continuing with the next video from the same channel
+#############################################################
