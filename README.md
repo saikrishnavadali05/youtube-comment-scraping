@@ -5,7 +5,7 @@
 1. **code_files** 
 > Complete working code (all the files that being used for the entire application).
 2. **outputs**
-> The complete data extracted for all the videos belonging to the particular channel
+> The complete data extracted for all the videos belonging to the particular channel that is being executed.
 3. **temporary_code_files**
 > All the temporary files that get generated during code execution.
 4. **additional_code_files**
