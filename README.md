@@ -25,4 +25,6 @@
 > ```pip install -r requirements.txt```
 2. Run the Framework
 > ```python ./code_files/final_YT_comment_scrape.py```
+3. Paste the channel ID in the channel_id's list present in the ```final_YT_comment_scrape.py```
+4. To get the channel ID, follow the image shown above.
 
